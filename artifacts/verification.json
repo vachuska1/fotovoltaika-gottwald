@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-27",
+  "publicPages": 92,
+  "prerenderedRoutes": 96,
+  "tests": "5 passed",
+  "httpChecks": "All public pages, unauthenticated API and private preview",
+  "browser": "Chromium desktop 1440 px and mobile 390 px",
+  "failures": [],
+  "limitations": [
+    "Google OAuth not configured; no real authorized sign-in or publication tested",
+    "Vercel team access pending; no deployment created"
+  ]
+}

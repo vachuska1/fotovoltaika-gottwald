@@ -1,0 +1,13 @@
+import {z} from 'zod';
+const text=z.string().max(30000);
+export const hrefSchema=z.string().max(2000).refine(v=>/^\/(?!\/)[^\\\s]*$/.test(v)||/^https:\/\/[^\s\\]+$/.test(v)||/^mailto:[^\s]+$/.test(v)||/^tel:\+?[\d ]+$/.test(v),'Neplatný odkaz');
+export const imageSchema=z.object({src:z.string().regex(/^\/media\/[a-zA-Z0-9_-]+\.webp$/),small:z.string().regex(/^\/media\/[a-zA-Z0-9_-]+\.webp$/).optional(),mobile:z.string().regex(/^\/media\/[a-zA-Z0-9_-]+\.webp$/).optional(),alt:z.string().max(500),x:z.number().min(0).max(100).default(50),y:z.number().min(0).max(100).default(50)});
+export const itemSchema=z.object({title:z.string().max(500),text,href:hrefSchema.optional(),linkLabel:z.string().max(100).optional(),image:imageSchema.optional(),hidden:z.boolean().default(false)});
+export const kinds=['hero','image-left','image-right','cover','gallery','table','reviews','services','contact','editorial'] as const;
+export const sectionSchema=z.object({id:z.string().regex(/^[a-zA-Z0-9_-]{1,100}$/),kind:z.enum(kinds),title:z.string().max(500),text,visible:z.boolean(),image:imageSchema.optional(),items:z.array(itemSchema).max(300).default([]),rows:z.array(z.array(z.string().max(5000)).max(15)).max(200).default([])});
+export const pageSchema=z.object({path:z.string().regex(/^\/(?:[\p{L}\p{N}_-]+\/?)*$/u),title:z.string().min(1).max(500),description:z.string().max(1000),sections:z.array(sectionSchema).max(400)});
+export const siteSchema=z.object({version:z.literal(1),name:z.string().max(200),email:z.email(),phone:z.string().regex(/^\+?[\d ]{6,30}$/),address:z.string().max(1000),navigation:z.array(z.object({label:z.string().max(100),href:hrefSchema})).max(30),pages:z.array(pageSchema).min(1).max(200)}).superRefine((site,ctx)=>{const paths=site.pages.map(p=>p.path);if(new Set(paths).size!==paths.length||!paths.includes('/'))ctx.addIssue({code:'custom',message:'Stránky musí mít unikátní URL a hlavní stránku.'});for(const p of site.pages)if(new Set(p.sections.map(s=>s.id)).size!==p.sections.length)ctx.addIssue({code:'custom',message:'Sekce musí mít unikátní ID.'});});
+export type Site=z.infer<typeof siteSchema>;
+export type Page=z.infer<typeof pageSchema>;
+export type Section=z.infer<typeof sectionSchema>;
+export type Photo=z.infer<typeof imageSchema>;

@@ -1,0 +1,37 @@
+[
+  {
+    "source": "/node/329",
+    "destination": "/porovnejte-nasi-cenovou-nabidku-fotovoltaiky-s-konkurenci-wattsonic",
+    "statusCode": 301
+  },
+  {
+    "source": "/node/330",
+    "destination": "/kontaktujte-nas",
+    "statusCode": 301
+  },
+  {
+    "source": "/reference",
+    "destination": "/recenze-realizace",
+    "statusCode": 301
+  },
+  {
+    "source": "/node/444",
+    "destination": "/podminky-uzivani-cloudove-sluzby-gottsol-pro-rizeni-energetickych-systemu",
+    "statusCode": 301
+  },
+  {
+    "source": "/node/136",
+    "destination": "/ochrana-osobnich-udaju",
+    "statusCode": 301
+  },
+  {
+    "source": "/node/139",
+    "destination": "/desatero-pro-vyber-fotovoltaiky",
+    "statusCode": 301
+  },
+  {
+    "source": "/node/51",
+    "destination": "https://www.fotovoltaika-gottwald.cz/node/51",
+    "statusCode": 301
+  }
+]

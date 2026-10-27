@@ -1,0 +1,462 @@
+[
+  {
+    "path": "/",
+    "source": "https://www.fotovoltaika-gottwald.cz/",
+    "sections": 8
+  },
+  {
+    "path": "/fotovoltaicke-elektrarny",
+    "source": "https://www.fotovoltaika-gottwald.cz/fotovoltaicke-elektrarny",
+    "sections": 7
+  },
+  {
+    "path": "/fotovoltaika/fotovoltaicke-elektrarny-na-rodinne-domy",
+    "source": "https://www.fotovoltaika-gottwald.cz/fotovoltaika/fotovoltaicke-elektrarny-na-rodinne-domy",
+    "sections": 4
+  },
+  {
+    "path": "/fotovoltaika/ohrev-vody",
+    "source": "https://www.fotovoltaika-gottwald.cz/fotovoltaika/ohrev-vody",
+    "sections": 6
+  },
+  {
+    "path": "/fotovoltaika/fotovoltaicke-elektrarny-pro-firmy",
+    "source": "https://www.fotovoltaika-gottwald.cz/fotovoltaika/fotovoltaicke-elektrarny-pro-firmy",
+    "sections": 31
+  },
+  {
+    "path": "/fotovoltaika/technologie",
+    "source": "https://www.fotovoltaika-gottwald.cz/fotovoltaika/technologie",
+    "sections": 7
+  },
+  {
+    "path": "/fotovoltaika/fotovoltaicke-elektrarny-pro-bytove-domy",
+    "source": "https://www.fotovoltaika-gottwald.cz/fotovoltaika/fotovoltaicke-elektrarny-pro-bytove-domy",
+    "sections": 31
+  },
+  {
+    "path": "/dalsi-sluzby/infratopeni",
+    "source": "https://www.fotovoltaika-gottwald.cz/dalsi-sluzby/infratopeni",
+    "sections": 11
+  },
+  {
+    "path": "/fotovoltaika/pozarni-bezpecnost",
+    "source": "https://www.fotovoltaika-gottwald.cz/fotovoltaika/pozarni-bezpecnost",
+    "sections": 7
+  },
+  {
+    "path": "/dalsi-sluzby",
+    "source": "https://www.fotovoltaika-gottwald.cz/dalsi-sluzby",
+    "sections": 8
+  },
+  {
+    "path": "/technologie/tepelna-cerpadla",
+    "source": "https://www.fotovoltaika-gottwald.cz/technologie/tepelna-cerpadla",
+    "sections": 16
+  },
+  {
+    "path": "/dalsi-sluzby/elektroinstalace",
+    "source": "https://www.fotovoltaika-gottwald.cz/dalsi-sluzby/elektroinstalace",
+    "sections": 15
+  },
+  {
+    "path": "/dalsi-sluzby/revize-instalace",
+    "source": "https://www.fotovoltaika-gottwald.cz/dalsi-sluzby/revize-instalace",
+    "sections": 21
+  },
+  {
+    "path": "/technologie/chytra-domacnost",
+    "source": "https://www.fotovoltaika-gottwald.cz/technologie/chytra-domacnost",
+    "sections": 5
+  },
+  {
+    "path": "/sdileni-prodej-energie/program-gottsol-inteligentni-rizeni",
+    "source": "https://www.fotovoltaika-gottwald.cz/sdileni-prodej-energie/program-gottsol-inteligentni-rizeni",
+    "sections": 9
+  },
+  {
+    "path": "/dotace",
+    "source": "https://www.fotovoltaika-gottwald.cz/dotace",
+    "sections": 12
+  },
+  {
+    "path": "/dalsi-sluzby/financovani",
+    "source": "https://www.fotovoltaika-gottwald.cz/dalsi-sluzby/financovani",
+    "sections": 3
+  },
+  {
+    "path": "/dalsi-sluzby/servis",
+    "source": "https://www.fotovoltaika-gottwald.cz/dalsi-sluzby/servis",
+    "sections": 9
+  },
+  {
+    "path": "/sdileni-prodej-energie",
+    "source": "https://www.fotovoltaika-gottwald.cz/sdileni-prodej-energie",
+    "sections": 2
+  },
+  {
+    "path": "/kontakty",
+    "source": "https://www.fotovoltaika-gottwald.cz/kontakty",
+    "sections": 6
+  },
+  {
+    "path": "/o-nas",
+    "source": "https://www.fotovoltaika-gottwald.cz/o-nas",
+    "sections": 3
+  },
+  {
+    "path": "/clanky",
+    "source": "https://www.fotovoltaika-gottwald.cz/clanky",
+    "sections": 8
+  },
+  {
+    "path": "/recenze-realizace",
+    "source": "https://www.fotovoltaika-gottwald.cz/recenze-realizace",
+    "sections": 2
+  },
+  {
+    "path": "/porovnejte-nasi-cenovou-nabidku-fotovoltaiky-s-konkurenci-wattsonic",
+    "source": "https://www.fotovoltaika-gottwald.cz/node/329",
+    "sections": 2
+  },
+  {
+    "path": "/kontaktujte-nas",
+    "source": "https://www.fotovoltaika-gottwald.cz/node/330",
+    "sections": 2
+  },
+  {
+    "path": "/jihocesky-kraj",
+    "source": "https://www.fotovoltaika-gottwald.cz/jihocesky-kraj",
+    "sections": 14
+  },
+  {
+    "path": "/hlavni-mesto-praha",
+    "source": "https://www.fotovoltaika-gottwald.cz/hlavni-mesto-praha",
+    "sections": 14
+  },
+  {
+    "path": "/stredocesky-kraj",
+    "source": "https://www.fotovoltaika-gottwald.cz/stredocesky-kraj",
+    "sections": 14
+  },
+  {
+    "path": "/plzensky-kraj",
+    "source": "https://www.fotovoltaika-gottwald.cz/plzensky-kraj",
+    "sections": 14
+  },
+  {
+    "path": "/karlovarsky-kraj",
+    "source": "https://www.fotovoltaika-gottwald.cz/karlovarsky-kraj",
+    "sections": 14
+  },
+  {
+    "path": "/kralovehradecky-kraj",
+    "source": "https://www.fotovoltaika-gottwald.cz/kralovehradecky-kraj",
+    "sections": 14
+  },
+  {
+    "path": "/pardubicky-kraj",
+    "source": "https://www.fotovoltaika-gottwald.cz/pardubicky-kraj",
+    "sections": 14
+  },
+  {
+    "path": "/ustecky-kraj",
+    "source": "https://www.fotovoltaika-gottwald.cz/ustecky-kraj",
+    "sections": 14
+  },
+  {
+    "path": "/kraj-vysocina",
+    "source": "https://www.fotovoltaika-gottwald.cz/kraj-vysocina",
+    "sections": 14
+  },
+  {
+    "path": "/liberecky-kraj",
+    "source": "https://www.fotovoltaika-gottwald.cz/liberecky-kraj",
+    "sections": 14
+  },
+  {
+    "path": "/realizace/kovarov",
+    "source": "https://www.fotovoltaika-gottwald.cz/realizace/kovarov",
+    "sections": 6
+  },
+  {
+    "path": "/blog/ziskejte-dotaci-na-porizeni-fotovoltaicke-elektrarny",
+    "source": "https://www.fotovoltaika-gottwald.cz/blog/ziskejte-dotaci-na-porizeni-fotovoltaicke-elektrarny",
+    "sections": 9
+  },
+  {
+    "path": "/slovnik-pojmu",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik-pojmu",
+    "sections": 12
+  },
+  {
+    "path": "/realizace/svetice",
+    "source": "https://www.fotovoltaika-gottwald.cz/realizace/svetice",
+    "sections": 7
+  },
+  {
+    "path": "/realizace/oboriste",
+    "source": "https://www.fotovoltaika-gottwald.cz/realizace/oboriste",
+    "sections": 7
+  },
+  {
+    "path": "/realizace/sadska",
+    "source": "https://www.fotovoltaika-gottwald.cz/realizace/sadska",
+    "sections": 7
+  },
+  {
+    "path": "/blog/vyhodnost-fotovoltaiky-na-strechu-potrebne-parametry-pro-jeji-instalaci",
+    "source": "https://www.fotovoltaika-gottwald.cz/blog/vyhodnost-fotovoltaiky-na-strechu-potrebne-parametry-pro-jeji-instalaci",
+    "sections": 5
+  },
+  {
+    "path": "/blog/zajistete-si-energetickou-sobestacnost-i-na-zimu-kombinaci-fotovoltaiky-tepelneho-cerpadla",
+    "source": "https://www.fotovoltaika-gottwald.cz/blog/zajistete-si-energetickou-sobestacnost-i-na-zimu-kombinaci-fotovoltaiky-tepelneho-cerpadla",
+    "sections": 4
+  },
+  {
+    "path": "/blog/slunecni-elektrarna-v-rodinnem-dome-snizuje-zavislost-na-distribucni-firme",
+    "source": "https://www.fotovoltaika-gottwald.cz/blog/slunecni-elektrarna-v-rodinnem-dome-snizuje-zavislost-na-distribucni-firme",
+    "sections": 5
+  },
+  {
+    "path": "/blog/fotovoltaicke-elektrarny-na-rodinny-dum-na-dosah",
+    "source": "https://www.fotovoltaika-gottwald.cz/blog/fotovoltaicke-elektrarny-na-rodinny-dum-na-dosah",
+    "sections": 4
+  },
+  {
+    "path": "/blog/trend-doby-solarni-energie-pro-domacnosti",
+    "source": "https://www.fotovoltaika-gottwald.cz/blog/trend-doby-solarni-energie-pro-domacnosti",
+    "sections": 5
+  },
+  {
+    "path": "/blog/co-vam-prinese-fotovoltaika-na-klic",
+    "source": "https://www.fotovoltaika-gottwald.cz/blog/co-vam-prinese-fotovoltaika-na-klic",
+    "sections": 5
+  },
+  {
+    "path": "/podminky-uzivani-cloudove-sluzby-gottsol-pro-rizeni-energetickych-systemu",
+    "source": "https://www.fotovoltaika-gottwald.cz/node/444",
+    "sections": 9
+  },
+  {
+    "path": "/ochrana-osobnich-udaju",
+    "source": "https://www.fotovoltaika-gottwald.cz/node/136",
+    "sections": 9
+  },
+  {
+    "path": "/desatero-pro-vyber-fotovoltaiky",
+    "source": "https://www.fotovoltaika-gottwald.cz/node/139",
+    "sections": 12
+  },
+  {
+    "path": "/technologie/technologie-pro-strechy",
+    "source": "https://www.fotovoltaika-gottwald.cz/technologie/technologie-pro-strechy",
+    "sections": 3
+  },
+  {
+    "path": "/realizace/racice",
+    "source": "https://www.fotovoltaika-gottwald.cz/realizace/racice",
+    "sections": 7
+  },
+  {
+    "path": "/technologie/system-od-alphaess",
+    "source": "https://www.fotovoltaika-gottwald.cz/technologie/system-od-alphaess",
+    "sections": 3
+  },
+  {
+    "path": "/realizace/jirkov",
+    "source": "https://www.fotovoltaika-gottwald.cz/realizace/jirkov",
+    "sections": 7
+  },
+  {
+    "path": "/technologie/system-od-wattsonic",
+    "source": "https://www.fotovoltaika-gottwald.cz/technologie/system-od-wattsonic",
+    "sections": 4
+  },
+  {
+    "path": "/realizace/zvole-0",
+    "source": "https://www.fotovoltaika-gottwald.cz/realizace/zvole-0",
+    "sections": 7
+  },
+  {
+    "path": "/realizace/kolin-0",
+    "source": "https://www.fotovoltaika-gottwald.cz/realizace/kolin-0",
+    "sections": 7
+  },
+  {
+    "path": "/blog/fotovoltaika-spotove-ceny-obchodovani-na-burze-jak-diky-nim-muzete-usetrit-co-je-flexibilita",
+    "source": "https://www.fotovoltaika-gottwald.cz/blog/fotovoltaika-spotove-ceny-obchodovani-na-burze-jak-diky-nim-muzete-usetrit-co-je-flexibilita",
+    "sections": 4
+  },
+  {
+    "path": "/blog/dotace-na-fotovoltaiku-pro-podnikatele-firmy-bezurokovy-uver",
+    "source": "https://www.fotovoltaika-gottwald.cz/blog/dotace-na-fotovoltaiku-pro-podnikatele-firmy-bezurokovy-uver",
+    "sections": 7
+  },
+  {
+    "path": "/realizace/vletice",
+    "source": "https://www.fotovoltaika-gottwald.cz/realizace/vletice",
+    "sections": 7
+  },
+  {
+    "path": "/realizace/studenec",
+    "source": "https://www.fotovoltaika-gottwald.cz/realizace/studenec",
+    "sections": 7
+  },
+  {
+    "path": "/blog/fotovoltaika-na-klic-na-rodinny-dum-usetrete-i-vasi-penezenku",
+    "source": "https://www.fotovoltaika-gottwald.cz/blog/fotovoltaika-na-klic-na-rodinny-dum-usetrete-i-vasi-penezenku",
+    "sections": 6
+  },
+  {
+    "path": "/slovnik-pojmu/b",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik-pojmu/b",
+    "sections": 3
+  },
+  {
+    "path": "/slovnik-pojmu/f",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik-pojmu/f",
+    "sections": 3
+  },
+  {
+    "path": "/slovnik-pojmu/m",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik-pojmu/m",
+    "sections": 3
+  },
+  {
+    "path": "/slovnik-pojmu/e",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik-pojmu/e",
+    "sections": 3
+  },
+  {
+    "path": "/blog/spravne-dimenzovana-fotovoltaika",
+    "source": "https://www.fotovoltaika-gottwald.cz/blog/spravne-dimenzovana-fotovoltaika",
+    "sections": 6
+  },
+  {
+    "path": "/slovnik-pojmu/i",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik-pojmu/i",
+    "sections": 2
+  },
+  {
+    "path": "/slovnik-pojmu/ú",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik-pojmu/%C3%BA",
+    "sections": 2
+  },
+  {
+    "path": "/slovnik-pojmu/p",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik-pojmu/p",
+    "sections": 2
+  },
+  {
+    "path": "/slovnik-pojmu/o",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik-pojmu/o",
+    "sections": 5
+  },
+  {
+    "path": "/slovnik-pojmu/s",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik-pojmu/s",
+    "sections": 3
+  },
+  {
+    "path": "/slovnik-pojmu/n",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik-pojmu/n",
+    "sections": 2
+  },
+  {
+    "path": "/slovnik/energeticka-sobestacnost",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik/energeticka-sobestacnost",
+    "sections": 2
+  },
+  {
+    "path": "/slovnik/optimizer",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik/optimizer",
+    "sections": 2
+  },
+  {
+    "path": "/slovnik/fototermicke-panely",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik/fototermicke-panely",
+    "sections": 2
+  },
+  {
+    "path": "/slovnik/nejpouzivanejsi-pojmy-ve-fotovoltaice",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik/nejpouzivanejsi-pojmy-ve-fotovoltaice",
+    "sections": 6
+  },
+  {
+    "path": "/caste-dotazy",
+    "source": "https://www.fotovoltaika-gottwald.cz/caste-dotazy?field_kategorie_target_id=1",
+    "sections": 15
+  },
+  {
+    "path": "/slovnik/energeticky-mix",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik/energeticky-mix",
+    "sections": 2
+  },
+  {
+    "path": "/slovnik/fotovoltaika-do-zasuvky",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik/fotovoltaika-do-zasuvky",
+    "sections": 2
+  },
+  {
+    "path": "/slovnik/standardni-testovaci-podminky-stc",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik/standardni-testovaci-podminky-stc",
+    "sections": 2
+  },
+  {
+    "path": "/slovnik/uhel-slunecniho-svitu",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik/uhel-slunecniho-svitu",
+    "sections": 2
+  },
+  {
+    "path": "/slovnik/mikroelektrarna-do-zasuvky",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik/mikroelektrarna-do-zasuvky",
+    "sections": 2
+  },
+  {
+    "path": "/slovnik/mikrostridac",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik/mikrostridac",
+    "sections": 2
+  },
+  {
+    "path": "/slovnik/intenzita-slunecniho-svitu",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik/intenzita-slunecniho-svitu",
+    "sections": 2
+  },
+  {
+    "path": "/slovnik/pyranometr",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik/pyranometr",
+    "sections": 2
+  },
+  {
+    "path": "/slovnik/balkonova-fotovoltaika",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik/balkonova-fotovoltaika",
+    "sections": 2
+  },
+  {
+    "path": "/slovnik/bifacialni-oboustranny-solarni-panel",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik/bifacialni-oboustranny-solarni-panel",
+    "sections": 2
+  },
+  {
+    "path": "/slovnik/grid-0",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik/grid-0",
+    "sections": 2
+  },
+  {
+    "path": "/slovnik/grid",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik/grid",
+    "sections": 2
+  },
+  {
+    "path": "/slovnik/obnovitelny-zdroj-energie",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik/obnovitelny-zdroj-energie",
+    "sections": 2
+  },
+  {
+    "path": "/slovnik/slunecni-konstanta",
+    "source": "https://www.fotovoltaika-gottwald.cz/slovnik/slunecni-konstanta",
+    "sections": 2
+  }
+]
