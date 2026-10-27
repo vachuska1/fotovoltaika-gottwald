@@ -36,7 +36,7 @@
           "id": "intro",
           "kind": "hero",
           "title": "Fotovoltaika na klíč",
-          "text": "Vyberte si řešení pro Vás.",
+          "text": "Navrhneme Vám fotovoltaickou elektrárnu na klíč dle Vašich preferencí s ohledem na maximální využití.",
           "visible": true,
           "items": [
             {
@@ -59,36 +59,36 @@
           "id": "services",
           "kind": "services",
           "title": "Hledáte řešení?",
-          "text": "",
+          "text": "Navrhneme Vám fotovoltaickou elektrárnu na klíč dle Vašich preferencí s ohledem na maximální využití.",
           "visible": true,
           "items": [
             {
               "title": "Fotovoltaika",
-              "text": "Vyberte si řešení pro Vás.",
+              "text": "Na trhu v oblasti elektroniky a elektriky působíme již od roku 2005. Nabízíme spolehlivé komplexní řešení fotovoltaiky na klíč.\n\nNavrhneme Vám fotovoltaickou elektrárnu na klíč dle Vašich preferencí s ohledem na maximální využití.\n\nPotřebujete financovat Vaši elektrárnu? Vše potřebné za Vás vyřídíme.",
               "href": "/fotovoltaicke-elektrarny",
               "hidden": false
             },
             {
               "title": "Infratopení",
-              "text": "Navrhneme optimální řešení vytápění vašeho domu.",
+              "text": "Infratopení zahřívá přímo stěny, podlahy a předměty ve vašem domově, nikoliv vzduch, což znamená rovnoměrné a dlouhotrvající teplo. A protože neproudí horký vzduch, neuniká žádné teplo zbytečně. Výsledek? Výrazně nižší účty za elektřinu!\n\nNaše společnost se specializuje na dodávku kvalitních infrapanelů s důrazem na design, efektivitu a spokojenost zákazníků. Nabízíme profesionální přístup, individuální řešení a prvotřídní zákaznický servis. S námi máte jistotu, že váš projekt bude úspěšný.",
               "href": "/dalsi-sluzby/infratopeni",
               "hidden": false
             },
             {
               "title": "Elektroinstalace",
-              "text": "Návrh a kalkulace elektroinstalace na klíč",
+              "text": "Elektroinstalace je jednou z nejdůležitějších součástí každé stavby. Bez správné elektroinstalace nefunguje nic – od osvětlení až po zásuvky, spotřebiče nebo moderní technologie a chytré domácnosti. A právě proto si nemůžete dovolit žádné kompromisy.\n\nKompletní výstavbu elektroinstalace v novostavbách – vše od návrhu, přes realizaci až po dodání potřebné dokumentace.",
               "href": "/dalsi-sluzby/elektroinstalace",
               "hidden": false
             },
             {
               "title": "Revize elektroinstalace",
-              "text": "Návrh a kalkulace revize elektroinstalace",
+              "text": "Revize elektrické instalace není jen formalita – je to závazek k vašemu bezpečí, efektivitě a klidu. A naše služba je tu právě proto, abychom vás ochránili od všech rizik.\n\nProvádíme revize domovních instalací, hromosvodů, fotovoltaických elektráren i průmyslových zařízení – pravidelné, mimořádné i výchozí revize.",
               "href": "/dalsi-sluzby/revize-instalace",
               "hidden": false
             },
             {
               "title": "Tepelná čerpadla",
-              "text": "Kompletní řešení vytápění pro Váš dům.",
+              "text": "Moderní tepelné čerpadlo v provedení split, což znamená, že venkovní jednotka je oddělena od vnitřní jednotky čerpadla. Obě tyto hlavní části jsou samozřejmě propojeny okruhem chladiva a komunikačním kabelem.\n\nVyspělá elektronická výbava umožňuje regulaci nejen okruhu TUV, ale i řízení přímých a směšovaných zón topného okruhu. Samozřejmostí je režim chlazení v letních měsících.",
               "href": "/technologie/tepelna-cerpadla",
               "hidden": false
             }
@@ -99,7 +99,7 @@
           "id": "about",
           "kind": "image-left",
           "title": "Jsme čestná firma, která řeší fotovoltaiku na klíč s vlastním týmem a zázemím",
-          "text": "Elektrikou a elektronikou se zabýváme přes 25 let.\n\nStále se vyvíjíme a zlepšujeme naše znalosti.",
+          "text": "Jmenuji se Jiří Gottwald a již 25 let se na českém trhu věnuji elektronice a elektrice. V roce 2010 jsem začal rozšiřovat své portfolio o fotovoltaické elektrárny.\n\nOd první instalované elektrárny jsme společně ušli veliký kus cesty a naučili se mnohé. Náš cíl byl vždy jediný – poskytnout zákazníkům vždy jen to nejkvalitnější a nejpoctivější. Proto jsme po pečlivém a dlouhodobém testování vybrali spolehlivou fotovoltaickou elektrárnu od výrobce ALPHA ESS a Wattsonic. Jedná se o zcela inovativní systém pro ukládání a odběr energie z fotovoltaiky.",
           "visible": true,
           "items": [
             {
@@ -208,7 +208,7 @@
           "id": "technology",
           "kind": "editorial",
           "title": "Inteligentní řízení Program GottSol",
-          "text": "",
+          "text": "GOTTSOL je cloudová platforma pro inteligentní řízení solárních elektráren, tepelných čerpadel, komunitní energetiky a dalších energetických systémů.\n\nPredikuje výrobu a spotřebu a řídí spotřebiče tak, abyste za energie platili co nejméně.",
           "visible": true,
           "items": [
             {
@@ -219,6 +219,35 @@
             }
           ],
           "rows": []
+        },
+        {
+          "id": "solutions",
+          "kind": "image-right",
+          "title": "Tepelná čerpadla",
+          "text": "K rodinné firmě jsem přizval syna, kterému postupně předávám své dlouholeté Know-how. Nepřestáváme se zlepšovat a hledat pro Vás nová řešení v oblasti domácí energetiky. Dokážeme Vám zapojit tepelná čerpadla, které díky unikátním propojení s fotovoltaikou dokážeme řídit s chytrými zařízeními pro maximální využití vygenerované energie. Tepelné čerpadlo tak společně s fotovoltaikou a naší chytrou domácností vytváří unikátní ekosystém, který Vás posune k vyšší soběstačnosti a efektivitě.",
+          "visible": true,
+          "items": [
+            {
+              "title": "Tepelná čerpadla",
+              "text": "",
+              "href": "/technologie/tepelna-cerpadla",
+              "hidden": false
+            },
+            {
+              "title": "Chytrá domácnost",
+              "text": "",
+              "href": "/technologie/chytra-domacnost",
+              "hidden": false
+            }
+          ],
+          "rows": [],
+          "image": {
+            "src": "/media/edc9e4511e1ff975-1600.webp",
+            "small": "/media/edc9e4511e1ff975-640.webp",
+            "alt": "Jih 180°",
+            "x": 50,
+            "y": 50
+          }
         },
         {
           "id": "regions",
@@ -294,7 +323,7 @@
           "id": "contact",
           "kind": "contact",
           "title": "Hledáte řešení?",
-          "text": "Zašlete nám nezávaznou poptávku",
+          "text": "Zašlete nám nezávaznou poptávku\n\nJiří Gottwald Majitel",
           "visible": true,
           "items": [
             {
