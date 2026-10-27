@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Fotovoltaické elektrárny pro firmy",
+    "destination": "/fotovoltaika/fotovoltaicke-elektrarny-pro-firmy",
+    "imageSource": "https://www.fotovoltaika-gottwald.cz/sites/default/files/styles/vypis/public/galerie/2023-12/shutterstock_2287906515.jpg?itok=fgjP9bb_",
+    "textSource": "https://www.fotovoltaika-gottwald.cz/",
+    "text": "Navrhneme Vám fotovoltaickou elektrárnu na klíč dle Vašich preferencí s ohledem na maximální využití."
+  },
+  {
+    "title": "Fotovoltaické elektrárny pro bytové domy",
+    "destination": "/fotovoltaika/fotovoltaicke-elektrarny-pro-bytove-domy",
+    "imageSource": "https://www.fotovoltaika-gottwald.cz/sites/default/files/styles/vypis/public/galerie/2023-12/shutterstock_2159978401_upraveno.jpeg?itok=mHJZaKq_",
+    "textSource": "https://www.fotovoltaika-gottwald.cz/fotovoltaika/fotovoltaicke-elektrarny-pro-firmy",
+    "text": "Nejprve je potřeba analyzovat střechy bytového domu. Je důležité zjistit, zda střecha má dostatečnou plochu, orientaci a sklon pro efektivní umístění solárních panelů."
+  },
+  {
+    "title": "Fotovoltaické elektrárny na rodinné domy",
+    "destination": "/fotovoltaika/fotovoltaicke-elektrarny-na-rodinne-domy",
+    "imageSource": "https://www.fotovoltaika-gottwald.cz/sites/default/files/styles/vypis/public/galerie/2023-12/front-top.jpg?itok=hrTOooxr",
+    "textSource": "https://www.fotovoltaika-gottwald.cz/",
+    "text": "Na trhu v oblasti elektroniky a elektriky působíme již od roku 2005. Nabízíme spolehlivé komplexní řešení fotovoltaiky na klíč."
+  },
+  {
+    "title": "Ohřev vody",
+    "destination": "/fotovoltaika/ohrev-vody",
+    "imageSource": "https://www.fotovoltaika-gottwald.cz/sites/default/files/inline-images/image_0.jpeg",
+    "textSource": "https://www.fotovoltaika-gottwald.cz/fotovoltaika/ohrev-vody",
+    "text": "Vyprodukovaná elektrická energie se přivede kabely do regulátoru, který zajistí distribuci do topného tělesa bojleru. Regulátor se také stará o optimální využívání energie ze solárních panelů, a v případě nedostatku výkonu ji doplní z distribuční sítě. Fotovoltaický systém je bezpečný a zároveň vysoce spolehlivý."
+  },
+  {
+    "title": "Technologie",
+    "destination": "/fotovoltaika/technologie",
+    "imageSource": "https://www.fotovoltaika-gottwald.cz/sites/default/files/styles/vypis/public/galerie/2023-12/shutterstock_2042976584.jpg?itok=NSHM7kcr",
+    "textSource": "https://www.fotovoltaika-gottwald.cz/fotovoltaika/technologie",
+    "text": "Používáme pouze kvalitní a prověřené komponenty"
+  },
+  {
+    "title": "Požární bezpečnost",
+    "destination": "/fotovoltaika/pozarni-bezpecnost",
+    "imageSource": "https://www.fotovoltaika-gottwald.cz/sites/default/files/styles/vypis/public/galerie/2023-12/pozarni-bezpecnost_0.jpg?itok=3wgkZK1W",
+    "textSource": "https://www.fotovoltaika-gottwald.cz/fotovoltaika/pozarni-bezpecnost",
+    "text": "Ke každému samostatnému panelu je přidán optimizér, který je schopen měřit výkon konkrétního panelu a v případě nouze odpojit panel od výroby."
+  }
+]

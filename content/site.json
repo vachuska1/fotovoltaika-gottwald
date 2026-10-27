@@ -437,103 +437,119 @@
     {
       "path": "/fotovoltaicke-elektrarny",
       "title": "Fotovoltaické elektrárny",
-      "description": "Fotovoltaické elektrárny",
+      "description": "Navrhneme Vám fotovoltaickou elektrárnu na klíč dle Vašich preferencí s ohledem na maximální využití.",
       "sections": [
         {
-          "id": "s0",
-          "kind": "editorial",
-          "title": "Fotovoltaické elektrárny pro firmy",
-          "text": "",
+          "id": "solutions",
+          "kind": "services",
+          "title": "Vyberte si řešení pro Vás.",
+          "text": "Navrhneme Vám fotovoltaickou elektrárnu na klíč dle Vašich preferencí s ohledem na maximální využití.",
           "visible": true,
-          "items": [],
-          "rows": []
+          "rows": [],
+          "items": [
+            {
+              "title": "Fotovoltaické elektrárny pro firmy",
+              "text": "Navrhneme Vám fotovoltaickou elektrárnu na klíč dle Vašich preferencí s ohledem na maximální využití.",
+              "href": "/fotovoltaika/fotovoltaicke-elektrarny-pro-firmy",
+              "linkLabel": "Zobrazit více",
+              "hidden": false,
+              "image": {
+                "src": "/media/482f45a474e1f555-1600.webp",
+                "small": "/media/482f45a474e1f555-640.webp",
+                "alt": "Fotovoltaické elektrárny pro firmy",
+                "x": 50,
+                "y": 50
+              }
+            },
+            {
+              "title": "Fotovoltaické elektrárny pro bytové domy",
+              "text": "Nejprve je potřeba analyzovat střechy bytového domu. Je důležité zjistit, zda střecha má dostatečnou plochu, orientaci a sklon pro efektivní umístění solárních panelů.",
+              "href": "/fotovoltaika/fotovoltaicke-elektrarny-pro-bytove-domy",
+              "linkLabel": "Zobrazit více",
+              "hidden": false,
+              "image": {
+                "src": "/media/14f9d2c7f89e9d6c-1600.webp",
+                "small": "/media/14f9d2c7f89e9d6c-640.webp",
+                "alt": "Fotovoltaické elektrárny pro bytové domy",
+                "x": 50,
+                "y": 50
+              }
+            },
+            {
+              "title": "Fotovoltaické elektrárny na rodinné domy",
+              "text": "Na trhu v oblasti elektroniky a elektriky působíme již od roku 2005. Nabízíme spolehlivé komplexní řešení fotovoltaiky na klíč.",
+              "href": "/fotovoltaika/fotovoltaicke-elektrarny-na-rodinne-domy",
+              "linkLabel": "Zobrazit více",
+              "hidden": false,
+              "image": {
+                "src": "/media/1ab0d5a461e3eeaf-1600.webp",
+                "small": "/media/1ab0d5a461e3eeaf-640.webp",
+                "alt": "Fotovoltaické elektrárny na rodinné domy",
+                "x": 50,
+                "y": 50
+              }
+            },
+            {
+              "title": "Ohřev vody",
+              "text": "Vyprodukovaná elektrická energie se přivede kabely do regulátoru, který zajistí distribuci do topného tělesa bojleru. Regulátor se také stará o optimální využívání energie ze solárních panelů, a v případě nedostatku výkonu ji doplní z distribuční sítě. Fotovoltaický systém je bezpečný a zároveň vysoce spolehlivý.",
+              "href": "/fotovoltaika/ohrev-vody",
+              "linkLabel": "Zobrazit více",
+              "hidden": false,
+              "image": {
+                "src": "/media/0b63e83fa73faca1-1600.webp",
+                "small": "/media/0b63e83fa73faca1-640.webp",
+                "alt": "Ohřev vody",
+                "x": 20,
+                "y": 50
+              }
+            },
+            {
+              "title": "Technologie",
+              "text": "Používáme pouze kvalitní a prověřené komponenty",
+              "href": "/fotovoltaika/technologie",
+              "linkLabel": "Zobrazit více",
+              "hidden": false,
+              "image": {
+                "src": "/media/ab962b8c6155ad45-1600.webp",
+                "small": "/media/ab962b8c6155ad45-640.webp",
+                "alt": "Technologie",
+                "x": 50,
+                "y": 50
+              }
+            },
+            {
+              "title": "Požární bezpečnost",
+              "text": "Ke každému samostatnému panelu je přidán optimizér, který je schopen měřit výkon konkrétního panelu a v případě nouze odpojit panel od výroby.",
+              "href": "/fotovoltaika/pozarni-bezpecnost",
+              "linkLabel": "Zobrazit více",
+              "hidden": false,
+              "image": {
+                "src": "/media/85377594c58eaec2-1600.webp",
+                "small": "/media/85377594c58eaec2-640.webp",
+                "alt": "Požární bezpečnost",
+                "x": 50,
+                "y": 50
+              }
+            }
+          ]
         },
         {
-          "id": "s1",
-          "kind": "editorial",
-          "title": "Fotovoltaické elektrárny pro bytové domy",
-          "text": "",
-          "visible": true,
-          "items": [],
-          "rows": []
-        },
-        {
-          "id": "s2",
-          "kind": "editorial",
-          "title": "Fotovoltaické elektrárny na rodinné domy",
-          "text": "",
-          "visible": true,
-          "items": [],
-          "rows": []
-        },
-        {
-          "id": "s3",
-          "kind": "editorial",
-          "title": "Ohřev vody",
-          "text": "",
-          "visible": true,
-          "items": [],
-          "rows": []
-        },
-        {
-          "id": "s4",
-          "kind": "editorial",
-          "title": "Technologie",
-          "text": "",
-          "visible": true,
-          "items": [],
-          "rows": []
-        },
-        {
-          "id": "s5",
-          "kind": "editorial",
-          "title": "Požární bezpečnost",
-          "text": "",
-          "visible": true,
-          "items": [],
-          "rows": []
-        },
-        {
-          "id": "links",
-          "kind": "editorial",
-          "title": "",
+          "id": "inquiry",
+          "kind": "contact",
+          "title": "Ozvěte se nám",
           "text": "",
           "visible": true,
           "items": [
             {
-              "title": "Fotovoltaické elektrárny pro firmyZobrazit více",
+              "title": "info@fotovoltaika-gottwald.cz",
               "text": "",
-              "href": "/fotovoltaika/fotovoltaicke-elektrarny-pro-firmy",
+              "href": "mailto:info@fotovoltaika-gottwald.cz",
               "hidden": false
             },
             {
-              "title": "Fotovoltaické elektrárny pro bytové domyZobrazit více",
+              "title": "+420 731 406 014",
               "text": "",
-              "href": "/fotovoltaika/fotovoltaicke-elektrarny-pro-bytove-domy",
-              "hidden": false
-            },
-            {
-              "title": "Fotovoltaické elektrárny na rodinné domyZobrazit více",
-              "text": "",
-              "href": "/fotovoltaika/fotovoltaicke-elektrarny-na-rodinne-domy",
-              "hidden": false
-            },
-            {
-              "title": "Ohřev vodyZobrazit více",
-              "text": "",
-              "href": "/fotovoltaika/ohrev-vody",
-              "hidden": false
-            },
-            {
-              "title": "TechnologieZobrazit více",
-              "text": "",
-              "href": "/fotovoltaika/technologie",
-              "hidden": false
-            },
-            {
-              "title": "Požární bezpečnostZobrazit více",
-              "text": "",
-              "href": "/fotovoltaika/pozarni-bezpecnost",
+              "href": "tel:+420731406014",
               "hidden": false
             }
           ],

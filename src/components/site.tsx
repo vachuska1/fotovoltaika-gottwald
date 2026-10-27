@@ -12,7 +12,7 @@ function Copy({text}:{text:string}){return <div className="copy">{text.split('\n
 function Services({section,preview}:{section:Section;preview:boolean}){
  return <div className="service-showcase">{section.items.filter(item=>!item.hidden).map((item,i)=><article className="service-feature" key={i} data-reveal="service">
  {item.image&&<div className="service-photo">{item.href?<a href={item.href} tabIndex={-1} aria-hidden="true"><Picture image={item.image} preview={preview}/></a>:<Picture image={item.image} preview={preview}/>}</div>}
- <div className="service-description"><span className="service-number" aria-hidden="true">{String(i+1).padStart(2,'0')}</span><h3>{item.href?<a href={item.href}>{item.title}</a>:item.title}</h3><Copy text={item.text}/>{item.href&&<a className="service-link" href={item.href}>{item.title}</a>}</div>
+ <div className="service-description"><span className="service-number" aria-hidden="true">{String(i+1).padStart(2,'0')}</span><h3>{item.href?<a href={item.href}>{item.title}</a>:item.title}</h3><Copy text={item.text}/>{item.href&&<a className="service-link" href={item.href} aria-label={item.linkLabel?`${item.linkLabel}: ${item.title}`:undefined}>{item.linkLabel||item.title}</a>}</div>
  </article>)}</div>;
 }
 function Reviews({section}:{section:Section}){
