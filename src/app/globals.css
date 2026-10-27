@@ -110,3 +110,8 @@
 
 .brand{flex-shrink:0}.brand-logo{width:188px;height:48px;object-fit:contain}
 @media(max-width:760px){.brand-logo{width:157px;height:40px}}
+
+/* GottSol frame stays fixed while photographs animate inside it. */
+.hero-image,.section-image,.editorial-image,.item-image,.service-photo{border:4px solid #476d36}
+.gallery-items .item-image::after{content:none}
+@media(max-width:760px){.hero-image,.section-image,.editorial-image,.item-image,.service-photo{border-width:3px}}
