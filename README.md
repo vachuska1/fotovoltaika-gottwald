@@ -36,7 +36,7 @@ V Google Cloud Console → Google Auth Platform:
    - `AUTH_URL`: stabilní HTTPS Preview URL bez koncového lomítka.
    - `AUTH_GOOGLE_ID`, `AUTH_GOOGLE_SECRET`: údaje nového OAuth klienta.
    - `AUTH_SECRET`: náhodný tajný klíč, alespoň 32 bajtů (`openssl rand -base64 32`).
-   - `ADMIN_EMAILS`: výslovně povolené adresy Google účtů, oddělené čárkami. Nepřebírat automaticky firemní kontakty ani e-mail vlastníka Vercelu.
+   - `ADMIN_EMAILS=odhadyvachuska@gmail.com`: jediný administrátor výslovně schválený vlastníkem. Další adresy přidávat pouze po jeho schválení.
    - Git proměnné podle následující části.
 4. Tajemství označit jako Sensitive / chráněné, kde to Vercel umožňuje. Nikdy nepoužívat `NEXT_PUBLIC_`. Tajemství nevkládat do chatu, repozitáře ani klienta. Místně používat ignorovaný `.env.local` a `AUTH_URL=http://localhost:3000`.
 5. Po změně proměnných jednou znovu sestavit chráněný Preview. Přihlásit povolený účet a ověřit zamítnutí jiného účtu.
