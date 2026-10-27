@@ -1,4 +1,5 @@
 import Motion from './motion';
+import HeroGallery from './hero-gallery';
 import ContactForm from './contact-form';
 import type {Site,Page,Section,Photo} from '@/lib/schema';
 export function Picture({image,priority=false,preview=false}:{image:Photo;priority?:boolean;preview?:boolean}){
@@ -24,7 +25,7 @@ function Reviews({section}:{section:Section}){
 function Items({section,preview}:{section:Section;preview:boolean}){if(section.kind==='reviews')return <Reviews section={section}/>;if(section.kind==='services')return <Services section={section} preview={preview}/>;return <div className={`items ${section.kind}-items`}>{section.items.filter(i=>!i.hidden).map((item,i)=><article key={i} className="item">{item.image&&<div className="item-image"><Picture image={item.image} preview={preview}/></div>}<div className="item-body">{section.kind==='services'&&<span className="index">{String(i+1).padStart(2,'0')}</span>}{item.title&&<h3>{item.href&&section.kind!=='reviews'?<a href={item.href}>{item.title}</a>:item.title}</h3>}<Copy text={item.text}/>{item.href&&section.kind==='reviews'&&<a className="text-link" href={item.href} target="_blank" rel="noopener noreferrer">{item.linkLabel||item.title}</a>}</div></article>)}</div>;}
 export function SectionView({section:s,preview=false,collectionHref}:{section:Section;preview?:boolean;collectionHref?:string}){
  if(!s.visible)return null;
- if(s.kind==='hero')return <section className="hero" id={s.id}><div className="hero-heading"><span className="eyebrow">GottSol</span><h1>{s.title}</h1><div className="hero-bottom"><Copy text={s.text}/>{s.items[0]?.href&&<a className="action" href={s.items[0].href}>{s.items[0].title}</a>}</div></div>{s.image&&<div className="hero-image"><Picture image={s.image} priority preview={preview}/></div>}</section>;
+ if(s.kind==='hero')return <section className="hero" id={s.id}><div className="hero-heading"><span className="eyebrow">GottSol</span><h1>{s.title}</h1><div className="hero-bottom"><Copy text={s.text}/>{s.items[0]?.href&&<a className="action" href={s.items[0].href}>{s.items[0].title}</a>}</div></div>{s.image&&<HeroGallery primary={s.image} preview={preview} photos={s.items.filter(item=>!item.hidden&&item.image).map(item=>({title:item.title,image:item.image!}))}/>}</section>;
  return <section id={s.id} className={`section section-${s.kind}`}>
  {['image-left','image-right','cover'].includes(s.kind)&&s.image&&<div className="section-image"><Picture image={s.image} preview={preview}/></div>}
  <div className="section-copy">{s.title&&<h2>{s.title}</h2>}<Copy text={s.text}/></div>

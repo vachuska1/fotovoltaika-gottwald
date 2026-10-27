@@ -48,6 +48,58 @@
               "text": "",
               "href": "/kontakty",
               "hidden": false
+            },
+            {
+              "title": "Obořiště",
+              "text": "",
+              "href": "/realizace/oboriste",
+              "image": {
+                "src": "/media/32686bef511bcf08-1600.webp",
+                "small": "/media/32686bef511bcf08-640.webp",
+                "alt": "Jižní střecha 5,460 kWp",
+                "x": 50,
+                "y": 50
+              },
+              "hidden": false
+            },
+            {
+              "title": "Kovářov",
+              "text": "",
+              "href": "/realizace/kovarov",
+              "image": {
+                "src": "/media/edc9e4511e1ff975-1600.webp",
+                "small": "/media/edc9e4511e1ff975-640.webp",
+                "alt": "Jih 180°",
+                "x": 50,
+                "y": 50
+              },
+              "hidden": false
+            },
+            {
+              "title": "Světice",
+              "text": "",
+              "href": "/realizace/svetice",
+              "image": {
+                "src": "/media/d0245412f9f16815-1600.webp",
+                "small": "/media/d0245412f9f16815-640.webp",
+                "alt": "Fotovoltaika na klíč",
+                "x": 50,
+                "y": 50
+              },
+              "hidden": false
+            },
+            {
+              "title": "Sadská",
+              "text": "",
+              "href": "/realizace/sadska",
+              "image": {
+                "src": "/media/df3d2cbc7ad2a80f-1600.webp",
+                "small": "/media/df3d2cbc7ad2a80f-640.webp",
+                "alt": "Plochá střecha",
+                "x": 50,
+                "y": 50
+              },
+              "hidden": false
             }
           ],
           "rows": [],
