@@ -3514,19 +3514,12 @@
       "sections": [
         {
           "id": "s0",
-          "kind": "image-right",
+          "kind": "editorial",
           "title": "Skutečně inteligentní řízení pro Vaše energie",
           "text": "GOTTSOL je cloudová platforma pro inteligentní řízení solárních elektráren, tepelných čerpadel, komunitní energetiky a dalších energetických systémů.\n\nPredikuje výrobu a spotřebu a řídí spotřebiče tak, abyste za energie platili co nejméně.",
           "visible": true,
           "items": [],
-          "rows": [],
-          "image": {
-            "src": "/media/0cc2b63d69dee1c9-1600.webp",
-            "small": "/media/0cc2b63d69dee1c9-640.webp",
-            "alt": "",
-            "x": 50,
-            "y": 50
-          }
+          "rows": []
         },
         {
           "id": "s1",
@@ -3976,19 +3969,12 @@
       "sections": [
         {
           "id": "s0",
-          "kind": "image-right",
+          "kind": "editorial",
           "title": "Zavolejte",
           "text": "+420 731 406 014\n\nWhatsApp",
           "visible": true,
           "items": [],
-          "rows": [],
-          "image": {
-            "src": "/media/abf7a2fc46562481-1600.webp",
-            "small": "/media/abf7a2fc46562481-640.webp",
-            "alt": "",
-            "x": 50,
-            "y": 50
-          }
+          "rows": []
         },
         {
           "id": "s1",
@@ -15297,19 +15283,12 @@
       "sections": [
         {
           "id": "s0",
-          "kind": "image-right",
+          "kind": "editorial",
           "title": "",
           "text": "Na trhu se solárními energiemi se objevila nová služba, která umožňuje uložení přebytku vyrobené elektřiny v takzvané virtuální baterii. Tuto službu nabízí například EON Fotovoltaika. Jaká jsou úskalí virtuální baterie a jaké využití mají naopak fyzické baterie od ČEZ Fotovoltaika či od Pražské energetiky? Existuje jiné řešení, které vám umožní mnohem lepší využití vyrobené energie, nežli fotovoltaika od ČEZ? Na tyto a další otázky si odpovíme v našem článku.​",
           "visible": true,
           "items": [],
-          "rows": [],
-          "image": {
-            "src": "/media/893d4e224833afd4-1600.webp",
-            "small": "/media/893d4e224833afd4-640.webp",
-            "alt": "",
-            "x": 50,
-            "y": 50
-          }
+          "rows": []
         },
         {
           "id": "s1",
