@@ -126,3 +126,5 @@
 .inquiry-consent input{flex-shrink:0;width:20px;height:20px;accent-color:#476d36;margin:1px 0 0}
 .inquiry-consent a{text-decoration:underline;text-underline-offset:3px}.form-status{font-size:14px;line-height:1.6;margin-top:18px}
 @media(max-width:600px){.inquiry-fields{grid-template-columns:1fr;gap:18px}.inquiry-form{margin-top:30px}.inquiry-form .action{width:100%;justify-content:center}}
+
+.inquiry-fields textarea{width:100%;min-width:0;border:1px solid #91a17b;border-radius:0;background:#f5f6ed;color:#182621;padding:15px;font:inherit;resize:vertical}
