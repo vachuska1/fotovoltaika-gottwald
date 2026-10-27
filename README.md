@@ -1,4 +1,4 @@
-# Fotovoltaika Gottwald
+# GottSol
 
 Nový Next.js / TypeScript web s veřejnými stránkami generovanými při sestavení a českou administrací přes Google OAuth (Auth.js). Žádná databáze, polling, cron, veřejný middleware ani runtime optimalizace obrázků. Původní web a DNS nejsou součástí nasazení.
 
@@ -77,3 +77,7 @@ Koncept je společný pro všechny povolené správce. Git uložené revize chr�
 ## Ověření a limity předání
 
 `npm test` ověřuje Git tok uložit → publikovat → obnovit, konflikty a nezměněný obsah proti izolovanému mocku GitHub API, validaci URL, allowlist, limit těla požadavku a dekódování / překódování obrázků. Nenahrazuje skutečné OAuth přihlášení a vzdálený deployment. Reálný přihlašovací a publikační průchod musí být proveden až po nastavení klienta Google, allowlistu, tokenu a Git integrace. Dokud tento průchod neproběhne, administrace není předána jako provozně ověřená.
+
+## Značka GottSol a návrh loga
+
+Aktuální značka webu je GottSol. Původní kontakty, doména a doslovné zákaznické recenze zůstávají skutečné. Realizace jsou na `/realizace`, recenze na `/recenze`; původní společná URL má přesměrování 301. Návrh loga je v `design/logo/gottsol-proposal.svg` a náhled v `artifacts/gottsol-logo-proposal.png`. Logo čeká na schválení, zatím se používá textový název. Favicon nebyla vytvořena ani změněna.

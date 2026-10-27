@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "name": "Fotovoltaika Gottwald",
+  "name": "GottSol",
   "email": "info@fotovoltaika-gottwald.cz",
   "phone": "+420 731 406 014",
   "address": "Za školou 210\n262 12 Obořiště",
@@ -15,7 +15,11 @@
     },
     {
       "label": "Realizace",
-      "href": "/recenze-realizace"
+      "href": "/realizace"
+    },
+    {
+      "label": "Recenze",
+      "href": "/recenze"
     },
     {
       "label": "O nás",
@@ -596,7 +600,7 @@
           "id": "s3",
           "kind": "editorial",
           "title": "Proč fotovoltaika od nás?",
-          "text": "Naše společnost Fotovoltaika Gottwald vám k instalaci fotovoltaického ohřevu vody nabízí osvědčené a velmi technicky vyspělé zařízení NECTARSUN. Tento inovativní systém využívá k ohřevu ekologicky čistých a nevyčerpatelných zdrojů energie.\n\nVe spojení s regulátorem disponujícím funkcí MPPT lze výrobu energie z fotovoltaických panelů kombinovat s dodávkou z elektrické sítě, přičemž tento systém vždy upřednostní elektřinu vyrobenou vaší fotovoltaikou.\n\nNámi instalovaný fotovoltaický systém vám zajistí absolutní nezávislost na dodavateli energií a pohodlný, téměř bezúdržbový, ohřev vody.\n\nVyřídíme za vás žádost o příspěvek z dotačního programu Nová zelená úsporám\n\nPoužíváme osvědčené a technologicky vyspělé zařízení NESTARSUN\n\nPlně automatický systém funkční s většinou běžných ohřívačů vody\n\nOvládání přes jednoduchou aplikaci\n\nS fotovoltaikou výrazně ušetříte za elektrickou energii\n\nJsme spolehlivý partner a svým zákazníkům nasloucháme\n\nMáme bohaté zkušenosti a vyhovíme vašim individuálním požadavkům",
+          "text": "Naše společnost GottSol vám k instalaci fotovoltaického ohřevu vody nabízí osvědčené a velmi technicky vyspělé zařízení NECTARSUN. Tento inovativní systém využívá k ohřevu ekologicky čistých a nevyčerpatelných zdrojů energie.\n\nVe spojení s regulátorem disponujícím funkcí MPPT lze výrobu energie z fotovoltaických panelů kombinovat s dodávkou z elektrické sítě, přičemž tento systém vždy upřednostní elektřinu vyrobenou vaší fotovoltaikou.\n\nNámi instalovaný fotovoltaický systém vám zajistí absolutní nezávislost na dodavateli energií a pohodlný, téměř bezúdržbový, ohřev vody.\n\nVyřídíme za vás žádost o příspěvek z dotačního programu Nová zelená úsporám\n\nPoužíváme osvědčené a technologicky vyspělé zařízení NESTARSUN\n\nPlně automatický systém funkční s většinou běžných ohřívačů vody\n\nOvládání přes jednoduchou aplikaci\n\nS fotovoltaikou výrazně ušetříte za elektrickou energii\n\nJsme spolehlivý partner a svým zákazníkům nasloucháme\n\nMáme bohaté zkušenosti a vyhovíme vašim individuálním požadavkům",
           "visible": true,
           "items": [],
           "rows": []
@@ -1418,7 +1422,7 @@
             {
               "title": "Další realizace",
               "text": "",
-              "href": "/recenze-realizace",
+              "href": "/realizace",
               "hidden": false
             },
             {
@@ -2342,7 +2346,7 @@
             {
               "title": "Další realizace",
               "text": "",
-              "href": "/recenze-realizace",
+              "href": "/realizace",
               "hidden": false
             },
             {
@@ -3863,7 +3867,7 @@
         {
           "id": "s4",
           "kind": "editorial",
-          "title": "Při pořízení FVE od společnosti Fotovoltaika Gottwald získáte první rok revizi ZDARMA",
+          "title": "Při pořízení FVE od společnosti GottSol získáte první rok revizi ZDARMA",
           "text": "",
           "visible": true,
           "items": [],
@@ -3881,7 +3885,7 @@
         {
           "id": "s6",
           "kind": "editorial",
-          "title": "Při pořízení TČ od společnosti Fotovoltaika Gottwald získáte první rok servis ZDARMA",
+          "title": "Při pořízení TČ od společnosti GottSol získáte první rok servis ZDARMA",
           "text": "Ceny jsou uvedeny bez DPH.",
           "visible": true,
           "items": [],
@@ -4308,8 +4312,8 @@
       ]
     },
     {
-      "path": "/recenze-realizace",
-      "title": "Recenze a realizace",
+      "path": "/recenze",
+      "title": "Recenze",
       "description": "Výborný přístup, kdybych se do něčeho podobného pouštěl znovu, neváhal bych oslovit tuto firmu.",
       "sections": [
         {
@@ -4741,7 +4745,14 @@
             }
           ],
           "rows": []
-        },
+        }
+      ]
+    },
+    {
+      "path": "/realizace",
+      "title": "Realizace",
+      "description": "Prohlédněte si některé z našich realizací.",
+      "sections": [
         {
           "id": "realizations",
           "kind": "gallery",
@@ -5159,7 +5170,7 @@
             {
               "title": "Další realizace",
               "text": "",
-              "href": "/recenze-realizace",
+              "href": "/realizace",
               "hidden": false
             },
             {
@@ -5774,7 +5785,7 @@
             {
               "title": "Další realizace",
               "text": "",
-              "href": "/recenze-realizace",
+              "href": "/realizace",
               "hidden": false
             },
             {
@@ -6389,7 +6400,7 @@
             {
               "title": "Další realizace",
               "text": "",
-              "href": "/recenze-realizace",
+              "href": "/realizace",
               "hidden": false
             },
             {
@@ -7004,7 +7015,7 @@
             {
               "title": "Další realizace",
               "text": "",
-              "href": "/recenze-realizace",
+              "href": "/realizace",
               "hidden": false
             },
             {
@@ -7619,7 +7630,7 @@
             {
               "title": "Další realizace",
               "text": "",
-              "href": "/recenze-realizace",
+              "href": "/realizace",
               "hidden": false
             },
             {
@@ -8234,7 +8245,7 @@
             {
               "title": "Další realizace",
               "text": "",
-              "href": "/recenze-realizace",
+              "href": "/realizace",
               "hidden": false
             },
             {
@@ -8849,7 +8860,7 @@
             {
               "title": "Další realizace",
               "text": "",
-              "href": "/recenze-realizace",
+              "href": "/realizace",
               "hidden": false
             },
             {
@@ -9464,7 +9475,7 @@
             {
               "title": "Další realizace",
               "text": "",
-              "href": "/recenze-realizace",
+              "href": "/realizace",
               "hidden": false
             },
             {
@@ -10079,7 +10090,7 @@
             {
               "title": "Další realizace",
               "text": "",
-              "href": "/recenze-realizace",
+              "href": "/realizace",
               "hidden": false
             },
             {
@@ -10694,7 +10705,7 @@
             {
               "title": "Další realizace",
               "text": "",
-              "href": "/recenze-realizace",
+              "href": "/realizace",
               "hidden": false
             },
             {
@@ -12652,7 +12663,7 @@
         {
           "id": "s2",
           "kind": "editorial",
-          "title": "Fotovoltaika na klíč od společnosti Fotovoltaika Gottwald",
+          "title": "Fotovoltaika na klíč od společnosti GottSol",
           "text": "Nyní vám uvedeme příklad, jak by služba fotovoltaika na klíč měla vypadat. Našim zákazníkům zajistíme komplexní projekt, od výběru vhodné fotovoltaiky, zpracování detailního návrhu s cenou až po komunikaci s provozovateli distribučních soustav.\n\nProvedeme revizní protokol a vyřídíme za vás dotace v programu Nová zelená úsporám. Vyřešíme také případné reklamace. Náš zákazník se nemusí o nic starat.\n\nDbáme na osobní přístup a férové jednání. Naším specifikem je zákazníkovi vše osobně vysvětlit a předvést na reálně instalované fotovoltaice přímo v našem vlastním domě. Pomůžeme vám opravdu s celým projektem, odborně poradíme a vychutnáme si společně šálek dobré kávy.",
           "visible": true,
           "items": [],
@@ -13007,7 +13018,7 @@
             {
               "title": "reference",
               "text": "",
-              "href": "/recenze-realizace",
+              "href": "/realizace",
               "hidden": false
             },
             {
@@ -14055,7 +14066,7 @@
           "id": "s2",
           "kind": "editorial",
           "title": "Chcete fotovoltaiku a chtěli byste i obchodovat na spotových cenách?",
-          "text": "Pokud nad instalací fotovoltaiky teprve uvažujete, je dobré tuto možnost již vzít v potaz pří výběru zařízení. Nejdůležitější krok je výběr prodejce, který je schopen vám obchod na spotových cenách zařídit a zároveň poskytnout kvalitní zařízení schopné obchodu na spotu. Pouze kvalitní prodejce vám nainstaluje kvalitní fotovoltaiku. Ačkoliv ceny fotovoltaiky oproti minulým letem poklesly, stále se nejedná o levnou záležitost. Vyplatí se tedy obezřetnost a prověřování. Mělo by se jednat o společnost s tradicí, která se v oboru pohybuje již delší dobu a má tak patřičné zkušenosti s danou problematikou. Jedním z dalších způsobů, jak si společnost ověřit, jsou recenze předchozích zákazníků například na Googlu či stránce Refsite. Například firma Fotovoltaika Gottwald na trhu s elektrotechnikou a řešením pro domácnosti funguje 15 let. Její zakladatel, Jiří Gottwald, na trhu s elektronikou funguje 30 let.Jako poskytovatel fotovoltaiky tak oplývá cennými zkušenostmi v oblastielektrotechnolgoií a elektroinstalací. Těší se oblibě svých zákazníků a jako jedna z mála společností pro instalaci fotovoltaiky má 100% hodnocení jak na Refsite, tak na Googlu.",
+          "text": "Pokud nad instalací fotovoltaiky teprve uvažujete, je dobré tuto možnost již vzít v potaz pří výběru zařízení. Nejdůležitější krok je výběr prodejce, který je schopen vám obchod na spotových cenách zařídit a zároveň poskytnout kvalitní zařízení schopné obchodu na spotu. Pouze kvalitní prodejce vám nainstaluje kvalitní fotovoltaiku. Ačkoliv ceny fotovoltaiky oproti minulým letem poklesly, stále se nejedná o levnou záležitost. Vyplatí se tedy obezřetnost a prověřování. Mělo by se jednat o společnost s tradicí, která se v oboru pohybuje již delší dobu a má tak patřičné zkušenosti s danou problematikou. Jedním z dalších způsobů, jak si společnost ověřit, jsou recenze předchozích zákazníků například na Googlu či stránce Refsite. Například firma GottSol na trhu s elektrotechnikou a řešením pro domácnosti funguje 15 let. Její zakladatel, Jiří Gottwald, na trhu s elektronikou funguje 30 let.Jako poskytovatel fotovoltaiky tak oplývá cennými zkušenostmi v oblastielektrotechnolgoií a elektroinstalací. Těší se oblibě svých zákazníků a jako jedna z mála společností pro instalaci fotovoltaiky má 100% hodnocení jak na Refsite, tak na Googlu.",
           "visible": true,
           "items": [],
           "rows": []
@@ -14118,11 +14129,11 @@
             {
               "title": "recenze",
               "text": "",
-              "href": "/recenze-realizace",
+              "href": "/recenze",
               "hidden": false
             },
             {
-              "title": "firma Fotovoltaika Gottwald",
+              "title": "firma GottSol",
               "text": "",
               "href": "/o-nas",
               "hidden": false
@@ -14193,7 +14204,7 @@
           "id": "s5",
           "kind": "editorial",
           "title": "Na co si dát pozor při čerpání dotace?",
-          "text": "Při čerpání dotace je důležité vědět, které výdaje nejsou způsobilé k financování z tohoto zdroje. Mezi nezpůsobilé výdaje náleží například splacení starých úvěrů, refinancování výdajů z jiných zdrojů, nebo pohledávky vůči společníkům a akcionářům. Z dotace nelze hradit ani DPH, náklady uhrazené před podáním žádosti, splátky půjček a úvěrů, pokuty, penále, bankovní poplatky, pojištění, či nákup pozemků a budov. Je tedy nezbytné, aby žadatelé o dotaci pečlivě zvažovali, na co dotaci použijí, a ujistili se, že všechny plánované výdaje splňují kritéria způsobilosti.\n\nAby vaše investice do fotovoltaiky byla co nejefektivnější a abyste se vyhnuli případným komplikacím spojeným s žádostmi o dotace, je důležité mít po svém boku spolehlivého partnera. Společnost Fotovoltaika Gottwald nabízí komplexní služby, které zahrnují vše od počátečního návrhu a projektování, přes instalaci fotovoltaických elektráren a elektroinstalací, až po vyřízení veškeré potřebné administrativy, včetně žádostí o dotace, a to s mnoholetou tradicí. S Fotovoltaikou Gottwald se můžete spolehnout na to, že váš projekt bude realizován profesionálně, včas a bez zbytečných starostí. Pokud hledáte odborníka na řešení fotovoltaiky na klíč, který zajistí, aby váš přechod na obnovitelnou energii byl co nejjednodušší a nejvýhodnější, neváhejte kontaktovat společnost Fotovoltaika Gottwald.",
+          "text": "Při čerpání dotace je důležité vědět, které výdaje nejsou způsobilé k financování z tohoto zdroje. Mezi nezpůsobilé výdaje náleží například splacení starých úvěrů, refinancování výdajů z jiných zdrojů, nebo pohledávky vůči společníkům a akcionářům. Z dotace nelze hradit ani DPH, náklady uhrazené před podáním žádosti, splátky půjček a úvěrů, pokuty, penále, bankovní poplatky, pojištění, či nákup pozemků a budov. Je tedy nezbytné, aby žadatelé o dotaci pečlivě zvažovali, na co dotaci použijí, a ujistili se, že všechny plánované výdaje splňují kritéria způsobilosti.\n\nAby vaše investice do fotovoltaiky byla co nejefektivnější a abyste se vyhnuli případným komplikacím spojeným s žádostmi o dotace, je důležité mít po svém boku spolehlivého partnera. Společnost GottSol nabízí komplexní služby, které zahrnují vše od počátečního návrhu a projektování, přes instalaci fotovoltaických elektráren a elektroinstalací, až po vyřízení veškeré potřebné administrativy, včetně žádostí o dotace, a to s mnoholetou tradicí. S GottSol se můžete spolehnout na to, že váš projekt bude realizován profesionálně, včas a bez zbytečných starostí. Pokud hledáte odborníka na řešení fotovoltaiky na klíč, který zajistí, aby váš přechod na obnovitelnou energii byl co nejjednodušší a nejvýhodnější, neváhejte kontaktovat společnost GottSol.",
           "visible": true,
           "items": [],
           "rows": []
@@ -14260,7 +14271,7 @@
               "hidden": false
             },
             {
-              "title": "Fotovoltaika Gottwald",
+              "title": "GottSol",
               "text": "",
               "href": "https://www.fotovoltaika-gottwald.cz/node/1",
               "hidden": false
@@ -14801,7 +14812,7 @@
             {
               "title": "recenze",
               "text": "",
-              "href": "/recenze-realizace",
+              "href": "/recenze",
               "hidden": false
             }
           ],
@@ -15286,7 +15297,7 @@
           "id": "s1",
           "kind": "editorial",
           "title": "EON Fotovoltaika a virtuální baterie pro ukládání elektřiny",
-          "text": "EON nabízí Fotovoltaiku bez baterie, tedy systém tzv. virtuální baterie. Využitelnost takto uložené energie však dosahuje pouhých 30 %, tedy 70 % energie vůbec nevyužijete. Návratnost investice do Fotovoltaiky EON pro rodinný dům tak činí více než 25 let.\n\nZa tuto virtuální baterii uživatel navíc zaplatí až 4 100 korun, za vlastní MWh tak ještě hradíte 0,4 korun až 1 korunu. Vaší vlastní výrobou pak distributor dále snižuje ztráty v distribuci a transformátorech, a to bezplatně. Z dodané energie navíc distributor neplatí daň ze zisku.\n\nVy tak distributorovi platíte za systém, který on dále využívá podle svých potřeb. Přitom pouze stačí využít jiné možnosti – instalace vhodně nastavené fyzické baterie, která vám nabídne mnohem vyšší návratnost a ušetří vás zbytečných poplatků. I zde je však třeba brát ohled na množství vyrobené energie, využití fyzické baterie, maximální výkon a cenu. Tyto parametry by pro vás měly být rozhodující pro výběr vhodné fotovoltaiky.\n\nPodívejte se na srovnání parametrů Fotovoltaiky EON, Fotovoltaiky ČEZ, Pražské energetiky a Fotovoltaiky Gottwald v naší tabulce.",
+          "text": "EON nabízí Fotovoltaiku bez baterie, tedy systém tzv. virtuální baterie. Využitelnost takto uložené energie však dosahuje pouhých 30 %, tedy 70 % energie vůbec nevyužijete. Návratnost investice do Fotovoltaiky EON pro rodinný dům tak činí více než 25 let.\n\nZa tuto virtuální baterii uživatel navíc zaplatí až 4 100 korun, za vlastní MWh tak ještě hradíte 0,4 korun až 1 korunu. Vaší vlastní výrobou pak distributor dále snižuje ztráty v distribuci a transformátorech, a to bezplatně. Z dodané energie navíc distributor neplatí daň ze zisku.\n\nVy tak distributorovi platíte za systém, který on dále využívá podle svých potřeb. Přitom pouze stačí využít jiné možnosti – instalace vhodně nastavené fyzické baterie, která vám nabídne mnohem vyšší návratnost a ušetří vás zbytečných poplatků. I zde je však třeba brát ohled na množství vyrobené energie, využití fyzické baterie, maximální výkon a cenu. Tyto parametry by pro vás měly být rozhodující pro výběr vhodné fotovoltaiky.\n\nPodívejte se na srovnání parametrů Fotovoltaiky EON, Fotovoltaiky ČEZ, Pražské energetiky a GottSol v naší tabulce.",
           "visible": true,
           "items": [],
           "rows": []
@@ -15295,7 +15306,7 @@
           "id": "s2",
           "kind": "editorial",
           "title": "Fotovoltaika ČEZ: Jak funguje Battery Box?",
-          "text": "Společnost ČEZ nabízí ke své fotovoltaice fyzickou baterii s názvem Battery Box. Ta umožňuje využití předem vyrobené energie i v době, když nesvítí slunce. Odhadované využití této baterie však činí pouhých 0,45 MWh za rok. Vzhledem k celkové ceně 289 000 korun se fotovoltaika od ČEZ řadí k těm dražším v poměru cena/výkon. Zkušenosti s fotovoltaikou ČEZ mají uživatelé různé, podle diskuzí je však vysoká cena a nižší využití baterie rozhodující nevýhodou.\n\nVhodným řešením oproti ČEZ fotovoltaice na klíč je naopak fotovoltaický solární systém se správně dimenzovanou baterií od Fotovoltaika Gottwald.",
+          "text": "Společnost ČEZ nabízí ke své fotovoltaice fyzickou baterii s názvem Battery Box. Ta umožňuje využití předem vyrobené energie i v době, když nesvítí slunce. Odhadované využití této baterie však činí pouhých 0,45 MWh za rok. Vzhledem k celkové ceně 289 000 korun se fotovoltaika od ČEZ řadí k těm dražším v poměru cena/výkon. Zkušenosti s fotovoltaikou ČEZ mají uživatelé různé, podle diskuzí je však vysoká cena a nižší využití baterie rozhodující nevýhodou.\n\nVhodným řešením oproti ČEZ fotovoltaice na klíč je naopak fotovoltaický solární systém se správně dimenzovanou baterií od GottSol.",
           "visible": true,
           "items": [],
           "rows": []
@@ -15303,8 +15314,8 @@
         {
           "id": "s3",
           "kind": "editorial",
-          "title": "Solární systém od Fotovoltaika Gottwald",
-          "text": "Pro srovnání fotovoltaiky od ČEZu a Fotovoltaiky od naší společnosti se nejprve podívejme na využití a návratnost vyrobené energie.\n\nFotovoltaika Gottwald nabízí svým zákazníkům správně dimenzované baterie, které disponují více než 80% návratností do 15 let od instalace. Tato baterie bude pouze vaše, nikomu nebudete bezdůvodně platit za její využívání. Ztráty ze solárního systému zůstávají distributorovi v drátech a transformátorech, tyto ztráty pokrývá ze svého standardního zisku. Nejen to patří mezi hlavní výhody fotovoltaiky s vlastní dobře nastavenou baterií.",
+          "title": "Solární systém od GottSol",
+          "text": "Pro srovnání fotovoltaiky od ČEZu a Fotovoltaiky od naší společnosti se nejprve podívejme na využití a návratnost vyrobené energie.\n\nGottSol nabízí svým zákazníkům správně dimenzované baterie, které disponují více než 80% návratností do 15 let od instalace. Tato baterie bude pouze vaše, nikomu nebudete bezdůvodně platit za její využívání. Ztráty ze solárního systému zůstávají distributorovi v drátech a transformátorech, tyto ztráty pokrývá ze svého standardního zisku. Nejen to patří mezi hlavní výhody fotovoltaiky s vlastní dobře nastavenou baterií.",
           "visible": true,
           "items": [],
           "rows": []
@@ -15312,8 +15323,8 @@
         {
           "id": "s4",
           "kind": "editorial",
-          "title": "Fotovoltaika Gottwald Alpha Storion s EMS systémem",
-          "text": "Fotovoltaika Gottwald Alpha Storion navíc disponuje unikátním EMS systémem, který nemá ČEZ Fotovoltaika, EON Fotovoltaika ani Pražská energetika. Tento systém řídí odběr i dodávky proudu do spotřeby a slouží ke spolehlivému provozu, kde nedochází ke kolapsu systému.\n\nEMS systém dále řídí a omezuje proud baterie. Díky tomu zvyšuje její životnost a spolehlivost. Pomocí řízení odběru i dodávky proudu do spotřeby poskytuje aktivním balancérům čas na vybalancování článků v baterii.\n\nFotovoltaika Gottwald navíc disponuje monitoringem od výrobce. Elektrárna tak bude neustále on-line kontrolována, tedy 24 hodin a 365 dní. Nikdy ji neponecháme bez dozoru. Navíc díky pěknému designu může Fotovoltaika Gottwald klidně stát ve vašem obýváku, nehyzdí ji žádné kabely ani dráty. Skvěle zapadne do vaší domácnosti a stane se její nepostradatelnou součástí.",
+          "title": "GottSol Alpha Storion s EMS systémem",
+          "text": "GottSol Alpha Storion navíc disponuje unikátním EMS systémem, který nemá ČEZ Fotovoltaika, EON Fotovoltaika ani Pražská energetika. Tento systém řídí odběr i dodávky proudu do spotřeby a slouží ke spolehlivému provozu, kde nedochází ke kolapsu systému.\n\nEMS systém dále řídí a omezuje proud baterie. Díky tomu zvyšuje její životnost a spolehlivost. Pomocí řízení odběru i dodávky proudu do spotřeby poskytuje aktivním balancérům čas na vybalancování článků v baterii.\n\nGottSol navíc disponuje monitoringem od výrobce. Elektrárna tak bude neustále on-line kontrolována, tedy 24 hodin a 365 dní. Nikdy ji neponecháme bez dozoru. Navíc díky pěknému designu může GottSol klidně stát ve vašem obýváku, nehyzdí ji žádné kabely ani dráty. Skvěle zapadne do vaší domácnosti a stane se její nepostradatelnou součástí.",
           "visible": true,
           "items": [],
           "rows": []
@@ -15338,7 +15349,7 @@
               "hidden": false
             },
             {
-              "title": "Fotovoltaika Gottwald",
+              "title": "GottSol",
               "text": "",
               "href": "/technologie/system-od-alphaess",
               "hidden": false

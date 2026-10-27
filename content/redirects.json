@@ -11,7 +11,7 @@
   },
   {
     "source": "/reference",
-    "destination": "/recenze-realizace",
+    "destination": "/realizace",
     "statusCode": 301
   },
   {
@@ -32,6 +32,11 @@
   {
     "source": "/node/51",
     "destination": "https://www.fotovoltaika-gottwald.cz/node/51",
+    "statusCode": 301
+  },
+  {
+    "source": "/recenze-realizace",
+    "destination": "/recenze",
     "statusCode": 301
   }
 ]

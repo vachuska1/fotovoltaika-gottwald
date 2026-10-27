@@ -110,9 +110,14 @@
     "sections": 8
   },
   {
-    "path": "/recenze-realizace",
+    "path": "/recenze",
     "source": "https://www.fotovoltaika-gottwald.cz/recenze-realizace",
-    "sections": 2
+    "sections": 1
+  },
+  {
+    "path": "/realizace",
+    "source": "https://www.fotovoltaika-gottwald.cz/recenze-realizace",
+    "sections": 1
   },
   {
     "path": "/porovnejte-nasi-cenovou-nabidku-fotovoltaiky-s-konkurenci-wattsonic",

@@ -100,3 +100,10 @@
 @media(hover:hover) and (pointer:fine){.review-card:hover{transform:translateY(-5px)}.review-card:hover::after,.review-card:focus-within::after{transform:scaleX(1)}.review-source:hover{border-color:currentColor}}
 @media(max-width:760px){.section-reviews>.section-copy{margin-bottom:30px}.review-collection{grid-template-columns:1fr;gap:18px}.review-card,.home .review-card{padding:28px 26px;min-height:0}.review-quotation{font-size:92px;height:52px}.review-quote{margin:16px 0 28px}.review-quote .copy,.home .review-quote .copy{font-size:22px;line-height:1.55;letter-spacing:-.45px}.review-footer{gap:12px;padding-top:20px}.review-card::after{left:26px;right:26px}}
 @media(prefers-reduced-motion:reduce){.review-card,.review-card::after,.review-source{transition:none!important}.review-card:hover{transform:none}}
+
+/* Text-only brand until the proposed logo is approved. */
+.brand-wordmark{font-size:32px;font-weight:600;letter-spacing:-1.7px;line-height:1;color:#20382b}
+.collection-link{display:inline-block;margin-top:38px;padding:12px 0;border-bottom:1px solid currentColor;font-size:14px;transition:padding .25s ease}
+.collection-link:hover{padding-left:12px;padding-right:12px}
+@media(max-width:760px){.brand-wordmark{font-size:28px}}
+@media(prefers-reduced-motion:reduce){.collection-link{transition:none}}
