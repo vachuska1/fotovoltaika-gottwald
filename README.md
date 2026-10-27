@@ -1,6 +1,6 @@
 # GottSol
 
-Nový Next.js / TypeScript web s veřejnými stránkami generovanými při sestavení a českou administrací přes Google OAuth (Auth.js). Žádná databáze, polling, cron, veřejný middleware ani runtime optimalizace obrázků. Původní web a DNS nejsou součástí nasazení.
+Nový Next.js / TypeScript web s veřejnými stránkami generovanými při sestavení a českou administrací přes Auth.js (Google OAuth nebo výslovně zapnutý zkušební režim hesla). Žádná databáze, polling, cron, veřejný middleware ani runtime optimalizace obrázků. Původní web a DNS nejsou součástí nasazení.
 
 ## Lokální náhled
 
@@ -13,7 +13,7 @@ Otevřete http://localhost:3000. Produkční sestavení: `npm run build` a `npm 
 
 Veřejné stránky čtou pouze `content/site.json` během buildu. Převzatý obsah a zdroje jsou v `content/source-inventory.json`, původní HTML v `content/source/`, mapa URL v `content/content-map.json`, přesměrování v `content/redirects.json`. Snímky byly získány 27. 10. 2026. Normalizovány jsou pouze mezery a zalomení; technická tvrzení, časové údaje a případné chyby originálu nejsou aktualizovány ani opravovány. Před ostrým nasazením musí vlastník potvrdit aktuálnost nabídky a původních údajů.
 
-Importní skripty `scripts/inventory.mjs`, `scripts/supplement.mjs`, `scripts/prepare-content.mjs` jsou jednorázové nástroje; nejsou součástí buildu. Nespouštějte je po redakčních úpravách, přepsaly by obsah původním snímkem. Původní nepřevzaté cíle odkazů zůstávají odkazy na původní web. Externí videa, sledovací skripty a původní formulářové endpointy se nevkládají. Nefunkční poptávkový formulář není zveřejněn; používají se skutečné telefonní a e-mailové odkazy. Pro jeho budoucí aktivaci je nutný schválený poskytovatel odesílání, příjemce, ověřená doména a serverové klíče.
+Importní skripty `scripts/inventory.mjs`, `scripts/supplement.mjs`, `scripts/prepare-content.mjs` jsou jednorázové nástroje; nejsou součástí buildu. Nespouštějte je po redakčních úpravách, přepsaly by obsah původním snímkem. Původní nepřevzaté cíle odkazů zůstávají odkazy na původní web. Externí videa, sledovací skripty a původní formulářové endpointy se nevkládají. Zkušební formulář je viditelný s výslovným upozorněním, že odesílání zatím není aktivní; fungují skutečné telefonní a e-mailové odkazy. Pro jeho budoucí aktivaci je nutný schválený poskytovatel odesílání, příjemce, ověřená doména a serverové klíče.
 
 ## Testovací Vercel — nejdříve ochrana, potom deployment
 
@@ -26,7 +26,7 @@ Importní skripty `scripts/inventory.mjs`, `scripts/supplement.mjs`, `scripts/pr
 
 ## Aktivace bezpečné administrace
 
-Bez všech OAuth proměnných je přihlášení i API uzamčené. Bez Git připojení jsou úpravy uzamčené. Neexistuje nouzové heslo ani veřejná registrace.
+Standardní režim vyžaduje všechny OAuth proměnné. Na výslovné přání vlastníka je pro zkoušení připraven oddělený režim hesla a lokálního úložiště, viz níže. Veřejná registrace neexistuje.
 
 V Google Cloud Console → Google Auth Platform:
 
@@ -81,3 +81,13 @@ Koncept je společný pro všechny povolené správce. Git uložené revize chr�
 ## Značka GottSol a návrh loga
 
 Aktuální značka webu je GottSol. Původní kontakty, doména a doslovné zákaznické recenze zůstávají skutečné. Realizace jsou na `/realizace`, recenze na `/recenze`; původní společná URL má přesměrování 301. Návrh loga je v `design/logo/gottsol-proposal.svg` a náhled v `artifacts/gottsol-logo-proposal.png`. Logo je schválené a nasazené v hlavičce jako lokální SVG. Samostatný monogram G se sluncem se používá pro SVG favicon, vícevelikostní ICO (16/32/48 px) a Apple ikonu (180 px). Assety lze znovu vytvořit pomocí `node scripts/brand-assets.mjs`.
+
+## Zkušební přihlášení heslem a lokální administrace
+
+Na výslovné přání vlastníka lze použít `ADMIN_AUTH_MODE=password` a `ADMIN_TEST_PASSWORD` ze serverových proměnných. Lokální `.env.local` je již nastavený; neukládá se do Gitu. Heslo změňte přímo v tomto souboru, případně v chráněných proměnných Preview. Žádné heslo není vložené do klientského kódu ani dokumentace. Přihlášení zajišťuje Auth.js Credentials, serverová kontrola a HttpOnly session. Pět neúspěšných pokusů během minuty se v daném serverovém procesu dočasně blokuje. Tento jednoduchý režim je jen pro lokální vývoj nebo chráněný Vercel Preview; na produkčním Vercelu se nepovolí. Pro ostrou správu se vrací Google OAuth.
+
+`LOCAL_CMS=true` umožňuje při `npm run dev` na `/admin` skutečné lokální úpravy bez GitHub tokenu. Koncepty, uploady a historie zůstávají v ignorované složce `.cms/`. Uložení mění pouze koncept, náhled je chráněný přihlášením. Výslovná publikace aktualizuje lokální `content/site.json` a média a vytvoří lokální Git commit. Vývojový server změnu načte automaticky. Tato lokální operace **neprovádí push ani vzdálený deployment**. Obnova vytvoří koncept předchozí verze a vyžaduje nové potvrzení publikace. Na Vercelu je lokální souborové úložiště vždy zakázané; zůstává serverové GitHub úložiště.
+
+## Poptávkový formulář — zatím bez odesílání
+
+Kontaktní bloky „Ozvěte se nám“ obsahují jméno, příjmení, e-mail, telefon, službu včetně „Jiné“ a povinný souhlas s odkazem na zásady ochrany osobních údajů. Formulář používá nativní kontrolu vstupů, nikam neodesílá a neukládá osobní údaje. Po potvrzení jasně sdělí, že údaje nebyly odeslány. Před aktivací je potřeba skutečný příjemce, odesílací služba a ověření serverové validace, ochrany proti spamu a znění zásad.

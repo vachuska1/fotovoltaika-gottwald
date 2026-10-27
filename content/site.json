@@ -62,7 +62,7 @@
         {
           "id": "services",
           "kind": "services",
-          "title": "Hledáte řešení?",
+          "title": "Další služby",
           "text": "Navrhneme Vám fotovoltaickou elektrárnu na klíč dle Vašich preferencí s ohledem na maximální využití.",
           "visible": true,
           "items": [
@@ -361,8 +361,8 @@
         {
           "id": "contact",
           "kind": "contact",
-          "title": "Hledáte řešení?",
-          "text": "Zašlete nám nezávaznou poptávku\n\nJiří Gottwald Majitel",
+          "title": "Ozvěte se nám",
+          "text": "",
           "visible": true,
           "items": [
             {
@@ -664,7 +664,7 @@
         {
           "id": "s0",
           "kind": "image-right",
-          "title": "Získatcenovou nabídku",
+          "title": "Získat cenovou nabídku",
           "text": "Rádi Vám připravíme kalkulaci fotovoltaikya navrhneme řešení na míru.",
           "visible": true,
           "items": [],
@@ -1588,7 +1588,7 @@
         {
           "id": "s0",
           "kind": "image-right",
-          "title": "Získatcenovou nabídku",
+          "title": "Získat cenovou nabídku",
           "text": "Rádi Vám připravíme kalkulaci fotovoltaikya navrhneme řešení na míru.",
           "visible": true,
           "items": [],
@@ -2398,7 +2398,7 @@
         {
           "id": "s0",
           "kind": "image-right",
-          "title": "Získatcenovou nabídku",
+          "title": "Získat cenovou nabídku",
           "text": "Rádi Vám připravíme kalkulaci vytápěnía navrhneme řešení na míru.",
           "visible": true,
           "items": [],
@@ -2485,9 +2485,9 @@
         },
         {
           "id": "s9",
-          "kind": "editorial",
-          "title": "Hledáte řešení?",
-          "text": "Zašlete nám nezávaznou poptávku",
+          "kind": "contact",
+          "title": "Ozvěte se nám",
+          "text": "",
           "visible": true,
           "items": [],
           "rows": []
@@ -2816,7 +2816,7 @@
         {
           "id": "s0",
           "kind": "image-right",
-          "title": "Získatcenovou nabídku",
+          "title": "Získat cenovou nabídku",
           "text": "Rádi Vám připravíme kalkulacia navrhneme řešení na míru.",
           "visible": true,
           "items": [],
@@ -3005,7 +3005,7 @@
         {
           "id": "s0",
           "kind": "image-right",
-          "title": "Získatcenovou nabídku",
+          "title": "Získat cenovou nabídku",
           "text": "Rádi Vám připravíme kalkulacia navrhneme řešení na míru.",
           "visible": true,
           "items": [],
@@ -3128,9 +3128,9 @@
         },
         {
           "id": "s13",
-          "kind": "editorial",
-          "title": "Hledáte řešení?",
-          "text": "Zašlete nám nezávaznou poptávku",
+          "kind": "contact",
+          "title": "Ozvěte se nám",
+          "text": "",
           "visible": true,
           "items": [],
           "rows": []
@@ -3191,7 +3191,7 @@
         {
           "id": "s0",
           "kind": "image-right",
-          "title": "Získatcenovou nabídku",
+          "title": "Získat cenovou nabídku",
           "text": "Rádi Vám připravíme kalkulacia navrhneme řešení na míru.",
           "visible": true,
           "items": [],
@@ -3368,9 +3368,9 @@
         },
         {
           "id": "s19",
-          "kind": "editorial",
-          "title": "Hledáte řešení?",
-          "text": "Zašlete nám nezávaznou poptávku",
+          "kind": "contact",
+          "title": "Ozvěte se nám",
+          "text": "",
           "visible": true,
           "items": [],
           "rows": []
@@ -3431,7 +3431,7 @@
         {
           "id": "s0",
           "kind": "image-right",
-          "title": "Získatcenovou nabídku",
+          "title": "Získat cenovou nabídku",
           "text": "Rádi Vám připravíme kalkulaci a navrhneme řešení na míru.",
           "visible": true,
           "items": [],
@@ -4082,6 +4082,15 @@
               "hidden": false
             }
           ],
+          "rows": []
+        },
+        {
+          "id": "inquiry",
+          "kind": "contact",
+          "title": "Ozvěte se nám",
+          "text": "",
+          "visible": true,
+          "items": [],
           "rows": []
         }
       ]
@@ -4961,6 +4970,15 @@
               "hidden": false
             }
           ],
+          "rows": []
+        },
+        {
+          "id": "inquiry",
+          "kind": "contact",
+          "title": "Ozvěte se nám",
+          "text": "",
+          "visible": true,
+          "items": [],
           "rows": []
         }
       ]

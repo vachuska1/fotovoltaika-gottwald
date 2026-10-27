@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-27",
+  "mode": "local development",
+  "build": "passed; public pages remain statically generated",
+  "tests": "6 passed, including remote Git mock and isolated local Git publish/restore",
+  "browserChecks": [
+    "Incorrect password rejected; correct password signs in; logout removes access",
+    "Session cookie is HttpOnly and SameSite=Lax",
+    "Unauthenticated API access rejected; cross-origin mutation rejected",
+    "Saving draft does not change public content; authenticated preview shows draft",
+    "Test draft restored to original content after verification",
+    "Consent checkbox is required; contact form sends no network request or personal data",
+    "Mobile form has no horizontal overflow"
+  ],
+  "limits": [
+    "Password is configured only in ignored local environment, not committed",
+    "Local publication creates a local Git revision; it does not deploy to Vercel",
+    "Email sending remains intentionally disconnected",
+    "Production uses Google OAuth; test password mode is limited to development or Preview"
+  ]
+}

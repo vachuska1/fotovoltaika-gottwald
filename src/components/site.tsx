@@ -1,4 +1,5 @@
 import Motion from './motion';
+import ContactForm from './contact-form';
 import type {Site,Page,Section,Photo} from '@/lib/schema';
 export function Picture({image,priority=false,preview=false}:{image:Photo;priority?:boolean;preview?:boolean}){
  const path=(src:string)=>preview?`/api/admin?media=${encodeURIComponent(src.split('/').pop()!)}`:src;
@@ -30,6 +31,7 @@ export function SectionView({section:s,preview=false,collectionHref}:{section:Se
  {s.kind==='table'&&s.rows.length>0&&<div className="table-scroll"><table><tbody>{s.rows.map((row,i)=><tr key={i}>{row.map((cell,j)=>i===0?<th scope="col" key={j}>{cell}</th>:<td key={j}>{cell}</td>)}</tr>)}</tbody></table></div>}
  {s.items.length>0&&<Items section={s} preview={preview}/>}
  {s.kind==='editorial'&&s.image&&<div className="editorial-image"><Picture image={s.image} preview={preview}/></div>}
+ {s.kind==='contact'&&<ContactForm id={s.id}/>}
  {collectionHref&&<a className="collection-link" href={collectionHref}>{s.kind==='reviews'?'Recenze':'Realizace'}</a>}
  </section>;
 }

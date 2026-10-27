@@ -115,3 +115,14 @@
 .hero-image,.section-image,.editorial-image,.item-image,.service-photo{border:4px solid #476d36}
 .gallery-items .item-image::after{content:none}
 @media(max-width:760px){.hero-image,.section-image,.editorial-image,.item-image,.service-photo{border-width:3px}}
+
+.inquiry-form{margin-top:45px;max-width:840px;padding-top:30px;border-top:1px solid #9cac86}
+.form-notice{font-size:13px;line-height:1.6;margin-bottom:25px;color:#43533b}
+.inquiry-fields{display:grid;grid-template-columns:1fr 1fr;gap:22px 28px}
+.inquiry-fields label{display:flex;flex-direction:column;gap:10px;font-size:14px}
+.inquiry-fields input,.inquiry-fields select{width:100%;min-width:0;border:1px solid #91a17b;border-radius:0;background:#f5f6ed;color:#182621;padding:15px;font:inherit;min-height:50px}
+.inquiry-fields .inquiry-service{grid-column:1/-1}
+.inquiry-consent{display:flex;align-items:flex-start;gap:12px;font-size:13px;line-height:1.7;margin:26px 0}
+.inquiry-consent input{flex-shrink:0;width:20px;height:20px;accent-color:#476d36;margin:1px 0 0}
+.inquiry-consent a{text-decoration:underline;text-underline-offset:3px}.form-status{font-size:14px;line-height:1.6;margin-top:18px}
+@media(max-width:600px){.inquiry-fields{grid-template-columns:1fr;gap:18px}.inquiry-form{margin-top:30px}.inquiry-form .action{width:100%;justify-content:center}}
