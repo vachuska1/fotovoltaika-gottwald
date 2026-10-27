@@ -80,4 +80,4 @@ Koncept je společný pro všechny povolené správce. Git uložené revize chr�
 
 ## Značka GottSol a návrh loga
 
-Aktuální značka webu je GottSol. Původní kontakty, doména a doslovné zákaznické recenze zůstávají skutečné. Realizace jsou na `/realizace`, recenze na `/recenze`; původní společná URL má přesměrování 301. Návrh loga je v `design/logo/gottsol-proposal.svg` a náhled v `artifacts/gottsol-logo-proposal.png`. Logo čeká na schválení, zatím se používá textový název. Favicon nebyla vytvořena ani změněna.
+Aktuální značka webu je GottSol. Původní kontakty, doména a doslovné zákaznické recenze zůstávají skutečné. Realizace jsou na `/realizace`, recenze na `/recenze`; původní společná URL má přesměrování 301. Návrh loga je v `design/logo/gottsol-proposal.svg` a náhled v `artifacts/gottsol-logo-proposal.png`. Logo je schválené a nasazené v hlavičce jako lokální SVG. Samostatný monogram G se sluncem se používá pro SVG favicon, vícevelikostní ICO (16/32/48 px) a Apple ikonu (180 px). Assety lze znovu vytvořit pomocí `node scripts/brand-assets.mjs`.
