@@ -1,0 +1,1961 @@
+{
+  "version": 1,
+  "name": "GottSol",
+  "email": "info@fotovoltaika-gottwald.cz",
+  "phone": "+420 731 406 014",
+  "address": "Za školou 210\n262 12 Obořiště",
+  "navigation": [
+    {
+      "label": "Photovoltaics",
+      "href": "/#fotovoltaika"
+    },
+    {
+      "label": "Infrared heating",
+      "href": "/#infratopeni"
+    },
+    {
+      "label": "GottSol",
+      "href": "/#gottsol"
+    },
+    {
+      "label": "Other services",
+      "href": "/dalsi-sluzby"
+    },
+    {
+      "label": "Subsidies",
+      "href": "/dotace"
+    },
+    {
+      "label": "Projects (CZ)",
+      "href": "/realizace"
+    },
+    {
+      "label": "Reviews (CZ)",
+      "href": "/recenze"
+    },
+    {
+      "label": "Articles (CZ)",
+      "href": "/clanky"
+    }
+  ],
+  "pages": [
+    {
+      "path": "/",
+      "title": "Photovoltaics and infrared heating Gottwald",
+      "description": "My name is Jiří Gottwald and I have worked in electronics and electrical engineering on the Czech market for 25 years. In 2010, I began expanding my portfolio to include photovoltaic systems.",
+      "sections": [
+        {
+          "id": "intro",
+          "kind": "hero",
+          "title": "Photovoltaics and infrared heating Gottwald",
+          "text": "My name is Jiří Gottwald and I have worked in electronics and electrical engineering on the Czech market for 25 years. In 2010, I began expanding my portfolio to include photovoltaic systems.",
+          "visible": true,
+          "items": [
+            {
+              "title": "Request a quote",
+              "text": "",
+              "href": "/#poptavka",
+              "hidden": false
+            },
+            {
+              "title": "Photovoltaics",
+              "text": "",
+              "href": "/#fotovoltaika",
+              "hidden": false
+            },
+            {
+              "title": "Infrared heating",
+              "text": "",
+              "href": "/#infratopeni",
+              "hidden": false
+            },
+            {
+              "title": "GottSol smart control",
+              "text": "",
+              "href": "/#gottsol",
+              "hidden": false
+            },
+            {
+              "title": "Obořiště",
+              "text": "",
+              "href": "/realizace/oboriste",
+              "image": {
+                "src": "/media/32686bef511bcf08-1600.webp",
+                "small": "/media/32686bef511bcf08-640.webp",
+                "alt": "South-facing roof, 5.460 kWp",
+                "x": 50,
+                "y": 50
+              },
+              "hidden": false
+            },
+            {
+              "title": "Kovářov",
+              "text": "",
+              "href": "/realizace/kovarov",
+              "image": {
+                "src": "/media/edc9e4511e1ff975-1600.webp",
+                "small": "/media/edc9e4511e1ff975-640.webp",
+                "alt": "South 180°",
+                "x": 50,
+                "y": 50
+              },
+              "hidden": false
+            },
+            {
+              "title": "Světice",
+              "text": "",
+              "href": "/realizace/svetice",
+              "image": {
+                "src": "/media/d0245412f9f16815-1600.webp",
+                "small": "/media/d0245412f9f16815-640.webp",
+                "alt": "Turnkey photovoltaics",
+                "x": 50,
+                "y": 50
+              },
+              "hidden": false
+            },
+            {
+              "title": "Sadská",
+              "text": "",
+              "href": "/realizace/sadska",
+              "image": {
+                "src": "/media/df3d2cbc7ad2a80f-1600.webp",
+                "small": "/media/df3d2cbc7ad2a80f-640.webp",
+                "alt": "Flat roof",
+                "x": 50,
+                "y": 50
+              },
+              "hidden": false
+            },
+            {
+              "title": "Read more",
+              "text": "Since our first installation, we have come a long way together and learned a great deal. Our goal has always been the same: to provide customers with the highest quality and the most honest service. After careful, long-term testing, we therefore selected reliable photovoltaic systems from ALPHA ESS and Wattsonic. These are innovative systems for storing and using photovoltaic energy.\n\nOur commitment to quality and honest work has paid off.\n\nI invited my son to join the family business and am gradually passing on my years of know-how. We continue to improve and look for new solutions in home energy. We can connect heat pumps which, through their distinctive integration with photovoltaics, can be controlled using smart devices to maximise the use of generated energy. Together, the heat pump, photovoltaics and our smart home form a distinctive ecosystem that helps you achieve greater self-sufficiency and efficiency.",
+              "hidden": false
+            }
+          ],
+          "rows": [],
+          "image": {
+            "src": "/media/32686bef511bcf08-1600.webp",
+            "small": "/media/32686bef511bcf08-640.webp",
+            "alt": "South-facing roof, 5.460 kWp",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "fotovoltaika",
+          "kind": "image-left",
+          "title": "Photovoltaics",
+          "text": "We will design a turnkey photovoltaic system according to your preferences, with a focus on making the best possible use of it.",
+          "visible": true,
+          "image": {
+            "src": "/media/d0245412f9f16815-1600.webp",
+            "small": "/media/d0245412f9f16815-640.webp",
+            "alt": "Turnkey photovoltaics",
+            "x": 50,
+            "y": 50
+          },
+          "items": [
+            {
+              "title": "Learn more",
+              "text": "",
+              "href": "/fotovoltaicke-elektrarny",
+              "hidden": false
+            },
+            {
+              "title": "Request a quote",
+              "text": "",
+              "href": "/#poptavka",
+              "hidden": false
+            }
+          ],
+          "rows": []
+        },
+        {
+          "id": "infratopeni",
+          "kind": "image-right",
+          "title": "Infrared heating",
+          "text": "Infrared heating warms the walls, floors and objects in your home directly rather than the air, providing even, long-lasting warmth.",
+          "visible": true,
+          "image": {
+            "src": "/media/076d7546b6cc92e3-1600.webp",
+            "small": "/media/076d7546b6cc92e3-640.webp",
+            "alt": "Infrared panel 1",
+            "x": 50,
+            "y": 50
+          },
+          "items": [
+            {
+              "title": "Learn more",
+              "text": "",
+              "href": "/dalsi-sluzby/infratopeni",
+              "hidden": false
+            },
+            {
+              "title": "Request a quote",
+              "text": "",
+              "href": "/#poptavka",
+              "hidden": false
+            },
+            {
+              "title": "Infrared panel 1",
+              "text": "",
+              "image": {
+                "src": "/media/076d7546b6cc92e3-1600.webp",
+                "small": "/media/076d7546b6cc92e3-640.webp",
+                "alt": "Infrared panel 1",
+                "x": 50,
+                "y": 50
+              },
+              "hidden": false
+            },
+            {
+              "title": "Infrared panel 2",
+              "text": "",
+              "image": {
+                "src": "/media/5d62078b9eb762f1-1600.webp",
+                "small": "/media/5d62078b9eb762f1-640.webp",
+                "alt": "Infrared panel 2",
+                "x": 50,
+                "y": 50
+              },
+              "hidden": false
+            },
+            {
+              "title": "Infrared panel 3",
+              "text": "",
+              "image": {
+                "src": "/media/52befc327caeeed9-1600.webp",
+                "small": "/media/52befc327caeeed9-640.webp",
+                "alt": "Infrared panel 3",
+                "x": 50,
+                "y": 50
+              },
+              "hidden": false
+            }
+          ],
+          "rows": []
+        },
+        {
+          "id": "gottsol",
+          "kind": "image-right",
+          "title": "GottSol smart control",
+          "text": "GOTTSOL is a cloud platform for intelligent control of solar power systems, heat pumps, community energy and other energy systems.\n\nIt predicts generation and consumption and controls appliances to keep your energy costs as low as possible.",
+          "visible": true,
+          "items": [
+            {
+              "title": "Learn more",
+              "text": "",
+              "href": "/sdileni-prodej-energie/program-gottsol-inteligentni-rizeni",
+              "hidden": false
+            },
+            {
+              "title": "Request a quote",
+              "text": "",
+              "href": "/#poptavka",
+              "hidden": false
+            }
+          ],
+          "rows": [],
+          "image": {
+            "src": "/media/2e3d1e7789d65e8f-1600.webp",
+            "small": "/media/2e3d1e7789d65e8f-640.webp",
+            "alt": "GottSol smart control",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "services",
+          "kind": "services",
+          "title": "Other services",
+          "text": "",
+          "visible": true,
+          "items": [
+            {
+              "title": "Electrical installation",
+              "text": "Electrical installation is one of the most important parts of any building.",
+              "href": "/dalsi-sluzby/elektroinstalace",
+              "hidden": false,
+              "image": {
+                "src": "/media/65862dadd1434a80-1600.webp",
+                "small": "/media/65862dadd1434a80-640.webp",
+                "alt": "Electrical wiring",
+                "x": 50,
+                "y": 50
+              },
+              "linkLabel": "Learn more"
+            },
+            {
+              "title": "Electrical inspections",
+              "text": "An electrical inspection is not just a formality: it is a commitment to your safety, efficiency and peace of mind.",
+              "href": "/dalsi-sluzby/revize-instalace",
+              "hidden": false,
+              "image": {
+                "src": "/media/23106a3cc6066c1f-1600.webp",
+                "small": "/media/23106a3cc6066c1f-640.webp",
+                "alt": "Electrical inspection",
+                "x": 50,
+                "y": 50
+              },
+              "linkLabel": "Learn more"
+            },
+            {
+              "title": "Heat pumps",
+              "text": "A modern split heat pump has an outdoor unit separate from the indoor unit.",
+              "href": "/technologie/tepelna-cerpadla",
+              "hidden": false,
+              "image": {
+                "src": "/media/5cf1cc7ae4c2d5c4-1600.webp",
+                "small": "/media/5cf1cc7ae4c2d5c4-640.webp",
+                "alt": "",
+                "x": 50,
+                "y": 50
+              },
+              "linkLabel": "Learn more"
+            },
+            {
+              "title": "Smart home",
+              "text": "Simplicity, high performance and distinctive design are the main features of the Fibaro smart home.",
+              "href": "/technologie/chytra-domacnost",
+              "hidden": false,
+              "linkLabel": "Learn more",
+              "image": {
+                "src": "/media/1a606ff636af50bf-1600.webp",
+                "small": "/media/1a606ff636af50bf-640.webp",
+                "alt": "Smart home control",
+                "x": 50,
+                "y": 50
+              }
+            },
+            {
+              "title": "Servicing",
+              "text": "We provide quality care for your system.",
+              "href": "/dalsi-sluzby/servis",
+              "hidden": false,
+              "linkLabel": "Learn more",
+              "image": {
+                "src": "/media/b89725b2fd33e649-1600.webp",
+                "small": "/media/b89725b2fd33e649-640.webp",
+                "alt": "Photovoltaic inspection",
+                "x": 50,
+                "y": 50
+              }
+            },
+            {
+              "title": "Financing",
+              "text": "In cooperation with OK POINT, we can help you invest in the future.",
+              "href": "/dalsi-sluzby/financovani",
+              "hidden": false,
+              "linkLabel": "Learn more",
+              "image": {
+                "src": "/media/9ae7349517a7aad6-1600.webp",
+                "small": "/media/9ae7349517a7aad6-640.webp",
+                "alt": "",
+                "x": 50,
+                "y": 50
+              }
+            }
+          ],
+          "rows": []
+        },
+        {
+          "id": "gallery",
+          "kind": "gallery",
+          "title": "Selected projects",
+          "text": "Take a look at some of our completed installations.",
+          "visible": true,
+          "items": [
+            {
+              "title": "Obořiště",
+              "text": "An 8.19 kWp photovoltaic system with 8.2 kWh of storage.",
+              "href": "/realizace/oboriste",
+              "image": {
+                "src": "/media/32686bef511bcf08-1600.webp",
+                "small": "/media/32686bef511bcf08-640.webp",
+                "alt": "South-facing roof, 5.460 kWp",
+                "x": 50,
+                "y": 50
+              },
+              "hidden": false
+            },
+            {
+              "title": "Kovářov",
+              "text": "",
+              "href": "/realizace/kovarov",
+              "image": {
+                "src": "/media/edc9e4511e1ff975-1600.webp",
+                "small": "/media/edc9e4511e1ff975-640.webp",
+                "alt": "South 180°",
+                "x": 50,
+                "y": 50
+              },
+              "hidden": false
+            },
+            {
+              "title": "Světice",
+              "text": "A 6.15 kWp photovoltaic system with 16.4 kWh of storage, extended with a charging station.",
+              "href": "/realizace/svetice",
+              "image": {
+                "src": "/media/d0245412f9f16815-1600.webp",
+                "small": "/media/d0245412f9f16815-640.webp",
+                "alt": "Turnkey photovoltaics",
+                "x": 50,
+                "y": 50
+              },
+              "hidden": false
+            },
+            {
+              "title": "Sadská",
+              "text": "A 6.15 kWp photovoltaic system with 16.4 kWh of storage, extended with a charging station.",
+              "href": "/realizace/sadska",
+              "image": {
+                "src": "/media/df3d2cbc7ad2a80f-1600.webp",
+                "small": "/media/df3d2cbc7ad2a80f-640.webp",
+                "alt": "Flat roof",
+                "x": 50,
+                "y": 50
+              },
+              "hidden": false
+            }
+          ],
+          "rows": []
+        },
+        {
+          "id": "reviews",
+          "kind": "reviews",
+          "title": "Reviews from our customers",
+          "text": "",
+          "visible": true,
+          "items": [
+            {
+              "title": "Martin V.",
+              "text": "An excellent approach. If I were to take on a similar project again, I would not hesitate to contact this company.",
+              "href": "https://refsite.info/photovoltaics/reviews/2168848e-8bb0-4b5a-ad80-6f1af995d13c",
+              "hidden": false,
+              "linkLabel": "View on Refsite",
+              "location": "Třebechovice pod Orebem",
+              "service": "Photovoltaics"
+            },
+            {
+              "title": "Pavel V.",
+              "text": "Completely satisfied. Everything went smoothly, and the workplace was cleaned after the excellent work, including the removal of packaging.",
+              "href": "https://refsite.info/photovoltaics/reviews/f131b84f-6acb-4ca0-acdb-6ae1c96bd6ab",
+              "hidden": false,
+              "linkLabel": "View on Refsite",
+              "location": "Osoblaha",
+              "service": "Photovoltaics"
+            }
+          ],
+          "rows": []
+        },
+        {
+          "id": "regions",
+          "kind": "editorial",
+          "title": "Where we operate",
+          "text": "To stay close to you and provide high-quality servicing, we operate only in these regions:",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "poptavka",
+          "kind": "contact",
+          "title": "Get in touch",
+          "text": "",
+          "visible": true,
+          "items": [
+            {
+              "title": "info@fotovoltaika-gottwald.cz",
+              "text": "",
+              "href": "mailto:info@fotovoltaika-gottwald.cz",
+              "hidden": false
+            },
+            {
+              "title": "+420 731 406 014",
+              "text": "",
+              "href": "tel:+420731406014",
+              "hidden": false
+            }
+          ],
+          "rows": []
+        }
+      ]
+    },
+    {
+      "path": "/fotovoltaicke-elektrarny",
+      "title": "Photovoltaic systems",
+      "description": "We will design a turnkey photovoltaic system according to your preferences, with a focus on making the best possible use of it.",
+      "sections": [
+        {
+          "id": "solutions",
+          "kind": "services",
+          "title": "Choose the right solution for you.",
+          "text": "We will design a turnkey photovoltaic system according to your preferences, with a focus on making the best possible use of it.",
+          "visible": true,
+          "rows": [],
+          "items": [
+            {
+              "title": "Commercial photovoltaic systems",
+              "text": "",
+              "href": "/fotovoltaika/fotovoltaicke-elektrarny-pro-firmy",
+              "linkLabel": "Learn more",
+              "hidden": false,
+              "image": {
+                "src": "/media/482f45a474e1f555-1600.webp",
+                "small": "/media/482f45a474e1f555-640.webp",
+                "alt": "Commercial photovoltaic systems",
+                "x": 50,
+                "y": 50
+              }
+            },
+            {
+              "title": "Photovoltaics for apartment buildings",
+              "text": "The roof of the apartment building must first be assessed. It is important to establish whether it has sufficient area and the right orientation and pitch for efficient placement of solar panels.",
+              "href": "/fotovoltaika/fotovoltaicke-elektrarny-pro-bytove-domy",
+              "linkLabel": "Learn more",
+              "hidden": false,
+              "image": {
+                "src": "/media/14f9d2c7f89e9d6c-1600.webp",
+                "small": "/media/14f9d2c7f89e9d6c-640.webp",
+                "alt": "Photovoltaics for apartment buildings",
+                "x": 50,
+                "y": 50
+              }
+            },
+            {
+              "title": "Residential photovoltaic systems",
+              "text": "We have operated in electronics and electrical engineering since 2005. We offer a reliable, comprehensive turnkey photovoltaic solution.",
+              "href": "/fotovoltaika/fotovoltaicke-elektrarny-na-rodinne-domy",
+              "linkLabel": "Learn more",
+              "hidden": false,
+              "image": {
+                "src": "/media/1ab0d5a461e3eeaf-1600.webp",
+                "small": "/media/1ab0d5a461e3eeaf-640.webp",
+                "alt": "Residential photovoltaic systems",
+                "x": 50,
+                "y": 50
+              }
+            },
+            {
+              "title": "Water heating",
+              "text": "The electricity generated is carried by cables to a controller, which distributes it to the water heater’s heating element.",
+              "href": "/fotovoltaika/ohrev-vody",
+              "linkLabel": "Learn more",
+              "hidden": false,
+              "image": {
+                "src": "/media/0b63e83fa73faca1-1600.webp",
+                "small": "/media/0b63e83fa73faca1-640.webp",
+                "alt": "Water heating",
+                "x": 20,
+                "y": 50
+              }
+            },
+            {
+              "title": "Fire safety",
+              "text": "An optimiser is fitted to each individual panel to measure its output and disconnect it from generation in an emergency.",
+              "href": "/fotovoltaika/pozarni-bezpecnost",
+              "linkLabel": "Learn more",
+              "hidden": false,
+              "image": {
+                "src": "/media/85377594c58eaec2-1600.webp",
+                "small": "/media/85377594c58eaec2-640.webp",
+                "alt": "Fire safety",
+                "x": 50,
+                "y": 50
+              }
+            }
+          ]
+        },
+        {
+          "id": "panely",
+          "title": "Solar panels",
+          "text": "Photovoltaic panels, together with inverters, are the most important part of a photovoltaic (solar) power system.\n\nWe will also be happy to provide advice and installation.",
+          "kind": "editorial",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "konstrukce",
+          "title": "Roof mounting systems",
+          "text": "Mounting structures are an integral part of every solar power system. They are used to secure photovoltaic panels and sometimes inverters.",
+          "kind": "editorial",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "kontakt",
+          "title": "",
+          "text": "",
+          "kind": "editorial",
+          "visible": true,
+          "items": [
+            {
+              "title": "Request a quote",
+              "text": "",
+              "href": "/#poptavka",
+              "hidden": false
+            }
+          ],
+          "rows": []
+        }
+      ]
+    },
+    {
+      "path": "/fotovoltaika/fotovoltaicke-elektrarny-na-rodinne-domy",
+      "title": "Residential photovoltaic systems",
+      "description": "Asymmetric three-phase inverter with an output of 6–20 kW",
+      "sections": [
+        {
+          "id": "wattsonic",
+          "title": "WATTSONIC residential photovoltaic systems",
+          "text": "Asymmetric three-phase inverter with an output of 6–20 kW\n\nOur photovoltaic installation includes a three-phase asymmetric system connected to the house wiring, supplying the entire three-phase electrical system of the house.\n\nWhen the photovoltaic panels generate surplus energy, it is stored in the battery storage system.\n\nIf the panels are shaded or generate little power, the house is supplied with energy from storage (the battery).",
+          "kind": "image-right",
+          "visible": true,
+          "items": [],
+          "rows": [],
+          "image": {
+            "src": "/media/d0245412f9f16815-1600.webp",
+            "small": "/media/d0245412f9f16815-640.webp",
+            "alt": "Turnkey photovoltaics",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "alpha",
+          "title": "ALPHA residential photovoltaic systems",
+          "text": "STORION SMILE-HV-T10 inverter\n\nAsymmetric three-phase inverter with an output of 10 kW\n\nSMILE BAT 8.2P battery\n\nBattery capacity of 8.2 kWh and a service life of 10,000 cycles",
+          "kind": "editorial",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "dodavka",
+          "title": "What is included in the project price?",
+          "text": "Preparation of project documentation\n\nArranging the grid connection with the distribution company\n\nArranging the PV connection agreement (standard connection without concerns about potential surplus export)\n\nComplete delivery of all components required to build the PV system\n\nComplete PV system installation\n\nPreparation of the electrical inspection report\n\nPreparation of documents for connection to the distribution grid\n\nModification of the meter pillar for installation of a new four-quadrant electricity meter\n\nReplacement of components in the meter pillar in accordance with applicable legislation\n\nCutting and making good cable routes where necessary\n\nInstallation of a new distribution board, including components\n\nModification of your home distribution board wiring\n\nModification of the home distribution board to connect backed-up circuits",
+          "kind": "editorial",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "verification-dotace",
+          "title": "Subsidies",
+          "text": "Preparation of all documents required for the NZÚ subsidy\n\nArranging the NZÚ subsidy",
+          "kind": "editorial",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "kontakt",
+          "title": "",
+          "text": "",
+          "kind": "editorial",
+          "visible": true,
+          "items": [
+            {
+              "title": "Request a quote",
+              "text": "",
+              "href": "/#poptavka",
+              "hidden": false
+            }
+          ],
+          "rows": []
+        }
+      ]
+    },
+    {
+      "path": "/fotovoltaika/ohrev-vody",
+      "title": "Water heating",
+      "description": "The photovoltaic installation is not connected to the distribution grid; the required number of photovoltaic panels is simply installed on your roof.",
+      "sections": [
+        {
+          "id": "s0",
+          "kind": "image-right",
+          "title": "Gottwald – a home photovoltaic system for domestic hot water.",
+          "text": "",
+          "visible": true,
+          "items": [],
+          "rows": [],
+          "image": {
+            "src": "/media/2074038c74be89b2-1600.webp",
+            "small": "/media/2074038c74be89b2-640.webp",
+            "alt": "",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "s1",
+          "kind": "image-left",
+          "title": "How does photovoltaics work?",
+          "text": "The photovoltaic installation is not connected to the distribution grid; the required number of photovoltaic panels is simply installed on your roof.\n\nThe electricity generated is carried by cables to a controller, which distributes it to the water heater’s heating element. The controller also ensures optimum use of the energy from the solar panels and supplements it from the grid if there is insufficient output. The photovoltaic system is safe and highly reliable.",
+          "visible": true,
+          "items": [],
+          "rows": [],
+          "image": {
+            "src": "/media/0b63e83fa73faca1-1600.webp",
+            "small": "/media/0b63e83fa73faca1-640.webp",
+            "alt": "",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "s2",
+          "kind": "editorial",
+          "title": "Benefits of the photovoltaic system",
+          "text": "Installation does not require complicated building alterations\n\nPhotovoltaic panels generate energy even in overcast weather\n\nThe panels do not overheat and do not need liquid cooling",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s3",
+          "kind": "editorial",
+          "title": "Why choose our photovoltaics?",
+          "text": "Our company, GottSol, offers proven, technologically advanced NECTARSUN equipment for photovoltaic water heating.\n\nCombined with a controller featuring MPPT, power generated by the panels can be combined with electricity from the grid, with priority always given to electricity from your photovoltaic system.\n\nA fully automatic system compatible with most common water heaters\n\nControl via a simple app",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "verification-s4",
+          "kind": "editorial",
+          "title": "Zelená úsporám subsidy programme",
+          "text": "The Nová zelená úsporám programme provides support for photovoltaic water heating, with a contribution of CZK 35,000. We will arrange the application for this contribution as part of our services, saving you time, paperwork and visits to public offices.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "kontakt",
+          "title": "",
+          "text": "",
+          "kind": "editorial",
+          "visible": true,
+          "items": [
+            {
+              "title": "Request a quote",
+              "text": "",
+              "href": "/#poptavka",
+              "hidden": false
+            }
+          ],
+          "rows": []
+        }
+      ]
+    },
+    {
+      "path": "/fotovoltaika/fotovoltaicke-elektrarny-pro-firmy",
+      "title": "Commercial photovoltaic systems",
+      "description": "We will be happy to prepare a photovoltaic quotation and design a solution tailored to your needs.",
+      "sections": [
+        {
+          "id": "s0",
+          "kind": "image-right",
+          "title": "Get a quote",
+          "text": "We will be happy to prepare a photovoltaic quotation and design a solution tailored to your needs.",
+          "visible": true,
+          "items": [],
+          "rows": [],
+          "image": {
+            "src": "/media/1a606ff636af50bf-1600.webp",
+            "small": "/media/1a606ff636af50bf-640.webp",
+            "alt": "Smart home control",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "verification-s4",
+          "kind": "editorial",
+          "title": "Solar panels",
+          "text": "All-black panels with an 83% performance warranty for 25 years",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "verification-s5",
+          "kind": "editorial",
+          "title": "Inverter 25–500 kW",
+          "text": "Asymmetric three-phase inverter with an output of up to 500 kW",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "verification-s6",
+          "kind": "editorial",
+          "title": "Batteries",
+          "text": "Batteries with a capacity of 3.84 kWh, expandable to a maximum capacity of 326.4 kWh",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s9",
+          "kind": "editorial",
+          "title": "System capacity",
+          "text": "Choose the size of the photovoltaic system based on your average electricity consumption. This includes the number of panels and inverter capacity so that the system is correctly sized.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s10",
+          "kind": "editorial",
+          "title": "Installation",
+          "text": "High-quality installation is necessary to ensure optimum system performance and safety.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s16",
+          "kind": "editorial",
+          "title": "What is included in the project price?",
+          "text": "Preparation of project documentation\n\nArranging the grid connection with the distribution company\n\nArranging the PV connection agreement (standard connection without concerns about potential surplus export)\n\nComplete delivery of all components required to build the PV system\n\nComplete PV system installation\n\nPreparation of the electrical inspection report\n\nPreparation of documents for connection to the distribution grid\n\nModification of the meter pillar for installation of a new four-quadrant electricity meter\n\nReplacement of components in the meter pillar in accordance with applicable legislation\n\nCutting and making good cable routes where necessary\n\nInstallation of a new distribution board, including components",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s17",
+          "kind": "editorial",
+          "title": "Additional services",
+          "text": "A smart Wallbox vehicle charger that works with the PV system.\n\nA smart home that works with the PV system.\n\nThe SunDayGate programme: SPOT-price energy trading and intelligent control.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "verification-dotace",
+          "title": "Subsidies",
+          "text": "Preparation of all documents required for the NZÚ subsidy\n\nArranging the NZÚ subsidy",
+          "kind": "editorial",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "kontakt",
+          "title": "",
+          "text": "",
+          "kind": "editorial",
+          "visible": true,
+          "items": [
+            {
+              "title": "Request a quote",
+              "text": "",
+              "href": "/#poptavka",
+              "hidden": false
+            }
+          ],
+          "rows": []
+        }
+      ]
+    },
+    {
+      "path": "/fotovoltaika/fotovoltaicke-elektrarny-pro-bytove-domy",
+      "title": "Photovoltaics for apartment buildings",
+      "description": "We will be happy to prepare a photovoltaic quotation and design a solution tailored to your needs.",
+      "sections": [
+        {
+          "id": "s0",
+          "kind": "image-right",
+          "title": "Get a quote",
+          "text": "We will be happy to prepare a photovoltaic quotation and design a solution tailored to your needs.",
+          "visible": true,
+          "items": [],
+          "rows": [],
+          "image": {
+            "src": "/media/1a606ff636af50bf-1600.webp",
+            "small": "/media/1a606ff636af50bf-640.webp",
+            "alt": "Smart home control",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "verification-s4",
+          "kind": "editorial",
+          "title": "Solar panels",
+          "text": "All-black panels with an 83% performance warranty for 25 years",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "verification-s5",
+          "kind": "editorial",
+          "title": "Inverter 25–500 kW",
+          "text": "Asymmetric three-phase inverter with an output of up to 500 kW",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "verification-s6",
+          "kind": "editorial",
+          "title": "Batteries",
+          "text": "Batteries with a capacity of 3.84 kWh, expandable to a maximum capacity of 326.4 kWh",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s8",
+          "kind": "editorial",
+          "title": "Roof assessment",
+          "text": "The roof of the apartment building must first be assessed. It is important to establish whether it has sufficient area and the right orientation and pitch for efficient placement of solar panels.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s9",
+          "kind": "editorial",
+          "title": "System capacity",
+          "text": "Choose the size of the photovoltaic system based on your average electricity consumption. This includes the number of panels and inverter capacity so that the system is correctly sized.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s10",
+          "kind": "editorial",
+          "title": "Installation",
+          "text": "High-quality installation is necessary to ensure optimum system performance and safety.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s12",
+          "kind": "editorial",
+          "title": "Financial compensation",
+          "text": "The photovoltaic system will be connected to the electricity grid. If it generates more energy than you consume, the surplus can be stored in batteries or supplied to the grid, for which you may receive financial compensation.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s16",
+          "kind": "editorial",
+          "title": "What is included in the project price?",
+          "text": "Preparation of project documentation\n\nArranging the grid connection with the distribution company\n\nArranging the PV connection agreement (standard connection without concerns about potential surplus export)\n\nComplete delivery of all components required to build the PV system\n\nComplete PV system installation\n\nPreparation of the electrical inspection report\n\nPreparation of documents for connection to the distribution grid\n\nModification of the meter pillar for installation of a new four-quadrant electricity meter\n\nReplacement of components in the meter pillar in accordance with applicable legislation\n\nCutting and making good cable routes where necessary\n\nInstallation of a new distribution board, including components\n\nModification of your home distribution board wiring\n\nModification of the home distribution board to connect backed-up circuits",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s17",
+          "kind": "editorial",
+          "title": "Additional services",
+          "text": "A smart Wallbox vehicle charger that works with the PV system.\n\nA smart home that works with the PV system.\n\nThe SunDayGate programme: SPOT-price energy trading and intelligent control.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "verification-dotace",
+          "title": "Subsidies",
+          "text": "Preparation of all documents required for the NZÚ subsidy\n\nArranging the NZÚ subsidy",
+          "kind": "editorial",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "kontakt",
+          "title": "",
+          "text": "",
+          "kind": "editorial",
+          "visible": true,
+          "items": [
+            {
+              "title": "Request a quote",
+              "text": "",
+              "href": "/#poptavka",
+              "hidden": false
+            }
+          ],
+          "rows": []
+        }
+      ]
+    },
+    {
+      "path": "/dalsi-sluzby/infratopeni",
+      "title": "Infrared heating",
+      "description": "We will be happy to prepare a heating quotation and design a solution tailored to your needs.",
+      "sections": [
+        {
+          "id": "s0",
+          "kind": "image-right",
+          "title": "Get a quote",
+          "text": "We will be happy to prepare a heating quotation and design a solution tailored to your needs.",
+          "visible": true,
+          "items": [],
+          "rows": [],
+          "image": {
+            "src": "/media/076d7546b6cc92e3-1600.webp",
+            "small": "/media/076d7546b6cc92e3-640.webp",
+            "alt": "Infrared panel 1",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "princip",
+          "title": "Infrared heating",
+          "text": "Our distinctive radiant infrared panels work on the principle of natural heat radiation, just like sunlight.\n\nInfrared heating warms the walls, floors and objects in your home directly rather than the air, providing even, long-lasting warmth.",
+          "kind": "image-left",
+          "visible": true,
+          "items": [],
+          "rows": [],
+          "image": {
+            "src": "/media/52befc327caeeed9-1600.webp",
+            "small": "/media/52befc327caeeed9-640.webp",
+            "alt": "Infrared panel 3",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "s5",
+          "kind": "editorial",
+          "title": "What are the main benefits of infrared heating compared with other heating methods?",
+          "text": "A modern, design-led appearance.\n\nEven, comfortable warmth without overheating.\n\nMaintenance-free operation and a long service life.\n\nSimple installation and individual customisation options.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s8",
+          "kind": "image-right",
+          "title": "What if the design of infrared heating does not suit my interior?",
+          "text": "Our infrared panels are available in a range of designs and versions, from discreet white panels to elegant glass or mirror finishes. If you have special requirements, we can also create panels with custom graphics to suit your interior.",
+          "visible": true,
+          "items": [],
+          "rows": [],
+          "image": {
+            "src": "/media/5d62078b9eb762f1-1600.webp",
+            "small": "/media/5d62078b9eb762f1-640.webp",
+            "alt": "Infrared panel 2",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "instalace",
+          "title": "Installation",
+          "text": "Infrared panels are lightweight and can easily be mounted on a wall or ceiling.",
+          "kind": "editorial",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "verification-s7",
+          "kind": "editorial",
+          "title": "What are the warranty and service life of infrared heating?",
+          "text": "We provide our infrared panels with an extended warranty of up to 5 years. Their high-quality construction and lack of moving parts give them a service life of up to 30 years, making them a long-term, reliable investment.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "kontakt",
+          "title": "",
+          "text": "",
+          "kind": "editorial",
+          "visible": true,
+          "items": [
+            {
+              "title": "Request a quote",
+              "text": "",
+              "href": "/#poptavka",
+              "hidden": false
+            }
+          ],
+          "rows": []
+        }
+      ]
+    },
+    {
+      "path": "/fotovoltaika/pozarni-bezpecnost",
+      "title": "Fire safety",
+      "description": "An optimiser is fitted to each individual panel. It can measure that panel’s output and disconnect it from generation in an emergency.",
+      "sections": [
+        {
+          "id": "s0",
+          "kind": "image-right",
+          "title": "",
+          "text": "",
+          "visible": true,
+          "items": [],
+          "rows": [],
+          "image": {
+            "src": "/media/c4b415c088594c81-1600.webp",
+            "small": "/media/c4b415c088594c81-640.webp",
+            "alt": "TIGO TS4-A-0 ",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "s2",
+          "kind": "editorial",
+          "title": "Panel safety shutdown with monitoring: TIGO TS4-A-0",
+          "text": "An optimiser is fitted to each individual panel. It can measure that panel’s output and disconnect it from generation in an emergency.\n\nIndividual outputs can be monitored in the app\n\nThese optimisers must be supplemented with TIGO Cloud Connect Advanced (CCA) and, at certain distances, a Tigo Access Point (TAP)",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s3",
+          "kind": "editorial",
+          "title": "Panel safety shutdown without monitoring: TIGO TS-A-2F",
+          "text": "This optimiser connects two panels, which it can disconnect from generation in an emergency.\n\nEach string must be supplemented with a TIGO RSS transmitter, which sends a signal through the DC cables to enable the optimisers to generate power.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s4",
+          "kind": "editorial",
+          "title": "Safety shutdown button",
+          "text": "As part of the Safety Programme, you receive a safety shutdown button that firefighters can use in the event of a building fire to disconnect the system and allow firefighting operations.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "verification-normy",
+          "title": "Fire safety",
+          "text": "Since 1 May 2023, control over the installed panels has been required for systems with an output exceeding 10 kWp.",
+          "kind": "editorial",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "kontakt",
+          "title": "",
+          "text": "",
+          "kind": "editorial",
+          "visible": true,
+          "items": [
+            {
+              "title": "Request a quote",
+              "text": "",
+              "href": "/#poptavka",
+              "hidden": false
+            }
+          ],
+          "rows": []
+        }
+      ]
+    },
+    {
+      "path": "/dalsi-sluzby",
+      "title": "Other services",
+      "description": "Discover a solution you can rely on completely!",
+      "sections": [
+        {
+          "id": "s1",
+          "kind": "image-right",
+          "title": "Electrical installation",
+          "text": "Discover a solution you can rely on completely!",
+          "visible": true,
+          "items": [
+            {
+              "title": "Electrical installation",
+              "text": "",
+              "href": "/dalsi-sluzby/elektroinstalace",
+              "hidden": false
+            }
+          ],
+          "rows": [],
+          "image": {
+            "src": "/media/65862dadd1434a80-1600.webp",
+            "small": "/media/65862dadd1434a80-640.webp",
+            "alt": "Electrical wiring",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "s2",
+          "kind": "image-left",
+          "title": "Electrical inspections",
+          "text": "Ensure safety for your home and business!",
+          "visible": true,
+          "items": [
+            {
+              "title": "Electrical inspections",
+              "text": "",
+              "href": "/dalsi-sluzby/revize-instalace",
+              "hidden": false
+            }
+          ],
+          "rows": [],
+          "image": {
+            "src": "/media/23106a3cc6066c1f-1600.webp",
+            "small": "/media/23106a3cc6066c1f-640.webp",
+            "alt": "Electrical inspection",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "s3",
+          "kind": "image-right",
+          "title": "Heat pumps",
+          "text": "IMMERGAS ranks among the world’s leading manufacturers of thermal equipment.",
+          "visible": true,
+          "items": [
+            {
+              "title": "Heat pumps",
+              "text": "",
+              "href": "/technologie/tepelna-cerpadla",
+              "hidden": false
+            }
+          ],
+          "rows": [],
+          "image": {
+            "src": "/media/5cf1cc7ae4c2d5c4-1600.webp",
+            "small": "/media/5cf1cc7ae4c2d5c4-640.webp",
+            "alt": "",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "s4",
+          "kind": "image-left",
+          "title": "Smart home",
+          "text": "Simplicity, high performance and distinctive design are the main features of the Fibaro smart home.",
+          "visible": true,
+          "items": [
+            {
+              "title": "Learn more",
+              "text": "",
+              "href": "/technologie/chytra-domacnost",
+              "hidden": false
+            }
+          ],
+          "rows": [],
+          "image": {
+            "src": "/media/1a606ff636af50bf-1600.webp",
+            "small": "/media/1a606ff636af50bf-640.webp",
+            "alt": "Smart home control",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "s5",
+          "kind": "image-right",
+          "title": "Servicing",
+          "text": "We provide quality care for your system.",
+          "visible": true,
+          "items": [
+            {
+              "title": "Learn more",
+              "text": "",
+              "href": "/dalsi-sluzby/servis",
+              "hidden": false
+            }
+          ],
+          "rows": [],
+          "image": {
+            "src": "/media/b89725b2fd33e649-1600.webp",
+            "small": "/media/b89725b2fd33e649-640.webp",
+            "alt": "Photovoltaic inspection",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "s6",
+          "kind": "image-left",
+          "title": "Financing",
+          "text": "In cooperation with OK POINT, we can help you invest in the future.",
+          "visible": true,
+          "items": [
+            {
+              "title": "Learn more",
+              "text": "",
+              "href": "/dalsi-sluzby/financovani",
+              "hidden": false
+            }
+          ],
+          "rows": [],
+          "image": {
+            "src": "/media/9ae7349517a7aad6-1600.webp",
+            "small": "/media/9ae7349517a7aad6-640.webp",
+            "alt": "",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "kontakt",
+          "title": "",
+          "text": "",
+          "kind": "editorial",
+          "visible": true,
+          "items": [
+            {
+              "title": "Request a quote",
+              "text": "",
+              "href": "/#poptavka",
+              "hidden": false
+            }
+          ],
+          "rows": []
+        }
+      ]
+    },
+    {
+      "path": "/technologie/tepelna-cerpadla",
+      "title": "Heat pumps",
+      "description": "We will be happy to prepare a quotation and design a solution tailored to your needs.",
+      "sections": [
+        {
+          "id": "s0",
+          "kind": "image-right",
+          "title": "Get a quote",
+          "text": "We will be happy to prepare a quotation and design a solution tailored to your needs.",
+          "visible": true,
+          "items": [],
+          "rows": [],
+          "image": {
+            "src": "/media/5cf1cc7ae4c2d5c4-1600.webp",
+            "small": "/media/5cf1cc7ae4c2d5c4-640.webp",
+            "alt": "",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "s3",
+          "kind": "editorial",
+          "title": "SPLIT heat pump",
+          "text": "A modern split heat pump has separate outdoor and indoor units. These two main parts are connected by a refrigerant circuit and a communication cable.\n\nThe heat pump is designed for heating, cooling and, where required, domestic hot water. The indoor unit is fully equipped for connection to an indirectly heated hot-water cylinder. The outdoor unit also comes with an outdoor temperature sensor fitted at the factory. If the location of the outdoor unit prevents accurate measurement of outdoor temperature, another optional outdoor sensor can easily be connected. And that is not all!\n\nAdvanced electronics regulate not only the hot-water circuit, but also the direct and mixed zones of the heating circuit. Cooling mode is also available in the summer.\n\nAn air-to-water heat pump with the highest efficiency on the market (COP 4.61 at A2/W35 – EN 14511)\n\nInverter technology patented for R290 refrigerant\n\nHigh outlet temperature of up to 70 °C\n\nIdeal for heating-system renovations\n\nQuiet operation, with a minimum sound pressure level of 44 dB(A)\n\nA high-quality, robust construction provides an above-average service life\n\n5-year warranty\n\nServicing directly from the manufacturer\n\nControl via a mobile app",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s4",
+          "kind": "image-left",
+          "title": "How a split air-to-water heat pump works",
+          "text": "A split heat pump consists of two main parts: an outdoor unit and an indoor unit. The two units are connected by a refrigerant circuit and a communication cable.",
+          "visible": true,
+          "items": [],
+          "rows": [],
+          "image": {
+            "src": "/media/9cf3630735c92908-1600.webp",
+            "small": "/media/9cf3630735c92908-640.webp",
+            "alt": "How a split air-to-water heat pump works",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "s5",
+          "kind": "editorial",
+          "title": "Main components of the outdoor unit",
+          "text": "An evaporator, two fans with EC motors, a rotary compressor, an electronic expansion valve, a four-way valve and control electronics.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s6",
+          "kind": "editorial",
+          "title": "Components of the indoor unit",
+          "text": "A condenser, circulation pump, control electronics, connection terminals and a control panel for setting and regulating the entire heat pump.\n\nAn air-to-water heat pump takes heat from the outdoor environment and transfers it to the refrigerant in the evaporator. The higher air temperature causes the refrigerant to evaporate, and the vapour is drawn into the compressor. The compressor rapidly compresses the refrigerant vapour, significantly increasing its temperature through this simple physical process. The hot vapour transfers its heat to the heating water in the condenser (a plate heat exchanger in the indoor unit), losing its energy and changing from a gas to a liquid.\n\nThe liquid refrigerant flows from the condenser to the outdoor unit, where the expansion valve sharply reduces its pressure and cools it significantly. The cycle closes as the refrigerant returns to the evaporator, where it is heated by the air again. This process repeats continuously, moving heat from the outside environment into the heating system.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s7",
+          "kind": "image-right",
+          "title": "MONOBLOCK heat pump",
+          "text": "A monoblock heat pump has an outdoor unit fully equipped with both a refrigerant circuit and a heating circuit. It is designed for heating, cooling and, where required, domestic hot water. Because the heating circuit runs directly from the building to the heat pump, the unit must be protected against the heating water freezing.\n\nThe heat pump comes with an outdoor temperature sensor fitted at the factory.\n\nA modern room controller is also supplied as standard. Advanced electronics regulate the hot-water circuit and the direct and mixed zones of the heating circuit, as well as up to six heat pumps in a cascade without a higher-level controller. All of this is handled by the control unit supplied as standard with the heat pump! Cooling mode is also available in summer.\n\nContinuously variable output thanks to inverter technology\n\nThe lowest heat-pump noise on the market (quieter than a whisper), with a minimum sound pressure level of 35 dB(A)\n\nThe latest technology built into the heat pump (radial fan)\n\nHeating, hot water and cooling in one device\n\nControl via the internet and a mobile app\n\nLWAV + – a version with air ducts for even quieter operation",
+          "visible": true,
+          "items": [],
+          "rows": [],
+          "image": {
+            "src": "/media/96af58bf5d541844-1600.webp",
+            "small": "/media/96af58bf5d541844-640.webp",
+            "alt": "",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "s9",
+          "kind": "editorial",
+          "title": "How does a heat pump work?",
+          "text": "A heat pump takes heat from the surroundings of the heated building (air, ground or water) and raises it to a temperature suitable for heating and domestic hot water.\n\nA heat pump can use this principle to obtain free heat from its surroundings. How can it obtain heat from somewhere cold? By cooling that place even further and taking heat from it. This principle allows a heat pump to extract heat even from air at −20 °C. Extracting heat at such low temperatures is slightly less efficient, but still beneficial.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s10",
+          "kind": "editorial",
+          "title": "What are the advantages of SPLIT and MONOBLOCK systems?",
+          "text": "1. SPLIT heat pumps have separate outdoor (heat exchanger) and indoor units, connected by refrigerant piping.\n\nAdvantages:\n\nNo risk of the system freezing\n\nA small, lightweight outdoor unit\n\nDisadvantages:\n\nMore space required indoors for the indoor unit\n\nRegular professional checks of the refrigerant system\n\n2. MONOBLOCK heat pumps have a single outdoor unit containing everything required. It is simply connected to the existing water system.\n\nNo indoor space needs to be allocated\n\nThe refrigerant circuit is hermetically sealed in the outdoor unit\n\nA greater risk of freezing compared with SPLIT",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s12",
+          "kind": "editorial",
+          "title": "How long do delivery and installation take?",
+          "text": "Delivery and installation usually take 2–4 weeks from confirmation of the order, depending on equipment availability and your specific requirements. Our aim is to complete everything quickly, to a high standard and without unnecessary delays.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "verification-s13",
+          "kind": "editorial",
+          "title": "What happens if the heat pump breaks down?",
+          "text": "Our equipment is reliable and comes from leading manufacturers. We provide a heat-pump warranty of up to 10 years and arrange prompt servicing if any problem occurs.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "kontakt",
+          "title": "",
+          "text": "",
+          "kind": "editorial",
+          "visible": true,
+          "items": [
+            {
+              "title": "Request a quote",
+              "text": "",
+              "href": "/#poptavka",
+              "hidden": false
+            }
+          ],
+          "rows": []
+        }
+      ]
+    },
+    {
+      "path": "/dalsi-sluzby/elektroinstalace",
+      "title": "Electrical installation",
+      "description": "We will be happy to prepare a quotation and design a solution tailored to your needs.",
+      "sections": [
+        {
+          "id": "s0",
+          "kind": "image-right",
+          "title": "Get a quote",
+          "text": "We will be happy to prepare a quotation and design a solution tailored to your needs.",
+          "visible": true,
+          "items": [],
+          "rows": [],
+          "image": {
+            "src": "/media/65862dadd1434a80-1600.webp",
+            "small": "/media/65862dadd1434a80-640.webp",
+            "alt": "Electrical wiring",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "s4",
+          "kind": "image-left",
+          "title": "Electrical installation",
+          "text": "- Complete electrical installations in new buildings, from design and installation to delivery of the required documentation.\n\n- Electrical wiring renovations in older houses, flats and commercial properties, giving them a new lease of life through modern, safe wiring.\n\n- Meter pillar modifications to meet your electricity distributor’s requirements.\n\n- Electrical inspections to ensure that your installation complies with all standards and regulations.",
+          "visible": true,
+          "items": [],
+          "rows": [],
+          "image": {
+            "src": "/media/5558adcf6ca7baee-1600.webp",
+            "small": "/media/5558adcf6ca7baee-640.webp",
+            "alt": "Electrical installation tools",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "s10",
+          "kind": "editorial",
+          "title": "Can the project be changed during installation?",
+          "text": "Yes. We are flexible and understand that changes may be needed during installation. Before making any change, we inform you of any impact on the schedule and price. All changes are made only with your approval.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s11",
+          "kind": "image-right",
+          "title": "What does electrical installation documentation include?",
+          "text": "The documentation contains all information needed for operation, maintenance and future changes to the electrical installation. It includes:\n\nWiring diagrams,\n\nA list of materials and equipment used,\n\nInspection reports and records,\n\nPlans of safety components and earthing.\n\nThis document is important for safe operation and any future changes to the installation.",
+          "visible": true,
+          "items": [],
+          "rows": [],
+          "image": {
+            "src": "/media/8d4ff77b7043b73e-1600.webp",
+            "small": "/media/8d4ff77b7043b73e-640.webp",
+            "alt": "Electrical project documentation",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "s12",
+          "kind": "editorial",
+          "title": "How much will your services cost?",
+          "text": "The price depends on the scope and complexity of the work. We will be happy to prepare a non-binding quotation based on an initial consultation and site inspection.\n\nWe aim to be transparent, with no hidden costs. If unexpected changes occur during installation, we inform you in advance and agree on the next steps.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "kontakt",
+          "title": "",
+          "text": "",
+          "kind": "editorial",
+          "visible": true,
+          "items": [
+            {
+              "title": "Request a quote",
+              "text": "",
+              "href": "/#poptavka",
+              "hidden": false
+            }
+          ],
+          "rows": []
+        }
+      ]
+    },
+    {
+      "path": "/dalsi-sluzby/revize-instalace",
+      "title": "Electrical inspections",
+      "description": "We will be happy to prepare a quotation and design a solution tailored to your needs.",
+      "sections": [
+        {
+          "id": "s0",
+          "kind": "image-right",
+          "title": "Get a quote",
+          "text": "We will be happy to prepare a quotation and design a solution tailored to your needs.",
+          "visible": true,
+          "items": [],
+          "rows": [],
+          "image": {
+            "src": "/media/23106a3cc6066c1f-1600.webp",
+            "small": "/media/23106a3cc6066c1f-640.webp",
+            "alt": "Electrical inspection",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "s7",
+          "kind": "image-left",
+          "title": "Electrical inspections",
+          "text": "We carry out regular, extraordinary and initial inspections of domestic wiring, lightning protection, photovoltaic systems and industrial equipment.",
+          "visible": true,
+          "items": [],
+          "rows": [],
+          "image": {
+            "src": "/media/8d4ff77b7043b73e-1600.webp",
+            "small": "/media/8d4ff77b7043b73e-640.webp",
+            "alt": "Electrical project documentation",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "s16",
+          "kind": "editorial",
+          "title": "Can I arrange an inspection outside working days?",
+          "text": "Yes. We do our best to accommodate your needs. Inspections can also be carried out at weekends or in the evening to avoid disrupting your business or your comfort.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s17",
+          "kind": "editorial",
+          "title": "What happens if you find defects during an inspection?",
+          "text": "If we discover any defects during the inspection, we describe them in the inspection report and propose repairs. We will also be happy to recommend repair specialists or arrange the work ourselves. Our aim is not simply an inspection, but the overall safety of your property.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s18",
+          "kind": "editorial",
+          "title": "How much does an electrical inspection cost?",
+          "text": "The price depends on the size of the property, the scope of the electrical installation and other factors. Our pricing is transparent and fair. Contact us for a non-binding quotation tailored to your needs.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "kontakt",
+          "title": "",
+          "text": "",
+          "kind": "editorial",
+          "visible": true,
+          "items": [
+            {
+              "title": "Request a quote",
+              "text": "",
+              "href": "/#poptavka",
+              "hidden": false
+            }
+          ],
+          "rows": []
+        }
+      ]
+    },
+    {
+      "path": "/technologie/chytra-domacnost",
+      "title": "Smart home",
+      "description": "We will be happy to prepare a quotation and design a solution tailored to your needs.",
+      "sections": [
+        {
+          "id": "s0",
+          "kind": "image-right",
+          "title": "Get a quote",
+          "text": "We will be happy to prepare a quotation and design a solution tailored to your needs.",
+          "visible": true,
+          "items": [],
+          "rows": [],
+          "image": {
+            "src": "/media/1a606ff636af50bf-1600.webp",
+            "small": "/media/1a606ff636af50bf-640.webp",
+            "alt": "Smart home control",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "s2",
+          "kind": "image-left",
+          "title": "Smart home",
+          "text": "We maximise the efficiency of your photovoltaic system, heat pump and household consumption.\n\nFibaro Home Center is an ideal tool for home automation.\n\nWe maximise the use of generated solar energy\n\nWe minimise household running costs\n\nWe create a design tailored to your needs",
+          "visible": true,
+          "items": [],
+          "rows": [],
+          "image": {
+            "src": "/media/e902634a5616e12f-1600.webp",
+            "small": "/media/e902634a5616e12f-640.webp",
+            "alt": "Fibaro Home Center",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "nabizime",
+          "title": "We offer:",
+          "text": "Lighting automation\n\nMeasurement of the energy used by individual appliances\n\nAutomated switching to optimise the use of photovoltaic energy\n\nIndividual solutions to suit each customer",
+          "kind": "editorial",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "kontakt",
+          "title": "",
+          "text": "",
+          "kind": "editorial",
+          "visible": true,
+          "items": [
+            {
+              "title": "Request a quote",
+              "text": "",
+              "href": "/#poptavka",
+              "hidden": false
+            }
+          ],
+          "rows": []
+        }
+      ]
+    },
+    {
+      "path": "/sdileni-prodej-energie/program-gottsol-inteligentni-rizeni",
+      "title": "Intelligent energy control with GottSol",
+      "description": "GOTTSOL is a cloud platform for intelligent control of solar power systems, heat pumps, community energy and other energy systems.",
+      "sections": [
+        {
+          "id": "s0",
+          "kind": "editorial",
+          "title": "Truly intelligent control of your energy",
+          "text": "GOTTSOL is a cloud platform for intelligent control of solar power systems, heat pumps, community energy and other energy systems.\n\nIt predicts generation and consumption and controls appliances to keep your energy costs as low as possible.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s2",
+          "kind": "editorial",
+          "title": "A clear overview:",
+          "text": "An interface that can be customised for the customer.\n\nThe data displayed can be adapted to the customer’s preferences.\n\nAI integration – artificial intelligence continually learns from the collected data and optimises future control every 15 minutes to maximise financial savings.\n\nImproved efficiency beyond photovoltaics\n\nThe system can be extended to control other appliances, such as a water heater or heat pump.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s3",
+          "kind": "editorial",
+          "title": "Historical data in one place:",
+          "text": "Historical data can be used for comparisons and retrospective analysis.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s5",
+          "kind": "editorial",
+          "title": "AI control:",
+          "text": "Artificial intelligence automatically updates its calculations almost 100 times a day, adapting to the current conditions at the installation site. It uses the history it has collected for its calculations.\n\nThe system is completely autonomous and cannot be replaced by manual operation, but you can still intervene in the process for any reason, such as a planned grid outage.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "links",
+          "kind": "editorial",
+          "title": "",
+          "text": "",
+          "visible": true,
+          "items": [
+            {
+              "title": "GottSol – Smart controls (CZ)",
+              "text": "",
+              "href": "/documents/gottsol-chytre_ovladani.pdf",
+              "hidden": false
+            },
+            {
+              "title": "Terms of use (CZ)",
+              "text": "",
+              "href": "/podminky-uzivani-cloudove-sluzby-gottsol-pro-rizeni-energetickych-systemu",
+              "hidden": false
+            }
+          ],
+          "rows": []
+        },
+        {
+          "id": "kontakt",
+          "title": "",
+          "text": "",
+          "kind": "editorial",
+          "visible": true,
+          "items": [
+            {
+              "title": "Request a quote",
+              "text": "",
+              "href": "/#poptavka",
+              "hidden": false
+            }
+          ],
+          "rows": []
+        }
+      ]
+    },
+    {
+      "path": "/dotace",
+      "title": "Subsidies – we take care of the paperwork!",
+      "description": "We take care of the complete installation of your photovoltaic system or heat pump and arrange everything relating to subsidies for this equipment. We prepare all the documents and deal with public offices on your behalf",
+      "sections": [
+        {
+          "id": "s1",
+          "kind": "editorial",
+          "title": "How can I get a subsidy?",
+          "text": "We take care of the complete installation of your photovoltaic system or heat pump and arrange everything relating to subsidies for this equipment. We prepare all the documents and deal with public offices on your behalf.\n\nWe hold the professional qualification certificate for Photovoltaic Systems Electrician (26-14-H), which is required to obtain this subsidy.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s2",
+          "kind": "editorial",
+          "title": "What will we arrange?",
+          "text": "We arrange the expert assessment\n\nWe prepare all applications for the Nová zelená úsporám programme\n\nWe prepare applications for the electricity distributor\n\nWe take care of the complete project documentation\n\nWe prepare the electrical inspection report",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "verification-s4",
+          "kind": "editorial",
+          "title": "Nová zelená úsporám subsidy programme",
+          "text": "Nová zelená úsporám is one of the most effective programmes in the Czech Republic focused on energy savings. Customers who choose to install photovoltaics at home can receive a state contribution of up to CZK 140,000.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "verification-s5",
+          "kind": "editorial",
+          "title": "Who can apply",
+          "text": "Owners of existing houses used as permanent residences\n\nOwners of individually defined residential units arranged in a row (terraced houses)\n\nPublic-benefit organisations established by local authorities",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "verification-s6",
+          "kind": "editorial",
+          "title": "Subsidy amounts for photovoltaic systems",
+          "text": "For each 1 kWp of installed output – CZK 10,000\n\nFor each 1 kWh of electricity storage – CZK 10,000\n\nMaximum subsidy for output and storage – CZK 100,000\n\nBonus for intelligent control and sharing – CZK 40,000",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "verification-s8",
+          "kind": "editorial",
+          "title": "Who guarantees that I will receive a subsidy?",
+          "text": "It is important to understand that anyone who meets the conditions of the Nová zelená úsporám (NZÚ) programme is entitled to the subsidy.\n\nBefore installation, we apply to the State Environmental Fund (SFŽP) for approval of the subsidy for your property and a guarantee of payment to your account.\n\nThe SFŽP provides the payment guarantee once all conditions have been met.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "verification-s9",
+          "kind": "editorial",
+          "title": "When is the subsidy paid?",
+          "text": "The subsidy is paid once the system is fully connected to the distribution grid.\n\nThe distribution technician carrying out the connection and inspection issues a document on the basis of which payment can be requested.\n\nPayment takes approximately one month from the issue of that document.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "kontakt",
+          "title": "",
+          "text": "",
+          "kind": "editorial",
+          "visible": true,
+          "items": [
+            {
+              "title": "Request a quote",
+              "text": "",
+              "href": "/#poptavka",
+              "hidden": false
+            }
+          ],
+          "rows": []
+        }
+      ]
+    },
+    {
+      "path": "/dalsi-sluzby/financovani",
+      "title": "Financing",
+      "description": "In cooperation with OK POINT, we can help you invest in the future.",
+      "sections": [
+        {
+          "id": "s0",
+          "kind": "image-right",
+          "title": "",
+          "text": "In cooperation with OK POINT, we can help you invest in the future.\n\nOK POINT will search the market for you and find the most advantageous offer\n\nWe will arrange all the necessary steps on your behalf",
+          "visible": true,
+          "items": [],
+          "rows": [],
+          "image": {
+            "src": "/media/9ae7349517a7aad6-1600.webp",
+            "small": "/media/9ae7349517a7aad6-640.webp",
+            "alt": "",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "kontakt",
+          "title": "",
+          "text": "",
+          "kind": "editorial",
+          "visible": true,
+          "items": [
+            {
+              "title": "Request a quote",
+              "text": "",
+              "href": "/#poptavka",
+              "hidden": false
+            }
+          ],
+          "rows": []
+        }
+      ]
+    },
+    {
+      "path": "/dalsi-sluzby/servis",
+      "title": "Servicing",
+      "description": "Price from CZK 2,599",
+      "sections": [
+        {
+          "id": "s3",
+          "kind": "editorial",
+          "title": "Photovoltaic system inspections",
+          "text": "Price from CZK 2,599\n\nWe check the current condition of the electrical wiring\n\nWe check your entire PV installation\n\nWe fix minor defects found\n\nMajor electrical work is handled individually\n\nThe inspection takes approximately 90 minutes",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "s5",
+          "kind": "image-left",
+          "title": "Heat pump servicing",
+          "text": "Price from CZK 2,799\n\nRefrigerant circuit inspection\n\nElectrical connection inspection\n\nMechanical component inspection\n\nCleaning the primary and secondary circuit filters\n\nComplete equipment cleaning\n\nInspection and cleaning take approximately 120 minutes",
+          "visible": true,
+          "items": [],
+          "rows": [],
+          "image": {
+            "src": "/media/21edd9be5d71abd1-1600.webp",
+            "small": "/media/21edd9be5d71abd1-640.webp",
+            "alt": "Heat pump servicing",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "ceny",
+          "kind": "editorial",
+          "title": "",
+          "text": "Prices exclude VAT.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "kontakt",
+          "title": "",
+          "text": "",
+          "kind": "editorial",
+          "visible": true,
+          "items": [
+            {
+              "title": "Request a quote",
+              "text": "",
+              "href": "/#poptavka",
+              "hidden": false
+            }
+          ],
+          "rows": []
+        }
+      ]
+    }
+  ]
+}

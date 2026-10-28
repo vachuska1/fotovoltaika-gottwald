@@ -1,0 +1,4 @@
+export type Locale='cs'|'en';
+export const englishPaths=['/','/fotovoltaicke-elektrarny','/fotovoltaika/fotovoltaicke-elektrarny-na-rodinne-domy','/fotovoltaika/ohrev-vody','/fotovoltaika/fotovoltaicke-elektrarny-pro-firmy','/fotovoltaika/fotovoltaicke-elektrarny-pro-bytove-domy','/fotovoltaika/pozarni-bezpecnost','/dalsi-sluzby/infratopeni','/dalsi-sluzby','/technologie/tepelna-cerpadla','/dalsi-sluzby/elektroinstalace','/dalsi-sluzby/revize-instalace','/technologie/chytra-domacnost','/sdileni-prodej-energie/program-gottsol-inteligentni-rizeni','/dotace','/dalsi-sluzby/financovani','/dalsi-sluzby/servis'];
+export function localHref(href:string,locale:Locale){if(locale==='cs'||!href.startsWith('/')||href.startsWith('//'))return href;const u=new URL(href,'https://local.test');return englishPaths.includes(u.pathname)?'/en'+(u.pathname==='/'?'':u.pathname)+u.search+u.hash:href;}
+export const ui=(locale:Locale,cs:string,en:string)=>locale==='en'?en:cs;
