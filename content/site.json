@@ -1176,31 +1176,8 @@
     {
       "path": "/dalsi-sluzby",
       "title": "Další služby",
-      "description": "Chytré teplo, které vás zahřeje",
+      "description": "Objevte řešení, na které se můžete stoprocentně spolehnout!“",
       "sections": [
-        {
-          "id": "s0",
-          "kind": "image-left",
-          "title": "Infratopení",
-          "text": "Chytré teplo, které vás zahřeje",
-          "visible": true,
-          "items": [
-            {
-              "title": "Infratopení",
-              "text": "",
-              "href": "/dalsi-sluzby/infratopeni",
-              "hidden": false
-            }
-          ],
-          "rows": [],
-          "image": {
-            "src": "/media/076d7546b6cc92e3-1600.webp",
-            "small": "/media/076d7546b6cc92e3-640.webp",
-            "alt": "Infrapanel 1",
-            "x": 50,
-            "y": 50
-          }
-        },
         {
           "id": "s1",
           "kind": "image-right",
@@ -1272,82 +1249,72 @@
         },
         {
           "id": "s4",
-          "kind": "editorial",
+          "kind": "image-left",
           "title": "Chytrá domácnost",
           "text": "Jednoduchost, špičkový výkon a unikátní design jsou hlavními charakteristikami chytré domácnosti Fibaro.",
           "visible": true,
-          "items": [],
-          "rows": []
-        },
-        {
-          "id": "s5",
-          "kind": "editorial",
-          "title": "Servis",
-          "text": "Nabízíme kvalitní péči o Vás systém.",
-          "visible": true,
-          "items": [],
-          "rows": []
-        },
-        {
-          "id": "s6",
-          "kind": "editorial",
-          "title": "Financování",
-          "text": "Ve spolupráci se společností OK POINT můžeme i Vám pomoct investovat do budoucnosti.",
-          "visible": true,
-          "items": [],
-          "rows": []
-        },
-        {
-          "id": "links",
-          "kind": "editorial",
-          "title": "",
-          "text": "",
-          "visible": true,
           "items": [
             {
-              "title": "Infratopení Chytré teplo, které vás zahřejeZobrazit více",
-              "text": "",
-              "href": "/dalsi-sluzby/infratopeni",
-              "hidden": false
-            },
-            {
-              "title": "ElektroinstalaceObjevte řešení, na které se můžete stoprocentně spolehnout!“Zobrazit více",
-              "text": "",
-              "href": "/dalsi-sluzby/elektroinstalace",
-              "hidden": false
-            },
-            {
-              "title": "Revize instalaceZajistěte bezpečí pro svůj domov i podnikání! Zobrazit více",
-              "text": "",
-              "href": "/dalsi-sluzby/revize-instalace",
-              "hidden": false
-            },
-            {
-              "title": "Tepelná čerpadlaZnačka IMMERGAS se celosvětově řadí mezi nejlepší výrobce zabývající se tepelnými zařízeními.Zobrazit více",
-              "text": "",
-              "href": "/technologie/tepelna-cerpadla",
-              "hidden": false
-            },
-            {
-              "title": "Chytrá domácnostJednoduchost, špičkový výkon a unikátní design jsou hlavními charakteristikami chytré domácnosti Fibaro.Zobrazit více",
+              "title": "Zobrazit více",
               "text": "",
               "href": "/technologie/chytra-domacnost",
               "hidden": false
-            },
+            }
+          ],
+          "rows": [],
+          "image": {
+            "src": "/media/1a606ff636af50bf-1600.webp",
+            "small": "/media/1a606ff636af50bf-640.webp",
+            "alt": "Článek",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "s5",
+          "kind": "image-right",
+          "title": "Servis",
+          "text": "Nabízíme kvalitní péči o Vás systém.",
+          "visible": true,
+          "items": [
             {
-              "title": "ServisNabízíme kvalitní péči o Vás systém.Zobrazit více",
+              "title": "Zobrazit více",
               "text": "",
               "href": "/dalsi-sluzby/servis",
               "hidden": false
-            },
+            }
+          ],
+          "rows": [],
+          "image": {
+            "src": "/media/b89725b2fd33e649-1600.webp",
+            "small": "/media/b89725b2fd33e649-640.webp",
+            "alt": "Revize FVE",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "s6",
+          "kind": "image-left",
+          "title": "Financování",
+          "text": "Ve spolupráci se společností OK POINT můžeme i Vám pomoct investovat do budoucnosti.",
+          "visible": true,
+          "items": [
             {
-              "title": "FinancováníVe spolupráci se společností OK POINT můžeme i Vám pomoct investovat do budoucnosti.Zobrazit více",
+              "title": "Zobrazit více",
               "text": "",
               "href": "/dalsi-sluzby/financovani",
               "hidden": false
             }
           ],
-          "rows": []
+          "rows": [],
+          "image": {
+            "src": "/media/9ae7349517a7aad6-1600.webp",
+            "small": "/media/9ae7349517a7aad6-640.webp",
+            "alt": "",
+            "x": 50,
+            "y": 50
+          }
         },
         {
           "id": "kontakt",

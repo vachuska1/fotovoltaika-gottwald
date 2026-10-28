@@ -398,3 +398,21 @@
 .region-cities circle{stroke:#f4f3ed;stroke-width:1}
 .region-cities text{font:500 14px Arial,Helvetica,sans-serif;stroke:#f4f3ed;stroke-width:2.5px;paint-order:stroke fill;stroke-linejoin:round}
 @media(max-width:600px){.region-cities text{font-size:18px;stroke-width:3px}}
+
+/* Local review: stronger title outline, clear office marker and form heading. */
+.home .hero h1,.home .hero h1>span{-webkit-text-stroke:1.8px #414141;paint-order:stroke fill}
+.hero-section-links a{transition:color .2s ease,border-color .2s ease}
+.hero-section-links a:hover,.hero-section-links a:focus-visible{color:#6a873f;border-color:currentColor}
+.region-office{pointer-events:none;fill:#bb302a}
+.region-office circle{stroke:#f4f3ed;stroke-width:2}
+.region-office text{font:600 15px Arial,Helvetica,sans-serif;stroke:#f4f3ed;stroke-width:3px;paint-order:stroke fill}
+.home-contact-form{min-width:0}
+.home-contact-form>h3{font-size:23px;font-weight:400;letter-spacing:-.5px;margin-bottom:24px}
+.home-contact-form>.inquiry-form{margin:0;padding:0;border:0;width:100%;max-width:none;min-width:0}
+@media(max-width:600px){.region-office text{font-size:20px}}
+
+/* Local title color refinement and office legend. */
+.home .hero h1,.home .hero h1>span{-webkit-text-stroke:3.5px #4b4b4b;paint-order:stroke fill}
+.home .hero h1>.hero-solar{color:#476d36}
+.home .hero h1>.hero-heating{color:#8b2825}
+.region-legend .region-office-legend i{background:#bb302a;border-radius:50%}
