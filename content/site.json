@@ -32,6 +32,10 @@
     {
       "label": "Recenze",
       "href": "/recenze"
+    },
+    {
+      "label": "Články",
+      "href": "/clanky"
     }
   ],
   "pages": [
