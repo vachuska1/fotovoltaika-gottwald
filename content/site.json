@@ -26,12 +26,12 @@
       "href": "/dotace"
     },
     {
-      "label": "Recenze",
-      "href": "/recenze"
-    },
-    {
       "label": "Realizace",
       "href": "/realizace"
+    },
+    {
+      "label": "Recenze",
+      "href": "/recenze"
     }
   ],
   "pages": [
@@ -191,6 +191,42 @@
               "title": "Nezávazně poptat",
               "text": "",
               "href": "/#poptavka",
+              "hidden": false
+            },
+            {
+              "title": "Infrapanel 1",
+              "text": "",
+              "image": {
+                "src": "/media/076d7546b6cc92e3-1600.webp",
+                "small": "/media/076d7546b6cc92e3-640.webp",
+                "alt": "Infrapanel 1",
+                "x": 50,
+                "y": 50
+              },
+              "hidden": false
+            },
+            {
+              "title": "Infrapanel 3",
+              "text": "",
+              "image": {
+                "src": "/media/52befc327caeeed9-1600.webp",
+                "small": "/media/52befc327caeeed9-640.webp",
+                "alt": "Infrapanel 3",
+                "x": 50,
+                "y": 50
+              },
+              "hidden": false
+            },
+            {
+              "title": "Infrapanel 2",
+              "text": "",
+              "image": {
+                "src": "/media/5d62078b9eb762f1-1600.webp",
+                "small": "/media/5d62078b9eb762f1-640.webp",
+                "alt": "Infrapanel 2",
+                "x": 50,
+                "y": 50
+              },
               "hidden": false
             }
           ],
@@ -665,12 +701,19 @@
         },
         {
           "id": "s1",
-          "kind": "editorial",
+          "kind": "image-left",
           "title": "Jak fotovoltaika funguje?",
           "text": "Fotovoltaická energie získává ve světě na oblíbenosti. Nejenže je výrazně levnější, nežli klasicky vyráběná elektřina, ale celý fotovolatický systém je také velmi dobře propracovaný. Fotovoltaika se nepřipojuje do distribuční sítě, ale potřebný počet fotovoltaických panelů se pouze umístí na střechu vašeho domu.\n\nVyprodukovaná elektrická energie se přivede kabely do regulátoru, který zajistí distribuci do topného tělesa bojleru. Regulátor se také stará o optimální využívání energie ze solárních panelů, a v případě nedostatku výkonu ji doplní z distribuční sítě. Fotovoltaický systém je bezpečný a zároveň vysoce spolehlivý.",
           "visible": true,
           "items": [],
-          "rows": []
+          "rows": [],
+          "image": {
+            "src": "/media/0b63e83fa73faca1-1600.webp",
+            "small": "/media/0b63e83fa73faca1-640.webp",
+            "alt": "",
+            "x": 50,
+            "y": 50
+          }
         },
         {
           "id": "s2",
@@ -982,10 +1025,17 @@
           "id": "princip",
           "title": "Infratopení",
           "text": "Naše unikátní sálavé infrapanely fungují na principu přirozeného šíření tepla – stejně jako sluneční paprsky.\n\nInfratopení zahřívá přímo stěny, podlahy a předměty ve vašem domově, nikoliv vzduch, což znamená rovnoměrné a dlouhotrvající teplo.",
-          "kind": "editorial",
+          "kind": "image-left",
           "visible": true,
           "items": [],
-          "rows": []
+          "rows": [],
+          "image": {
+            "src": "/media/52befc327caeeed9-1600.webp",
+            "small": "/media/52befc327caeeed9-640.webp",
+            "alt": "Infrapanel 3",
+            "x": 50,
+            "y": 50
+          }
         },
         {
           "id": "s5",
@@ -998,12 +1048,19 @@
         },
         {
           "id": "s8",
-          "kind": "editorial",
+          "kind": "image-right",
           "title": "Co když se mi design infratopení nehodí do interiéru?",
           "text": "Naše infrapanely jsou dostupné v různých designech a variantách – od nenápadných bílých panelů až po elegantní skleněné nebo zrcadlové provedení. Pokud máte speciální požadavky, dokážeme vytvořit i panely s individuálním grafickým motivem, aby dokonale zapadly do vašeho interiéru.",
           "visible": true,
           "items": [],
-          "rows": []
+          "rows": [],
+          "image": {
+            "src": "/media/5d62078b9eb762f1-1600.webp",
+            "small": "/media/5d62078b9eb762f1-640.webp",
+            "alt": "Infrapanel 2",
+            "x": 50,
+            "y": 50
+          }
         },
         {
           "id": "instalace",
@@ -1342,12 +1399,19 @@
         },
         {
           "id": "s4",
-          "kind": "editorial",
+          "kind": "image-left",
           "title": "Princip tepelného čerpadla vzduch/voda v provedení split",
           "text": "Splitové provedení tepelného čerpadla znamená, že čerpadlo je rozděleno na dvě základní části, konkrétně na venkovní a vnitřní jednotku. Obě jednotky jsou vzájemně propojeny okruhem chladiva a komunikačním kabelem.",
           "visible": true,
           "items": [],
-          "rows": []
+          "rows": [],
+          "image": {
+            "src": "/media/9cf3630735c92908-1600.webp",
+            "small": "/media/9cf3630735c92908-640.webp",
+            "alt": "Princip tepelného čerpadla vzduch/voda v provedení split",
+            "x": 50,
+            "y": 50
+          }
         },
         {
           "id": "s5",
@@ -1369,12 +1433,19 @@
         },
         {
           "id": "s7",
-          "kind": "editorial",
+          "kind": "image-right",
           "title": "Tepelné čerpadlo MONOBLOK",
           "text": "Tepelné čerpadlo v provedení monoblok, což znamená, že venkovní jednotka je kompletně vybavena jak okruhem chladiva, tak okruhem pro vytápění. Tepelné čerpadlo je určeno k vytápění, chlazení a případnému ohřevu TUV. Protože je okruh vytápění veden přímo z objektu do tepelného čerpadla, je nutné zajistit ochranu jednotky proti zamrznutí topné vody.\n\nDalším příjemným zjištěním je fakt, že tepelné čerpadlo je vybaveno sondou snímání venkovní teploty již z výroby.\n\nČerpadlo je vybaveno moderní řídicí prostorovou jednotkou již z výroby. Vyspělá elektronická výbava umožňuje regulaci nejen okruhu TUV, ale i řízení přímých a směšovaných zón topného okruhu, dále umožňuje řízení až šesti tepelných čerpadel v kaskádě bez nadřazené regulace. Na vše stačí řídicí jednotka, která je dodávána v základní výbavě čerpadla! Samozřejmostí je režim chlazení v letních měsících.\n\nPlynule řízený výkon tepelného čerpadla díky invertorové technologii\n\nNejnižší hlučnost tepelného čerpadla na trhu (tišší než šepot), min. hodnota hladiny akustického tlaku 35 dB(A)\n\nPoužití nejnovější technologie přímo v tepelném čerpadle (radiální ventilátor)\n\nVytápění, ohřev vody i chlazení v jednom zařízení\n\nOvládání přes internet a pomocí mobilní aplikace\n\nLWAV + – varianta se vzduchotechnickými kanály pro ještě tišší chod",
           "visible": true,
           "items": [],
-          "rows": []
+          "rows": [],
+          "image": {
+            "src": "/media/96af58bf5d541844-1600.webp",
+            "small": "/media/96af58bf5d541844-640.webp",
+            "alt": "",
+            "x": 50,
+            "y": 50
+          }
         },
         {
           "id": "s9",
@@ -1453,12 +1524,19 @@
         },
         {
           "id": "s4",
-          "kind": "editorial",
+          "kind": "image-left",
           "title": "Elektroinstalace",
           "text": "- Kompletní výstavbu elektroinstalace v novostavbách – vše od návrhu, přes realizaci až po dodání potřebné dokumentace.\n\n- Rekonstrukce elektroinstalace – ať už jde o starší domy, byty nebo komerční objekty, vrátíme jim nový život díky moderní a bezpečné elektroinstalaci.\n\n- Úpravy elektroměrového sloupku – zajistíme, aby vše splňovalo požadavky vašeho distributora elektrické energie.\n\n- Provádění revizí elektroinstalace – garantujeme, že vaše elektroinstalace odpovídá všem normám a pravidlům.",
           "visible": true,
           "items": [],
-          "rows": []
+          "rows": [],
+          "image": {
+            "src": "/media/5558adcf6ca7baee-1600.webp",
+            "small": "/media/5558adcf6ca7baee-640.webp",
+            "alt": "elektro krimp",
+            "x": 50,
+            "y": 50
+          }
         },
         {
           "id": "s10",
@@ -1471,12 +1549,19 @@
         },
         {
           "id": "s11",
-          "kind": "editorial",
+          "kind": "image-right",
           "title": "Co všechno obnáší dokumentace k elektroinstalaci?",
           "text": "Dokumentace zahrnuje všechny informace nutné k provozu, údržbě a případným úpravám elektroinstalace. Obsahuje:\n\nSchémata zapojení,\n\nSeznam použitých materiálů a zařízení,\n\nRevizní zprávy a protokoly,\n\nPlány bezpečnostních prvků a uzemnění.Tento dokument je důležitý pro bezpečný provoz i případné budoucí úpravy elektroinstalace.",
           "visible": true,
           "items": [],
-          "rows": []
+          "rows": [],
+          "image": {
+            "src": "/media/8d4ff77b7043b73e-1600.webp",
+            "small": "/media/8d4ff77b7043b73e-640.webp",
+            "alt": "elektro finance",
+            "x": 50,
+            "y": 50
+          }
         },
         {
           "id": "s12",
@@ -1528,12 +1613,19 @@
         },
         {
           "id": "s7",
-          "kind": "editorial",
+          "kind": "image-left",
           "title": "Revize instalace",
           "text": "Provádíme revize domovních instalací, hromosvodů, fotovoltaických elektráren i průmyslových zařízení – pravidelné, mimořádné i výchozí revize.",
           "visible": true,
           "items": [],
-          "rows": []
+          "rows": [],
+          "image": {
+            "src": "/media/8d4ff77b7043b73e-1600.webp",
+            "small": "/media/8d4ff77b7043b73e-640.webp",
+            "alt": "elektro finance",
+            "x": 50,
+            "y": 50
+          }
         },
         {
           "id": "s16",
@@ -1603,12 +1695,19 @@
         },
         {
           "id": "s2",
-          "kind": "editorial",
+          "kind": "image-left",
           "title": "Chytrá domácnost",
           "text": "Maximalizujeme účinnost fotovoltaické elektrárny, tepelného čerpadla a spotřeb v domě.\n\nIdeálním nástrojem pro domácí automatizace je Fibaro Home Center.\n\nMaximalizujeme využití vygenerované sluneční energie\n\nMinimalizujeme náklady na provoz domácnosti\n\nVytvoříme pro Vás návrh na míru\n\nNabízíme:\n\nAutomatizaci světel\n\nMěření spotřebované energie konkrétních spotřebičů\n\nAutomatizace spínání pro optimalizaci spotřeby fotovoltaické energie\n\nIndividuální řešení dle potřeby zákazníka",
           "visible": true,
           "items": [],
-          "rows": []
+          "rows": [],
+          "image": {
+            "src": "/media/e902634a5616e12f-1600.webp",
+            "small": "/media/e902634a5616e12f-640.webp",
+            "alt": "Fibaro Home Center",
+            "x": 50,
+            "y": 50
+          }
         },
         {
           "id": "kontakt",
@@ -1909,12 +2008,19 @@
         },
         {
           "id": "s5",
-          "kind": "editorial",
+          "kind": "image-left",
           "title": "Servis tepelných čerpadel",
           "text": "Cena od 2799 Kč\n\nKontrola chladivového okruhu\n\nKontrola elektrického zapojení\n\nKontrola mechanických částí\n\nVyčištění filtrů primárního a sekundárního okruhu\n\nKompletní vyčištění zařízení\n\nKontrola a čištění probíha přibližně 120 minut",
           "visible": true,
           "items": [],
-          "rows": []
+          "rows": [],
+          "image": {
+            "src": "/media/21edd9be5d71abd1-1600.webp",
+            "small": "/media/21edd9be5d71abd1-640.webp",
+            "alt": "Servis tepelného čerpadla",
+            "x": 50,
+            "y": 50
+          }
         },
         {
           "id": "verification-servis",
