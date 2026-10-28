@@ -1,0 +1,6 @@
+# Archived source pages are reference material, not the application source.
+content/source/** linguist-vendored
+# Generated geographic data and visual QA artifacts are excluded from language statistics.
+content/geography/** linguist-generated
+src/data/cz-regions.json linguist-generated
+artifacts/** linguist-generated

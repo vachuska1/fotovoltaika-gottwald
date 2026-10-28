@@ -15,14 +15,13 @@ Veřejné stránky čtou pouze `content/site.json` během buildu. Převzatý obs
 
 Importní skripty `scripts/inventory.mjs`, `scripts/supplement.mjs`, `scripts/prepare-content.mjs` jsou jednorázové nástroje; nejsou součástí buildu. Nespouštějte je po redakčních úpravách, přepsaly by obsah původním snímkem. Původní nepřevzaté cíle odkazů zůstávají odkazy na původní web. Externí videa, sledovací skripty a původní formulářové endpointy se nevkládají. Zkušební formulář je viditelný s výslovným upozorněním, že odesílání zatím není aktivní; fungují skutečné telefonní a e-mailové odkazy. Pro jeho budoucí aktivaci je nutný schválený poskytovatel odesílání, příjemce, ověřená doména a serverové klíče.
 
-## Testovací Vercel — nejdříve ochrana, potom deployment
+## Jednoduchý import na Vercel — větev main
 
-1. Importovat **nový soukromý** repozitář `vachuska1/fotovoltaika-gottwald` do **nového** projektu `fotovoltaika-gottwald`. Framework Next.js, kořen repozitáře, Node.js 24.x. Žádné placené integrace.
-2. Před prvním deploymentem zapnout Vercel Authentication / Deployment Protection na všech dostupných adresách projektu, ideálně **All Deployments**, včetně automatických `vercel.app` aliasů. Pokud tarif nechrání všechny URL, nevytvářet veřejný produkční deployment. Použít pouze chráněný Preview z `develop`. `noindex` přístupovou ochranu nenahrazuje.
-3. Produkční větev ponechat `main`; veškerý vývoj a redakční publikování v `develop` vytváří pouze Preview. Nenastavovat `develop` jako produkční větev. Větev `cms-drafts` je v `vercel.json` vyloučena z deploymentů. Ověřit toto nastavení také po importu. Nový projekt importovat bez automatického nechráněného prvního buildu.
-4. Připojit Vercel GitHub App pouze k tomuto repozitáři. Automatické Preview Deploymenty vytváří vestavěná Git integrace; další webhook či deploy hook není potřeba. Úspěšný Git zápis ještě neznamená úspěšný build — výsledek je v přehledu Vercelu.
-5. Vybrat stabilní chráněný branch alias pro `develop`; použít jej pro `AUTH_URL` a Google callback. Neopírat OAuth o proměnlivou URL konkrétního commitu.
-6. **Nepřipojovat `fotovoltaika-gottwald.cz`, neměnit DNS ani původní produkci.** `SITE_LIVE=false` blokuje indexaci a zachovává přípravu canonical pro původní doménu. Připojení ostré domény a `SITE_LIVE=true` vyžaduje výslovné schválení vlastníka.
+Projekt používá jedinou hlavní větev `main`, která obsahuje celý aktuální web z localhostu. Při importu soukromého repozitáře `vachuska1/fotovoltaika-gottwald` vyberte Next.js, kořen `./` a Node.js 24.x. Výchozí build `npm run build`, výstupní adresář automatický. Další push do `main` spustí nové sestavení přes Git integraci.
+
+Před zpřístupněním testovacího webu zapněte Vercel Authentication / Deployment Protection pro **All Deployments**, včetně produkčních `vercel.app` aliasů. Samotný `noindex` přístup nechrání. Doménu `fotovoltaika-gottwald.cz` nepřipojujte, neměňte DNS ani původní produkční web. `SITE_LIVE=false` zachovává zákaz indexace.
+
+Pro veřejný prezentační web nejsou potřeba žádné tajné klíče. Administrace bez nastavení zůstává uzamčená. `cms-drafts` je případná interní větev konceptů CMS, nikoli druhá větev běžného vývoje; její deploymenty jsou vypnuté ve `vercel.json`.
 
 ## Aktivace bezpečné administrace
 
@@ -32,7 +31,7 @@ V Google Cloud Console → Google Auth Platform:
 
 1. Vybrat vlastní projekt, nastavit OAuth consent screen (název aplikace, kontaktní e-mail). Pro testovací režim přidat administrátory mezi test users; při interní aplikaci respektovat omezení Workspace. Využívají se jen `openid email profile`.
 2. Vytvořit OAuth Client ID typu **Web application**. Authorized redirect URI: `https://STABILNI-PREVIEW.vercel.app/api/auth/callback/google`. Pro místní vývoj lze přidat `http://localhost:3000/api/auth/callback/google`.
-3. Do **serverových environment variables nového projektu**, pouze pro Preview / `develop`, vložit:
+3. Do **serverových environment variables nového projektu**, pro odpovídající prostředí testovacího projektu, vložit:
    - `AUTH_URL`: stabilní HTTPS Preview URL bez koncového lomítka.
    - `AUTH_GOOGLE_ID`, `AUTH_GOOGLE_SECRET`: údaje nového OAuth klienta.
    - `AUTH_SECRET`: náhodný tajný klíč, alespoň 32 bajtů (`openssl rand -base64 32`).
@@ -52,14 +51,14 @@ Serverové proměnné:
 ```text
 GITHUB_OWNER=vachuska1
 GITHUB_REPO=fotovoltaika-gottwald
-GITHUB_CONTENT_BRANCH=develop
+GITHUB_CONTENT_BRANCH=main
 GITHUB_DRAFT_BRANCH=cms-drafts
 GITHUB_TOKEN=<pouze do chráněných proměnných>
 SITE_LIVE=false
 SITE_URL=https://www.fotovoltaika-gottwald.cz
 ```
 
-Do `develop` nepřidávat zákaz všech zápisů pro redakční token bez odpovídajícího nastavení výjimky. Naopak tokenu nedávat právo obcházet jiné bezpečnostní politiky účtu. Případný zákaz zápisu se má projevit chybou a musí být vyřešen vlastníkem.
+Do `main` nepřidávat zákaz všech zápisů pro redakční token bez odpovídajícího nastavení výjimky. Naopak tokenu nedávat právo obcházet jiné bezpečnostní politiky účtu. Případný zákaz zápisu se má projevit chybou a musí být vyřešen vlastníkem.
 
 ## Návod správce
 
@@ -68,7 +67,7 @@ Do `develop` nepřidávat zákaz všech zápisů pro redakční token bez odpov�
 3. Fotografie: vybrat JPEG, PNG, WebP nebo AVIF do 2,5 MB, nejvýše 24 megapixelů; animace a SVG jsou zakázané. Kontroluje se skutečný formát dekodérem, nikoli přípona. Obrázek se znovu zakóduje bez metadat do dvou WebP variant (640 a 1600 px). Ohnisko nastavuje výřez šablony; lze přidat jinou mobilní fotografii a ALT. Upload provede zápis do konceptu, nikdy do veřejné větve.
 4. Realizaci přidat jako položku galerie: doložený název, popis, fotografie, případně odkaz. Položku lze skrýt, odstranit a přesunout. Recenze obsahuje skutečný text, autora a odkaz na zdroj.
 5. **Uložit koncept** uloží verzi na `cms-drafts`. Kliknout na **Náhled uloženého konceptu**. Neuložené změny se v náhledu neobjeví. Náhled není veřejná URL; odkazy v obsahu vedou na veřejné stránky, jinou stránku konceptu vybírejte v editoru.
-6. **Publikovat** a potvrdit. Server atomicky zapíše schválený obsah a média do `develop`. Git integrace Vercelu sestaví nový chráněný Preview. Při totožném obsahu nevzniká nový commit ani build. Při chybě sestavení zůstává dostupné předchozí funkční nasazení.
+6. **Publikovat** a potvrdit. Server atomicky zapíše schválený obsah a média do `main`. Git integrace Vercelu sestaví novou chráněnou testovací verzi. Při totožném obsahu nevzniká nový commit ani build. Při chybě sestavení zůstává dostupné předchozí funkční nasazení.
 7. **Historie / obnovení** → **Obnovit do konceptu** obnoví jednu z posledních 25 obsahových verzí včetně médií. Zkontrolovat náhled a znovu výslovně publikovat. Starší soubory médií se nemažou, aby zůstala možná obnova.
 8. Při konfliktu se nikdy nepřepisuje cizí novější commit. Neuložené úpravy nejdříve zkopírovat, znovu načíst a přes historii obnovit požadovanou publikovanou verzi do konceptu. Tím se koncept znovu založí na aktuální větvi.
 

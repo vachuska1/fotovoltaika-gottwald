@@ -2,7 +2,7 @@ import 'server-only';
 import {siteSchema,type Site} from './schema';
 const owner=()=>process.env.GITHUB_OWNER;
 const repo=()=>process.env.GITHUB_REPO;
-const published=()=>process.env.GITHUB_CONTENT_BRANCH||'develop';
+const published=()=>process.env.GITHUB_CONTENT_BRANCH||'main';
 const draft=()=>process.env.GITHUB_DRAFT_BRANCH||'cms-drafts';
 const contentPath='content/site.json';
 type TreeEntry={path:string;mode:string;type:string;sha:string};
