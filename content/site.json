@@ -7,19 +7,19 @@
   "navigation": [
     {
       "label": "Fotovoltaika",
-      "href": "/"
+      "href": "/#fotovoltaika"
     },
     {
       "label": "Infratopení",
-      "href": "/dalsi-sluzby/infratopeni"
+      "href": "/#infratopeni"
+    },
+    {
+      "label": "GottSol",
+      "href": "/#gottsol"
     },
     {
       "label": "Další služby",
       "href": "/dalsi-sluzby"
-    },
-    {
-      "label": "GottSol",
-      "href": "/sdileni-prodej-energie/program-gottsol-inteligentni-rizeni"
     },
     {
       "label": "Dotace",
@@ -210,24 +210,24 @@
               "hidden": false
             },
             {
-              "title": "Infrapanel 3",
-              "text": "",
-              "image": {
-                "src": "/media/52befc327caeeed9-1600.webp",
-                "small": "/media/52befc327caeeed9-640.webp",
-                "alt": "Infrapanel 3",
-                "x": 50,
-                "y": 50
-              },
-              "hidden": false
-            },
-            {
               "title": "Infrapanel 2",
               "text": "",
               "image": {
                 "src": "/media/5d62078b9eb762f1-1600.webp",
                 "small": "/media/5d62078b9eb762f1-640.webp",
                 "alt": "Infrapanel 2",
+                "x": 50,
+                "y": 50
+              },
+              "hidden": false
+            },
+            {
+              "title": "Infrapanel 3",
+              "text": "",
+              "image": {
+                "src": "/media/52befc327caeeed9-1600.webp",
+                "small": "/media/52befc327caeeed9-640.webp",
+                "alt": "Infrapanel 3",
                 "x": 50,
                 "y": 50
               },
@@ -247,6 +247,12 @@
               "title": "Zobrazit více",
               "text": "",
               "href": "/sdileni-prodej-energie/program-gottsol-inteligentni-rizeni",
+              "hidden": false
+            },
+            {
+              "title": "Nezávazně poptat",
+              "text": "",
+              "href": "/#poptavka",
               "hidden": false
             }
           ],
@@ -349,20 +355,6 @@
                 "x": 50,
                 "y": 50
               }
-            },
-            {
-              "title": "Ohřev vody",
-              "text": "",
-              "href": "/fotovoltaika/ohrev-vody",
-              "hidden": false,
-              "linkLabel": "Zobrazit více",
-              "image": {
-                "src": "/media/2074038c74be89b2-1600.webp",
-                "small": "/media/2074038c74be89b2-640.webp",
-                "alt": "",
-                "x": 50,
-                "y": 50
-              }
             }
           ],
           "rows": []
@@ -370,7 +362,7 @@
         {
           "id": "gallery",
           "kind": "gallery",
-          "title": "Realizace",
+          "title": "Vybrané realizace",
           "text": "Prohlédněte si některé z našich realizací.",
           "visible": true,
           "items": [
@@ -432,7 +424,7 @@
         {
           "id": "reviews",
           "kind": "reviews",
-          "title": "Naše recenze",
+          "title": "Recenze našich zákazníků",
           "text": "",
           "visible": true,
           "items": [

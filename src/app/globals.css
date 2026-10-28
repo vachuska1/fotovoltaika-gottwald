@@ -419,5 +419,62 @@
 
 /* Self-hosted next/font typography; only the weights used by this site. */
 .hero h1,.page-heading h1,.section h2,.section h3{font-family:var(--font-manrope),Arial,Helvetica,sans-serif;font-weight:700}
-.home .hero h1{font-size:clamp(38px,4.7vw,72px);line-height:1.06;letter-spacing:-.035em;max-width:none;color:#202A26}
+.home .hero h1{font-size:clamp(38px,4.7vw,72px);line-height:1.06;letter-spacing:-.035em;max-width:none;color:#454545}
 @media(max-width:760px){.home .hero h1{font-size:clamp(36px,8.5vw,60px)}}
+
+.home #fotovoltaika>.section-copy>h2{color:#347A49}
+.home #infratopeni>.section-copy>h2{color:#B84A3C}
+
+/* Mobile map uses the screen width; footer content forms a centered stack. */
+@media(max-width:760px){
+ .region-map-canvas{width:calc(100vw - 8px);margin-left:calc(50% - 50vw + 4px);overflow:hidden}
+ .region-map-canvas>svg{width:109%;max-width:none;margin-left:-4.5%}
+ .footer-top{align-items:center;text-align:center;gap:30px}
+ .footer-top>.footer-logo,.footer-top>.footer-membership,.footer-top>.footer-follow{align-self:center}
+ .footer-top .footer-membership{justify-content:center}
+ .footer-top .footer-follow{justify-content:center;gap:16px}
+ .footer-follow>span{font-size:19px}
+ .footer-follow .footer-social{display:inline-flex;align-items:center;justify-content:center;min-width:64px;min-height:64px}
+ .footer-follow .footer-social svg{width:42px;height:42px}
+}
+
+/* Clear footer directions and more prominent, responsive navigation. */
+.footer-grid .footer-address{align-self:start;max-width:330px;padding:20px 24px;border:1px solid #6b805d;background:#22372a;font-size:19px;font-weight:600;line-height:1.65;transition:background-color .2s ease,border-color .2s ease}
+.footer-address>span{white-space:pre-line}
+.footer-address>small{display:block;margin-top:12px;font-size:12px;font-weight:400;color:#c2d3ab;text-decoration:underline;text-underline-offset:4px}
+.footer-grid .footer-address:hover,.footer-grid .footer-address:focus-visible{background:#2c4533;border-color:#b5c991}
+.footer-contacts a{padding:5px 0;font-size:16px;transition:color .2s ease}
+.footer-contacts a:hover{color:#bdd29f}
+.footer-grid nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 22px;columns:unset;align-content:start}
+.footer-grid nav a{position:relative;padding:10px 0;font-size:17px;line-height:1.5;border-bottom:1px solid #3a4d40;transition:color .2s ease,border-color .2s ease,background-color .2s ease}
+.footer-grid nav a:hover,.footer-grid nav a:focus-visible{color:#c3d7a6;border-color:#b5c991;background:#20372a}
+.footer-line a{font-size:14px;padding:6px 0;transition:color .2s ease}
+.footer-line a:hover{color:#e9ede1}
+@media(max-width:760px){
+ .footer-grid{text-align:center;justify-items:center;gap:30px}
+ .footer-grid .footer-address{width:100%;max-width:330px;font-size:20px}
+ .footer-contacts a{font-size:17px}
+ .footer-grid nav{width:100%;max-width:480px;gap:6px 20px}
+ .footer-grid nav a{font-size:19px;padding:14px 3px}
+ .footer-line{justify-content:center;gap:24px}
+}
+
+.footer-grid .footer-address{padding:0;border:0;background:transparent}
+.footer-grid .footer-address:hover,.footer-grid .footer-address:focus-visible{background:transparent;color:#c3d7a6}
+
+.desktop-nav{font-size:15px;gap:22px}
+@media(min-width:761px) and (max-width:1100px){.desktop-nav{font-size:14px;gap:13px}.site-header{gap:20px}}
+.mobile-menu nav a{font-size:17px}
+
+.site-header nav a[href="/#infratopeni"]:hover,.site-header nav a[href="/#infratopeni"]:focus-visible,.hero-section-links a[href="/#infratopeni"]:hover,.hero-section-links a[href="/#infratopeni"]:focus-visible{color:#B84A3C;border-color:currentColor}
+
+.home .hero-heading{position:relative;padding-right:230px}
+.home .hero-title-group>h1{width:calc(100% + 230px)}
+.hero-inquiry{position:absolute;right:0;bottom:22px;white-space:nowrap}
+@media(max-width:1000px){.home .hero-heading{padding-right:0}.home .hero-title-group>h1{width:auto}.hero-inquiry{position:static;margin-top:24px}}
+
+.home #infratopeni>.items .item a[href="/#poptavka"]{background:#B84A3C;color:#fff;transition:background-color .2s ease}
+.home #infratopeni>.items .item a[href="/#poptavka"]:hover,.home #infratopeni>.items .item a[href="/#poptavka"]:focus-visible{background:#9d3e33}
+
+.home #gottsol>.items .item a[href="/#poptavka"]{display:inline-block;padding:14px 20px;background:#fff;color:#347A49;text-decoration:none;transition:background-color .2s ease,color .2s ease}
+.home #gottsol>.items .item a[href="/#poptavka"]:hover,.home #gottsol>.items .item a[href="/#poptavka"]:focus-visible{background:#e8eade;color:#20382b}
