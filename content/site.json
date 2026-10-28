@@ -14,12 +14,12 @@
       "href": "/dalsi-sluzby/infratopeni"
     },
     {
-      "label": "Další služby",
-      "href": "/dalsi-sluzby"
-    },
-    {
       "label": "GottSol",
       "href": "/sdileni-prodej-energie/program-gottsol-inteligentni-rizeni"
+    },
+    {
+      "label": "Další služby",
+      "href": "/dalsi-sluzby"
     },
     {
       "label": "Dotace",
@@ -340,14 +340,18 @@
               "text": "Výborný přístup, kdybych se do něčeho podobného pouštěl znovu, neváhal bych oslovit tuto firmu.",
               "href": "https://refsite.info/photovoltaics/reviews/2168848e-8bb0-4b5a-ad80-6f1af995d13c",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Třebechovice pod Orebem",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Pavel V.",
               "text": "Celková spokojenost, vše proběhlo v pořádku, pracoviště po skvěle odvedené práci uklizeno včetně úklidu obalového materiálu.",
               "href": "https://refsite.info/photovoltaics/reviews/f131b84f-6acb-4ca0-acdb-6ae1c96bd6ab",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Osoblaha",
+              "service": "Fotovoltaika"
             }
           ],
           "rows": []
@@ -3771,217 +3775,276 @@
               "text": "Výborný přístup, kdybych se do něčeho podobného pouštěl znovu, neváhal bych oslovit tuto firmu.",
               "href": "https://refsite.info/photovoltaics/reviews/2168848e-8bb0-4b5a-ad80-6f1af995d13c",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Třebechovice pod Orebem",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Pavel V.",
               "text": "Celková spokojenost, vše proběhlo v pořádku, pracoviště po skvěle odvedené práci uklizeno včetně úklidu obalového materiálu.",
               "href": "https://refsite.info/photovoltaics/reviews/f131b84f-6acb-4ca0-acdb-6ae1c96bd6ab",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Osoblaha",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Daniel B.",
               "text": "Vynikající, vše proběhlo jako po másle, včetně vyřízení a vyplacení dotace, nikde nebyl žádný zádrhel. Realizace byla dokonce rychlejší, než bylo původně avizováno. Spolehlivost, komunikace.",
               "href": "https://refsite.info/photovoltaics/reviews/b535e55a-8869-4d68-aabd-cfdf8d685d65",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Velké Chvojno",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Ladislav P.",
               "text": "Všem doporučuji. Odbornost, svědomitý přístup. Poskytnutá montáž od A do Z včetně dotace.",
               "href": "https://refsite.info/photovoltaics/reviews/8b6e93a9-8d24-4c33-87f6-154e634d109a",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Opava",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Pavel H.",
               "text": "Vse naprosto skvele, perfekt pristup pana Gottwalda od zacatku do konce - tedy vcetne nasledneho servisu a pravidelne starosti o jiz hotovou fotovoltaiku. Doporucuji.",
               "href": "https://refsite.info/photovoltaics/reviews/072fed4f-9f09-4227-9b0a-662f1be50844",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Středočeský kraj",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Jiří J.",
               "text": "Doporučuji. Vše proběhlo v pořádku. Doporučuji.",
               "href": "https://jednat.cz/id/fotovoltaika-gottwald/",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Březnice"
             },
             {
               "title": "Marek B.",
               "text": "Spolehlivá firma, ideální pokud hledáte instalaci FVE. Vstřícná komunikace, odbornost a šikovnost pracovníků firmynic, došlo sice k prodlevě termínu instalace, ale to nebylo vinou firmy, bylo to v době krize námořní dopravy z Číny způsobené Covidem",
               "href": "https://refsite.info/photovoltaics/reviews/22129e98-5be5-486c-976a-ec45c72e6bde",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Jihočeský kraj",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Zdeněk V.",
               "text": "Doporučuji, kvalitní příprava projektu FVE, bezproblémová montáž FVE, rychlé vyřízení dotace,",
               "href": "https://refsite.info/photovoltaics/reviews/71ef2cf5-e8b8-428d-9d5b-9138ef0c2710",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Středočeský kraj",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Leoš J.",
               "text": "Seriózní firma s historií. Jednání pana Gottwalda férové a vstřícné. Jediná z oslovených firem, která se přijela před zasláním cenové nabídky podívat na místo realizace a ověřila si skutečnosti na místě. V provozu od 09/2021, termíny a cena dodrženy. FVE je navržena na optimální potřeby domu s minimalizací přetoků. Doporučuji.",
               "href": "https://refsite.info/photovoltaics/reviews/c68d5292-6478-471d-b758-7deec2c90a9a",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Pardubický kraj",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Zdeněk Z.",
               "text": "Doporučuji. Co firma slíbila, to také splnila. Při realizaci každý pracovník firmy věděl přesně, co má dělat. V 08:00 začali a v 16:00 hod. bylo vše hotovo. K dnešnímu dni žádné výhrady.",
               "href": "https://refsite.info/photovoltaics/reviews/0a5fce33-792a-4812-90a4-8bdd96c5b921",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Vrané nad Vltavou",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Ladislav A.",
               "text": "S firmou pana Gottwalda jsem byl velice spokojen. Doporučuji. Všechno proběhlo podle dohodnutých podmínek včetně vyřízení dotace a spolupráce s dodavatelem energií.",
               "href": "https://refsite.info/photovoltaics/reviews/e8f86866-2791-4e30-b264-77ba880f0a09",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Tábor",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Marek P.",
               "text": "Moje zkušenost je vynikající. Od návrhu řešení, přes administrativu, realizaci. Ale co je důležité. I po montáži je poskytována technická podpora, rady ohledně správného nastavení (např. nabíjení baterií). Pan Gottwald je vždy k zastižení a vždy ochoten poradit a pomoci. Kéž by takovýchto firem bylo více. Profesionální a vlídný přístup.",
               "href": "https://refsite.info/photovoltaics/reviews/3c56d75f-02b5-411b-98c9-3195b9d13ae7",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Středočeský kraj",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Ladislav P.",
               "text": "Doporučuji. Solidní jednání, profesionalita",
               "href": "https://refsite.info/photovoltaics/reviews/d5eefbf4-4ae6-41a2-82b3-e192b455c846",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Středočeský kraj",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Jiří N.",
               "text": "S firmou Gottwald a nabízeným systémem jsme naprosto spokojeni, volby rozhodně nelitujeme, příště bychom se rozhodli stejně. Seriózní jednání, dodržení všeho, na čem jsme se dohodli, kvalitní práce i systém.",
               "href": "https://refsite.info/photovoltaics/reviews/0149d0be-bcdf-46fc-ad89-e48688c5b4de",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Krásný Les",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Pavel S.",
               "text": "Mohu jen doporučit. Perfektní komunikace od začátku do konce. Jak bylo domluveno, tak proběhlo.",
               "href": "https://refsite.info/photovoltaics/reviews/b2799624-b749-43af-b1c7-5921b5154a56",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Jihočeský kraj",
+              "service": "Fotovoltaika"
             },
             {
               "title": "jiří B.",
               "text": "Uplná spokojenost mohu doporučit.",
               "href": "https://refsite.info/photovoltaics/reviews/d16533ed-8f02-41e8-96a6-9236b56a5ddf",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Pardubický kraj",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Dita N.",
               "text": "Spolehlivá precizní firma. Velmi solidní jednání, dodržení všech termínu, instalace bez problému pro zákazníka. K dispozici stále pro případné dotazy a nastavení systému. Vyřízení dotace zcela hladké.",
               "href": "https://refsite.info/photovoltaics/reviews/fa3ea74f-6744-4b48-ad75-2b31bd0566b3",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Středočeský kraj",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Václav P.",
               "text": "Lze doporučit rychlost, vstřícnost, řešení problému.",
               "href": "https://refsite.info/photovoltaics/reviews/d7d0a9da-3ee4-4794-b14d-706c5e01b6f2",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Malá Hraštice",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Evžen K.",
               "text": "Doporučuji. Bez jakéhokoliv problému nebo závady.",
               "href": "https://refsite.info/photovoltaics/reviews/1d7fa586-ec09-4f81-ab91-0f64635e7047",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Královéhradecký kraj",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Jiří J.",
               "text": "Velice spokojen vše v pořádku, můžu jen doporučit.",
               "href": "https://refsite.info/photovoltaics/reviews/c2962944-303f-4f11-adbc-e25eacb59430",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Středočeský kraj",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Jiří B.",
               "text": "Já jsem spokojen.Funguje to, realizace proběhla hladce.Systém Storion-SMILE-T10 je poměrně hodně uzavřený, pro někoho možná výhoda, pro technicky založené lidi nevýhoda.",
               "href": "https://refsite.info/photovoltaics/reviews/a5176cb6-4caa-4aa0-97b6-17b09bba022e",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Dražíč",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Pavel C.",
               "text": "Doporučuji. Profesionální návrh, realizace, přístup, dodržení termínů.",
               "href": "https://refsite.info/photovoltaics/reviews/6fd1e3e9-f087-4547-886d-ff222dfc25ba",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Praha",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Jakub Š.",
               "text": "Velmi spokojen. Perfektní jednání a dodržení termínů.",
               "href": "https://refsite.info/photovoltaics/reviews/951ee2e2-e0c3-4ea6-ae72-f2341b40f837",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Milevsko",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Jiří B.",
               "text": "Firma vybrána na základě doporučení z hlediska kvalitního a profesionálního jednání. Seriózní jednání, komunikace, reklamace technické závady odstraněna neprodleně.",
               "href": "https://refsite.info/photovoltaics/reviews/865c5d3e-f813-4cc3-bfa4-b6c6b36af3a9",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Liberecký kraj",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Petr Š.",
               "text": "Absolutní spokojenost s realizaci i provozemKomunikace majitele.",
               "href": "https://refsite.info/photovoltaics/reviews/fd8394fe-cca1-4714-a90f-64079633cb11",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Středočeský kraj",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Jiří H.",
               "text": "Komplexní nabídka- včetně odhadů spotřeby etc., komunikace.",
               "href": "https://refsite.info/photovoltaics/reviews/e5e614e2-a1e3-4080-b472-6bc45a683809",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Kostelec nad Černými Lesy",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Petr Š.",
               "text": "Spokojenost, funkčnost, co bylo slíbeno, to taky je. Splnění všech termínů (celkový termín zkrácen o měsíc), velmi dobrá komunikace, kvalitní práce, dobrý servis.",
               "href": "https://refsite.info/photovoltaics/reviews/a7094e61-0883-4a44-b790-19f4579cd8a3",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Mnichovice",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Marek B.",
               "text": "Vstřícnost, komunikace, vysvětlení problematiky",
               "href": "https://refsite.info/photovoltaics/reviews/0cddbf57-ffaf-4cf7-bcfe-afb5ebecc31e",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Přechovice",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Radek S.",
               "text": "Bezproblemovost",
               "href": "https://refsite.info/photovoltaics/reviews/9f2a2fa3-ad58-4f0f-9a67-f94688a7b509",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "location": "Liberec",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Pavel K.",
               "text": "Prvotřídně provedeno. Od nabídky, přes pomoc s vyřízením všech potřebných dokladů až po vlastní realizaci.",
               "href": "https://refsite.info/photovoltaics/reviews/44130f36-4079-4337-8aaf-6732036a77a5",
               "hidden": false,
-              "linkLabel": "Zobrazit na Refsite"
+              "linkLabel": "Zobrazit na Refsite",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Ivana Kroupova",
               "text": "S realizací fotovoltaiky jsme velice spokojení.",
               "href": "https://g.co/kgs/wZnEvq",
               "hidden": false,
-              "linkLabel": "Zobrazit na Google"
+              "linkLabel": "Zobrazit na Google",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Martin Rous",
@@ -4002,14 +4065,16 @@
               "text": "FVE od provozu 04/2022 a zatím spokojenost, doporučuji",
               "href": "https://g.co/kgs/eZFaK3",
               "hidden": false,
-              "linkLabel": "Zobrazit na Google"
+              "linkLabel": "Zobrazit na Google",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Martin Vejvoda",
               "text": "Naprosto bezproblémová spolupráce a jednání. FVE funkční od 4/2020",
               "href": "https://g.co/kgs/KthHvm",
               "hidden": false,
-              "linkLabel": "Zobrazit na Google"
+              "linkLabel": "Zobrazit na Google",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Jana Rule",
@@ -4030,14 +4095,16 @@
               "text": "S p.Gottwaldem je radost spolupracovat. Realizace FVE proběhla k naší naprosté spokojenosti.",
               "href": "https://g.co/kgs/tV3fd6",
               "hidden": false,
-              "linkLabel": "Zobrazit na Google"
+              "linkLabel": "Zobrazit na Google",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Evžen Kozlovský",
               "text": "Již čtvrtým rokem fungující FVE bez jakékoliv závady. Doporučuji",
               "href": "https://g.co/kgs/Abq6Ft",
               "hidden": false,
-              "linkLabel": "Zobrazit na Google"
+              "linkLabel": "Zobrazit na Google",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Jiri BORUVKA",
@@ -4051,14 +4118,16 @@
               "text": "Realizace FVE proběhla v daném termínu , p. Gottwald dodržel vše co slíbil. Nemám co dodat, vřele doporučuji.",
               "href": "https://g.co/kgs/WSBeC8",
               "hidden": false,
-              "linkLabel": "Zobrazit na Google"
+              "linkLabel": "Zobrazit na Google",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Jan Čížek",
               "text": "Naprostá spokojenost s přístupem pana Gottwalda při realizaci i přinásledném procesu seznámení s fungováním FVE .",
               "href": "https://g.co/kgs/5sUjvg",
               "hidden": false,
-              "linkLabel": "Zobrazit na Google"
+              "linkLabel": "Zobrazit na Google",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Martina Bezecná",
@@ -4086,7 +4155,8 @@
               "text": "Super komunikace, vždy pomohl a vysvětlil,Fotovoltaická elektrárna funguje už 3 roky naprosto bez problémů , firmu Fotovoltaika Gottwald můžu jen doporučit ;-)",
               "href": "https://g.co/kgs/Xv4fTz",
               "hidden": false,
-              "linkLabel": "Zobrazit na Google"
+              "linkLabel": "Zobrazit na Google",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Jirka N",
@@ -4100,7 +4170,8 @@
               "text": "Montáž FVE proběhla naprosto bezproblémově i veškerá komunikace s majitelem firmy je na 1* Kdykoliv potřebuji radu, je k dispozici. Tuto firmu rozhodně doporučuji.",
               "href": "https://g.co/kgs/SM2cXF",
               "hidden": false,
-              "linkLabel": "Zobrazit na Google"
+              "linkLabel": "Zobrazit na Google",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Tomas Vytiska",
@@ -4114,14 +4185,16 @@
               "text": "Výborná spolupráce, co se dohodlo to bylo realizováno. Jednání na rovinu, žadné reklamy typu, že za 14 dní máte FVE i s dotací. I po realizaci na občasné dotazy rychlá reakce.",
               "href": "https://g.co/kgs/pWAJf7",
               "hidden": false,
-              "linkLabel": "Zobrazit na Google"
+              "linkLabel": "Zobrazit na Google",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Oldřich Bukáček",
               "text": "Dobrý den. Fotovoltaika od pana Gottwalda šlape perfektně už skoro dva roky. I přes mé blbé dotazy a připomínky ( za které se omlouvám ) dovedl vše ke zdárnému konci. Kdyby takových bylo, byl by ráj na zemi a to nejen fotovoltaický.",
               "href": "https://g.co/kgs/dEQTdP",
               "hidden": false,
-              "linkLabel": "Zobrazit na Google"
+              "linkLabel": "Zobrazit na Google",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Radek Joch",
@@ -4135,14 +4208,16 @@
               "text": "Firmu pana Gottwalda mohu jen doporučit. Perfektní přístup, dodržení všech dohod. Jsem velmi spokojený s celou realizací projektu FVE na mém rodinném domě.",
               "href": "https://g.co/kgs/L3MiU4",
               "hidden": false,
-              "linkLabel": "Zobrazit na Google"
+              "linkLabel": "Zobrazit na Google",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Vladimír Soběslav",
               "text": "Velmi dobrá spolupráce od nabídky, až po realizaci projektu. Servis FVE a optimalizace činnosti v následujících letech fungují na jedničku. Toto nebývá vždy samozřejmostí. Děkujeme.",
               "href": "https://g.co/kgs/fVtw8M",
               "hidden": false,
-              "linkLabel": "Zobrazit na Google"
+              "linkLabel": "Zobrazit na Google",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Petr Kobrle",
@@ -4170,21 +4245,24 @@
               "text": "Seriózní, korektní a profesionální jednání ze strany pana Gottwalda. Celá realizace FVE, včetně vyřízení dotací a připojení k distribuci byla skvělá. Reklamace technické závady vyřešena bez jakýchkoliv problémů. Naprostá spokojenost. Doporučuji.",
               "href": "https://g.co/kgs/vnmnjE",
               "hidden": false,
-              "linkLabel": "Zobrazit na Google"
+              "linkLabel": "Zobrazit na Google",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Martin Hrdlička",
               "text": "Pokud fotovoltaiku, tak s touto firmou. Skvělé jednání, naprosto jasný postup celé realizace od začátku do konce, rychlost, kvalita, odbornost. Ze spolupráce s panem Gottwaldem jsem měl vyloženě radost, již při prvním kontaktu na místě realizace jsem během pár minut pochopil, že jednám s někým, kdo tomu OPRAVDU rozumí a má ke své práci a dodávanému řešení vztah. Než jsem firmu kontaktoval, dlouho jsem srovnával různá nabízená řešení na trhu a hledal něco opravdu vychytané a tím systém Alpha Storion opravdu je. Tuto FVE již provozuji dva roky a jsem naprosto spokojen. Zpětně tak ještě jednou děkuji.",
               "href": "https://g.co/kgs/a25rj5",
               "hidden": false,
-              "linkLabel": "Zobrazit na Google"
+              "linkLabel": "Zobrazit na Google",
+              "service": "Fotovoltaika"
             },
             {
               "title": "Leoš Jelínek",
               "text": "Seriózní firma s historií. Jednání pana Gottwalda férové a vstřícné. Jediná z oslovených firem, která se přijela před zasláním cenové nabídky podívat na místo realizace a ověřila si skutečnosti na místě. V provozu od 09/2021, termíny a cena dodrženy. FVE je navržena na optimální potřeby domu s minimalizací přetoků. Doporučuji.",
               "href": "https://g.co/kgs/4YAeYs",
               "hidden": false,
-              "linkLabel": "Zobrazit na Google"
+              "linkLabel": "Zobrazit na Google",
+              "service": "Fotovoltaika"
             }
           ],
           "rows": []

@@ -244,14 +244,14 @@
 /* Contact options disappear while a form is on screen, leaving its controls clear. */
 .floating-contact{position:fixed;right:24px;bottom:max(24px,env(safe-area-inset-bottom));z-index:25}
 .floating-contact[hidden]{display:none}
-.floating-contact>button{width:60px;height:60px;border-radius:50%;border:1px solid #829b65;background:#20382b;color:#f4f3ed;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 4px 16px #18262122}
-.floating-contact>button:hover{background:#365a2d}.floating-contact>button[aria-expanded=false]{animation:contact-welcome 3s ease 1}
-@keyframes contact-welcome{0%,100%{box-shadow:0 4px 16px #18262122}50%{box-shadow:0 0 0 8px #64844820}}
-.floating-contact-options{position:absolute;right:0;bottom:76px;width:310px;max-width:calc(100vw - 36px);background:#f4f3ed;color:#20382b;border:1px solid #9aae85;padding:8px 20px;box-shadow:0 10px 30px #18262122}
+.floating-contact>button{width:92px;height:92px;border-radius:50%;border:1px solid #829b65;background:#20382b;color:#f4f3ed;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 4px 16px #18262122}
+.floating-contact>button:hover{background:#365a2d}.floating-contact>button[aria-expanded=false]{animation:contact-welcome 1.8s ease-in-out infinite}
+@keyframes contact-welcome{0%,100%{transform:scale(1);box-shadow:0 4px 16px #18262122,0 0 0 0 #64844855}50%{transform:scale(1.065);box-shadow:0 4px 20px #18262133,0 0 0 13px #64844800}}
+.floating-contact-options{position:absolute;right:0;bottom:108px;width:310px;max-width:calc(100vw - 36px);background:#f4f3ed;color:#20382b;border:1px solid #9aae85;padding:8px 20px;box-shadow:0 10px 30px #18262122}
 .floating-contact-options a{display:flex;flex-direction:column;gap:6px;padding:17px 0;font-size:15px;border-bottom:1px solid #cbd5bf}.floating-contact-options a:last-child{border:0}.floating-contact-options span{font-size:12px;color:#5b6d4f;overflow-wrap:anywhere}
 .floating-contact-options a:hover{text-decoration:underline;text-underline-offset:4px}
 .inquiry-fields input,.inquiry-fields textarea,.inquiry-fields select{scroll-margin-block:110px}
-@media(max-width:760px){.floating-contact{right:16px;bottom:max(16px,env(safe-area-inset-bottom))}.floating-contact>button{width:54px;height:54px}.floating-contact-options{bottom:68px}}
+@media(max-width:760px){.floating-contact{right:16px;bottom:max(16px,env(safe-area-inset-bottom))}.floating-contact>button{width:82px;height:82px}.floating-contact-options{bottom:96px}}
 @media(prefers-reduced-motion:reduce){.floating-contact>button{animation:none!important}}
 
 /* Diagonal review colors, transparent map canvas, compact brand signature. */
@@ -266,3 +266,38 @@
  .review-card:nth-child(odd){background:#20382b;color:#f0f2e7}.review-card:nth-child(odd) .review-quotation{color:#a7bc83}.review-card:nth-child(odd) .review-footer{border-color:#52634d}.review-card:nth-child(odd) .review-source{color:#d2ddc3;border-color:#7f9470}
 }
 @media(max-width:600px){.region-map-canvas{padding:28px 0 0}}
+
+/* Local review: neutral service-area map and clearer footer identity. */
+.footer-membership{display:flex;align-items:center;gap:30px;padding:30px 0 40px;border-top:1px solid #465047}
+.footer-membership img{width:225px;height:auto;max-width:100%;object-fit:contain;background:#f4f3ed;padding:12px}
+.footer-membership p{font-size:17px;line-height:1.6;color:#d6dfcc}
+.footer-membership strong{font-weight:400;color:#f4f3ed}
+.footer-follow{display:flex;align-items:center;gap:12px}
+.footer-follow>span{margin:0;font-size:14px;white-space:nowrap}
+.footer-follow .footer-social{min-width:52px;min-height:52px}
+@media(max-width:600px){.footer-membership{align-items:flex-start;flex-direction:column;gap:18px;padding:28px 0}.footer-membership img{width:210px}.footer-follow{width:100%;margin-top:8px}}
+
+/* Brand lockups share a full-width, independently rendered subtitle. */
+.brand{width:188px}
+.brand-subtitle{display:block;width:100%;height:auto;letter-spacing:normal;color:#53634c;overflow:visible}
+.footer-top{display:grid;grid-template-columns:220px minmax(0,1fr) auto;align-items:center;gap:40px;padding-bottom:36px;border-bottom:1px solid #465047}
+.footer-logo{width:220px}.footer-logo .brand-logo{width:220px;height:56px}.footer-logo .brand-subtitle{color:#d5dfcb}
+.footer-top .footer-membership{padding:0;border:0;gap:18px;flex-direction:row;align-items:center;min-width:0}
+.footer-top .footer-membership img{width:150px;flex-shrink:0;padding:8px}
+.footer-top .footer-membership p{font-size:14px;line-height:1.6}
+.footer-top .footer-follow{width:auto;margin:0;justify-self:end}
+@media(max-width:1000px){.footer-top{grid-template-columns:220px 1fr;gap:28px}.footer-top .footer-follow{grid-column:1/-1}}
+@media(max-width:760px){.site-header>.brand{width:157px}.footer-top{display:flex;flex-direction:column;align-items:flex-start;gap:30px}.footer-top .footer-follow{align-self:flex-end}.footer-top .footer-membership{flex-wrap:wrap}}
+
+/* Match the subtitle to the SVG artwork, excluding its transparent side margins. */
+.brand-subtitle{width:87.35%;margin-left:3.25%;align-self:flex-start;overflow:hidden}
+.footer-top{grid-template-columns:minmax(220px,1fr) auto minmax(220px,1fr)}
+.footer-top .footer-membership{justify-self:center}
+@media(max-width:1000px){.footer-top{grid-template-columns:1fr 1fr}.footer-top>.footer-logo{grid-column:1;grid-row:1}.footer-top>.footer-follow{grid-column:2;grid-row:1}.footer-top>.footer-membership{grid-column:1/-1;grid-row:2}}
+@media(max-width:760px){.footer-top .footer-membership{align-self:center;justify-content:center;text-align:center}}
+
+/* New logo assets are cropped to their visible artwork, without side margins. */
+.brand-subtitle{width:100%;margin-left:0;align-self:stretch}
+
+.review-attribution{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 14px;min-width:0}
+.review-details{font-size:12px;font-weight:400;line-height:1.6;opacity:.8;overflow-wrap:anywhere}

@@ -1,10 +1,8 @@
 import fs from 'node:fs/promises';
 import sharp from 'sharp';
 // Approved GottSol logo; no remote fonts or runtime image transforms.
-const proposal=await fs.readFile('design/logo/gottsol-proposal.svg','utf8');
-const logo=proposal.replace('width="620" height="160" viewBox="0 0 620 160"','width="470" height="120" viewBox="15 18 470 120"').replace('GottSol — návrh loga','GottSol');
-await fs.writeFile('public/brand/gottsol-logo.svg',logo);
-const mark=`<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><title>GottSol</title><rect width="128" height="128" rx="22" fill="#f4f3ed"/><g transform="translate(4 6)"><path d="M91 33a43 43 0 1 0 1 58V66H62" fill="none" stroke="#20382b" stroke-width="13" stroke-linecap="butt" stroke-linejoin="miter"/><circle cx="95" cy="17" r="12" fill="#8fa868"/></g></svg>`;
+await import('./compose-gottsol-logo.mjs');
+const mark=(await fs.readFile('public/brand/gottwald-symbol.svg','utf8')).replace(/<svg\b/, '<svg width="128" height="128"').split('\n').map(line=>line.trimEnd()).join('\n');
 await fs.writeFile('src/app/icon.svg',mark);
 await sharp(Buffer.from(mark)).resize(180,180).png().toFile('src/app/apple-icon.png');
 const sizes=[16,32,48];const images=await Promise.all(sizes.map(size=>sharp(Buffer.from(mark)).resize(size,size).png().toBuffer()));
