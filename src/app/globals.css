@@ -478,3 +478,9 @@
 
 .home #gottsol>.items .item a[href="/#poptavka"]{display:inline-block;padding:14px 20px;background:#fff;color:#347A49;text-decoration:none;transition:background-color .2s ease,color .2s ease}
 .home #gottsol>.items .item a[href="/#poptavka"]:hover,.home #gottsol>.items .item a[href="/#poptavka"]:focus-visible{background:#e8eade;color:#20382b}
+
+.home #services .services-overview-link{display:inline-block;margin-top:18px;padding-bottom:5px;border-bottom:1px solid #71855c;font-size:15px;transition:color .2s ease}
+
+.page-heading.unified-page-heading{max-width:1480px;margin:0 auto;padding:38px 4%}
+.unified-page-heading>.eyebrow{display:inline-block;font-size:12px;font-weight:400;line-height:normal;text-transform:none;letter-spacing:.08em;margin-bottom:23px;color:#347A49}
+@media(max-width:760px){.page-heading.unified-page-heading{padding:28px 6% 30px}.unified-page-heading>.eyebrow{margin-bottom:18px}}

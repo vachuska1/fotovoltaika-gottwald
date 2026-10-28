@@ -497,7 +497,7 @@
           "items": [
             {
               "title": "Fotovoltaické elektrárny pro firmy",
-              "text": "Navrhneme Vám fotovoltaickou elektrárnu na klíč dle Vašich preferencí s ohledem na maximální využití.",
+              "text": "",
               "href": "/fotovoltaika/fotovoltaicke-elektrarny-pro-firmy",
               "linkLabel": "Zobrazit více",
               "hidden": false,
@@ -539,7 +539,7 @@
             },
             {
               "title": "Ohřev vody",
-              "text": "Vyprodukovaná elektrická energie se přivede kabely do regulátoru, který zajistí distribuci do topného tělesa bojleru. Regulátor se také stará o optimální využívání energie ze solárních panelů, a v případě nedostatku výkonu ji doplní z distribuční sítě. Fotovoltaický systém je bezpečný a zároveň vysoce spolehlivý.",
+              "text": "Vyprodukovaná elektrická energie se přivede kabely do regulátoru, který zajistí distribuci do topného tělesa bojleru.",
               "href": "/fotovoltaika/ohrev-vody",
               "linkLabel": "Zobrazit více",
               "hidden": false,
@@ -564,20 +564,6 @@
                 "x": 50,
                 "y": 50
               }
-            },
-            {
-              "title": "Solární panely",
-              "text": "",
-              "href": "/fotovoltaicke-elektrarny#panely",
-              "hidden": false,
-              "linkLabel": "Zobrazit více"
-            },
-            {
-              "title": "Střešní konstrukce",
-              "text": "",
-              "href": "/fotovoltaicke-elektrarny#konstrukce",
-              "hidden": false,
-              "linkLabel": "Zobrazit více"
             }
           ]
         },
@@ -650,7 +636,16 @@
         {
           "id": "dodavka",
           "title": "Co vše je zahrnuto v ceně projektu?",
-          "text": "Zpracování projektové dokumentace\n\nVyřízení připojení s distribuční společností\n\nZajištění smlouvy o připojení FVE (standardní připojení bez obavy s možných přetoků)\n\nKompletní dodání všech potřebných komponentů k výstavbě FVE\n\nKompletní instalace FVE\n\nZpracování revizní zprávy\n\nZpracování dokladů k připojení do distribuční soustavy\n\nZpracování veškerých dokladů k vyřízení NZÚ\n\nVyřízení dotace od NZÚ\n\nÚprava distribučního sloupku pro montáž nového čtyř-kvadrantového elektroměru\n\nVýměna komponentů v distribučním sloupku dle platné legislativy\n\nPokud je třeba vysekání a zapravení kabelových tras\n\nMontáž nového rozvaděče včetně komponentů\n\nÚprava zapojení Vašeho domácího rozvaděče\n\nÚprava domácího rozvaděče pro zapojení zálohovaných obvodů",
+          "text": "Zpracování projektové dokumentace\n\nVyřízení připojení s distribuční společností\n\nZajištění smlouvy o připojení FVE (standardní připojení bez obavy s možných přetoků)\n\nKompletní dodání všech potřebných komponentů k výstavbě FVE\n\nKompletní instalace FVE\n\nZpracování revizní zprávy\n\nZpracování dokladů k připojení do distribuční soustavy\n\nÚprava distribučního sloupku pro montáž nového čtyř-kvadrantového elektroměru\n\nVýměna komponentů v distribučním sloupku dle platné legislativy\n\nPokud je třeba vysekání a zapravení kabelových tras\n\nMontáž nového rozvaděče včetně komponentů\n\nÚprava zapojení Vašeho domácího rozvaděče\n\nÚprava domácího rozvaděče pro zapojení zálohovaných obvodů",
+          "kind": "editorial",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "verification-dotace",
+          "title": "Dotace",
+          "text": "Zpracování veškerých dokladů k vyřízení NZÚ\n\nVyřízení dotace od NZÚ",
           "kind": "editorial",
           "visible": true,
           "items": [],
@@ -699,7 +694,7 @@
           "id": "s1",
           "kind": "image-left",
           "title": "Jak fotovoltaika funguje?",
-          "text": "Fotovoltaická energie získává ve světě na oblíbenosti. Nejenže je výrazně levnější, nežli klasicky vyráběná elektřina, ale celý fotovolatický systém je také velmi dobře propracovaný. Fotovoltaika se nepřipojuje do distribuční sítě, ale potřebný počet fotovoltaických panelů se pouze umístí na střechu vašeho domu.\n\nVyprodukovaná elektrická energie se přivede kabely do regulátoru, který zajistí distribuci do topného tělesa bojleru. Regulátor se také stará o optimální využívání energie ze solárních panelů, a v případě nedostatku výkonu ji doplní z distribuční sítě. Fotovoltaický systém je bezpečný a zároveň vysoce spolehlivý.",
+          "text": "Fotovoltaika se nepřipojuje do distribuční sítě, ale potřebný počet fotovoltaických panelů se pouze umístí na střechu vašeho domu.\n\nVyprodukovaná elektrická energie se přivede kabely do regulátoru, který zajistí distribuci do topného tělesa bojleru. Regulátor se také stará o optimální využívání energie ze solárních panelů, a v případě nedostatku výkonu ji doplní z distribuční sítě. Fotovoltaický systém je bezpečný a zároveň vysoce spolehlivý.",
           "visible": true,
           "items": [],
           "rows": [],
@@ -715,7 +710,7 @@
           "id": "s2",
           "kind": "editorial",
           "title": "Výhody fotovolatického systému",
-          "text": "Nečekají vás žádná povolení a zdlouhavé žádosti\n\nInstalace nepřináší žádné složité stavební úpravy\n\nFotovoltaické panely vyrábí energii i při zatažené obloze\n\nPanely se nepřehřívají, není třeba je ochlazovat kapalinou\n\nK dispozici je dotační program Nová zelená úsporám",
+          "text": "Instalace nepřináší žádné složité stavební úpravy\n\nFotovoltaické panely vyrábí energii i při zatažené obloze\n\nPanely se nepřehřívají, není třeba je ochlazovat kapalinou",
           "visible": true,
           "items": [],
           "rows": []
@@ -724,7 +719,7 @@
           "id": "s3",
           "kind": "editorial",
           "title": "Proč fotovoltaika od nás?",
-          "text": "Naše společnost GottSol vám k instalaci fotovoltaického ohřevu vody nabízí osvědčené a velmi technicky vyspělé zařízení NECTARSUN. Tento inovativní systém využívá k ohřevu ekologicky čistých a nevyčerpatelných zdrojů energie.\n\nVe spojení s regulátorem disponujícím funkcí MPPT lze výrobu energie z fotovoltaických panelů kombinovat s dodávkou z elektrické sítě, přičemž tento systém vždy upřednostní elektřinu vyrobenou vaší fotovoltaikou.\n\nPlně automatický systém funkční s většinou běžných ohřívačů vody\n\nOvládání přes jednoduchou aplikaci\n\nS fotovoltaikou výrazně ušetříte za elektrickou energii",
+          "text": "Naše společnost GottSol vám k instalaci fotovoltaického ohřevu vody nabízí osvědčené a velmi technicky vyspělé zařízení NECTARSUN. \n\nVe spojení s regulátorem disponujícím funkcí MPPT lze výrobu energie z fotovoltaických panelů kombinovat s dodávkou z elektrické sítě, přičemž tento systém vždy upřednostní elektřinu vyrobenou vaší fotovoltaikou.\n\nPlně automatický systém funkční s většinou běžných ohřívačů vody\n\nOvládání přes jednoduchou aplikaci",
           "visible": true,
           "items": [],
           "rows": []
@@ -765,7 +760,7 @@
           "id": "s0",
           "kind": "image-right",
           "title": "Získat cenovou nabídku",
-          "text": "Rádi Vám připravíme kalkulaci fotovoltaikya navrhneme řešení na míru.",
+          "text": "Rádi Vám připravíme kalkulaci fotovoltaiky a navrhneme řešení na míru.",
           "visible": true,
           "items": [],
           "rows": [],
@@ -826,7 +821,7 @@
           "id": "s16",
           "kind": "editorial",
           "title": "Co vše je zahrnuto v ceně projektu?",
-          "text": "Zpracování projektové dokumentace\n\nVyřízení připojení s distribuční společností\n\nZajištění smlouvy o připojení FVE (standardní připojení bez obavy s možných přetoků)\n\nKompletní dodání všech potřebných komponentů k výstavbě FVE\n\nKompletní instalace FVE\n\nZpracování revizní zprávy\n\nZpracování dokladů k připojení do distribuční soustavy\n\nÚprava distribučního sloupku pro montáž nového čtyř-kvadrantového elektroměru\n\nVýměna komponentů v distribučním sloupku dle platné legislativy\n\nPokud je třeba vysekání a zapravení kabelových tras\n\nMontáž nového rozvaděče včetně komponentů\n\nÚprava zapojení Vašeho domácího rozvaděče\n\nÚprava domácího rozvaděče pro zapojení zálohovaných obvodů",
+          "text": "Zpracování projektové dokumentace\n\nVyřízení připojení s distribuční společností\n\nZajištění smlouvy o připojení FVE (standardní připojení bez obavy s možných přetoků)\n\nKompletní dodání všech potřebných komponentů k výstavbě FVE\n\nKompletní instalace FVE\n\nZpracování revizní zprávy\n\nZpracování dokladů k připojení do distribuční soustavy\n\nÚprava distribučního sloupku pro montáž nového čtyř-kvadrantového elektroměru\n\nVýměna komponentů v distribučním sloupku dle platné legislativy\n\nPokud je třeba vysekání a zapravení kabelových tras\n\nMontáž nového rozvaděče včetně komponentů",
           "visible": true,
           "items": [],
           "rows": []
@@ -876,7 +871,7 @@
           "id": "s0",
           "kind": "image-right",
           "title": "Získat cenovou nabídku",
-          "text": "Rádi Vám připravíme kalkulaci fotovoltaikya navrhneme řešení na míru.",
+          "text": "Rádi Vám připravíme kalkulaci fotovoltaiky a navrhneme řešení na míru.",
           "visible": true,
           "items": [],
           "rows": [],
@@ -1005,7 +1000,7 @@
           "id": "s0",
           "kind": "image-right",
           "title": "Získat cenovou nabídku",
-          "text": "Rádi Vám připravíme kalkulaci vytápěnía navrhneme řešení na míru.",
+          "text": "Rádi Vám připravíme kalkulaci vytápění a navrhneme řešení na míru.",
           "visible": true,
           "items": [],
           "rows": [],
@@ -1037,7 +1032,7 @@
           "id": "s5",
           "kind": "editorial",
           "title": "Jaké jsou hlavní výhody infratopení oproti jiným způsobům vytápění?",
-          "text": "Úspora energie a nákladů.\n\nModerní a designový vzhled.\n\nRovnoměrné a příjemné teplo bez přehřívání.\n\nBezúdržbový provoz a dlouhá životnost.\n\nVhodné pro alergiky – žádný prach ani emise.\n\nJednoduchá instalace a možnost individuálního přizpůsobení.",
+          "text": "Moderní a designový vzhled.\n\nRovnoměrné a příjemné teplo bez přehřívání.\n\nBezúdržbový provoz a dlouhá životnost.\n\nJednoduchá instalace a možnost individuálního přizpůsobení.",
           "visible": true,
           "items": [],
           "rows": []
@@ -1103,7 +1098,7 @@
           "id": "s0",
           "kind": "image-right",
           "title": "",
-          "text": "Od 1. 5. 2023 je nutnost mít kontrolu nad instalovanými panely u elektráren, kde výkon přesahuje 10 kWp. Produkty společnosti TIGO jsou ideálním řešením pro tyto elektrárny.",
+          "text": "",
           "visible": true,
           "items": [],
           "rows": [],
@@ -1114,15 +1109,6 @@
             "x": 50,
             "y": 50
           }
-        },
-        {
-          "id": "s1",
-          "kind": "editorial",
-          "title": "Nabízíme dvě varianty",
-          "text": "",
-          "visible": true,
-          "items": [],
-          "rows": []
         },
         {
           "id": "s2",
@@ -1147,6 +1133,15 @@
           "kind": "editorial",
           "title": "Bezpečnostní tlačítko",
           "text": "V rámci Bezpečnostního programu získáte bezpečnostní tlačítko, které v případě požáru nemovitosti může být využito hasičským sborem pro odpojení elektrárny a umožní následný zásah hasičů.",
+          "visible": true,
+          "items": [],
+          "rows": []
+        },
+        {
+          "id": "verification-normy",
+          "title": "Požární bezpečnost",
+          "text": "Od 1. 5. 2023 je nutnost mít kontrolu nad instalovanými panely u elektráren, kde výkon přesahuje 10 kWp.",
+          "kind": "editorial",
           "visible": true,
           "items": [],
           "rows": []
@@ -1339,7 +1334,7 @@
           "id": "s0",
           "kind": "image-right",
           "title": "Získat cenovou nabídku",
-          "text": "Rádi Vám připravíme kalkulacia navrhneme řešení na míru.",
+          "text": "Rádi Vám připravíme kalkulaci a navrhneme řešení na míru.",
           "visible": true,
           "items": [],
           "rows": [],
@@ -1414,7 +1409,7 @@
           "id": "s9",
           "kind": "editorial",
           "title": "Jak funguje tepelné čerpadlo?",
-          "text": "Tepelné čerpadlo odebírá teplo z okolí vytápěného objektu (vzduchu, země nebo vody) a převádí ho na vyšší teplotní hladinu použitelnou pro vytápění a ohřev teplé vody.\n\nPřevod tepla na vyšší teplotní hladinu je možný díky stlačení par chladiva v kompresoru, při kterém dojde k jeho zahřátí. Je to stejný princip, jako když pumpičkou foukáte kolo. Vzduch i pumpička se při stlačování vzduchu výrazně zahřejí.\n\nTepelné čerpadlo dokáže tohoto principu skvěle využít a získat tak zdarma teplo z okolí. Jak ale získat teplo z místa, kde je zima? Ještě více to místo ochladit a tím mu teplo odebrat. Díky tomuto principu může tepelné čerpadlo získat teplo i ze vzduchu, který má teplotu - 20°C. Získávání tepla z takto nízkých teplot je o něco méně efektivní, ale pořád ještě výhodné.",
+          "text": "Tepelné čerpadlo odebírá teplo z okolí vytápěného objektu (vzduchu, země nebo vody) a převádí ho na vyšší teplotní hladinu použitelnou pro vytápění a ohřev teplé vody.\n\nTepelné čerpadlo dokáže tohoto principu skvěle využít a získat tak zdarma teplo z okolí. Jak ale získat teplo z místa, kde je zima? Ještě více to místo ochladit a tím mu teplo odebrat. Díky tomuto principu může tepelné čerpadlo získat teplo i ze vzduchu, který má teplotu - 20°C. Získávání tepla z takto nízkých teplot je o něco méně efektivní, ale pořád ještě výhodné.",
           "visible": true,
           "items": [],
           "rows": []
@@ -1438,7 +1433,7 @@
           "rows": []
         },
         {
-          "id": "s13",
+          "id": "verification-s13",
           "kind": "editorial",
           "title": "Co když se čerpadlo porouchá?",
           "text": "Naše zařízení jsou spolehlivá a od předních výrobců. Na tepelné čerpadlo poskytujeme záruku až 10 let, a v případě jakéhokoliv problému vám zajistíme rychlý servis.",
@@ -1473,7 +1468,7 @@
           "id": "s0",
           "kind": "image-right",
           "title": "Získat cenovou nabídku",
-          "text": "Rádi Vám připravíme kalkulacia navrhneme řešení na míru.",
+          "text": "Rádi Vám připravíme kalkulaci a navrhneme řešení na míru.",
           "visible": true,
           "items": [],
           "rows": [],
@@ -1514,7 +1509,7 @@
           "id": "s11",
           "kind": "image-right",
           "title": "Co všechno obnáší dokumentace k elektroinstalaci?",
-          "text": "Dokumentace zahrnuje všechny informace nutné k provozu, údržbě a případným úpravám elektroinstalace. Obsahuje:\n\nSchémata zapojení,\n\nSeznam použitých materiálů a zařízení,\n\nRevizní zprávy a protokoly,\n\nPlány bezpečnostních prvků a uzemnění.Tento dokument je důležitý pro bezpečný provoz i případné budoucí úpravy elektroinstalace.",
+          "text": "Dokumentace zahrnuje všechny informace nutné k provozu, údržbě a případným úpravám elektroinstalace. Obsahuje:\n\nSchémata zapojení,\n\nSeznam použitých materiálů a zařízení,\n\nRevizní zprávy a protokoly,\n\nPlány bezpečnostních prvků a uzemnění.\n\nTento dokument je důležitý pro bezpečný provoz i případné budoucí úpravy elektroinstalace.",
           "visible": true,
           "items": [],
           "rows": [],
@@ -1530,7 +1525,7 @@
           "id": "s12",
           "kind": "editorial",
           "title": "Kolik mě vaše služby budou stát?",
-          "text": "Cena závisí na rozsahu a složitosti práce. Rádi vám připravíme nezávaznou cenovou nabídku na základě vstupní konzultace a prohlídky místa realizace.Snažíme se být transparentní – žádné skryté náklady. Pokud během realizace dojde k nečekaným změnám, vždy vás o tom informujeme předem a dohodneme se na dalším postupu.",
+          "text": "Cena závisí na rozsahu a složitosti práce. Rádi vám připravíme nezávaznou cenovou nabídku na základě vstupní konzultace a prohlídky místa realizace.\n\nSnažíme se být transparentní – žádné skryté náklady. Pokud během realizace dojde k nečekaným změnám, vždy vás o tom informujeme předem a dohodneme se na dalším postupu.",
           "visible": true,
           "items": [],
           "rows": []
@@ -1562,7 +1557,7 @@
           "id": "s0",
           "kind": "image-right",
           "title": "Získat cenovou nabídku",
-          "text": "Rádi Vám připravíme kalkulacia navrhneme řešení na míru.",
+          "text": "Rádi Vám připravíme kalkulaci a navrhneme řešení na míru.",
           "visible": true,
           "items": [],
           "rows": [],
@@ -1660,7 +1655,7 @@
           "id": "s2",
           "kind": "image-left",
           "title": "Chytrá domácnost",
-          "text": "Maximalizujeme účinnost fotovoltaické elektrárny, tepelného čerpadla a spotřeb v domě.\n\nIdeálním nástrojem pro domácí automatizace je Fibaro Home Center.\n\nMaximalizujeme využití vygenerované sluneční energie\n\nMinimalizujeme náklady na provoz domácnosti\n\nVytvoříme pro Vás návrh na míru\n\nNabízíme:\n\nAutomatizaci světel\n\nMěření spotřebované energie konkrétních spotřebičů\n\nAutomatizace spínání pro optimalizaci spotřeby fotovoltaické energie\n\nIndividuální řešení dle potřeby zákazníka",
+          "text": "Maximalizujeme účinnost fotovoltaické elektrárny, tepelného čerpadla a spotřeb v domě.\n\nIdeálním nástrojem pro domácí automatizace je Fibaro Home Center.\n\nMaximalizujeme využití vygenerované sluneční energie\n\nMinimalizujeme náklady na provoz domácnosti\n\nVytvoříme pro Vás návrh na míru",
           "visible": true,
           "items": [],
           "rows": [],
@@ -1671,6 +1666,15 @@
             "x": 50,
             "y": 50
           }
+        },
+        {
+          "id": "nabizime",
+          "title": "Nabízíme:",
+          "text": "Automatizaci světel\n\nMěření spotřebované energie konkrétních spotřebičů\n\nAutomatizace spínání pro optimalizaci spotřeby fotovoltaické energie\n\nIndividuální řešení dle potřeby zákazníka",
+          "kind": "editorial",
+          "visible": true,
+          "items": [],
+          "rows": []
         },
         {
           "id": "kontakt",
@@ -1705,19 +1709,10 @@
           "rows": []
         },
         {
-          "id": "s1",
-          "kind": "editorial",
-          "title": "Uvnitř sofistikované, navenek kouzelně jednoduché řešení",
-          "text": "",
-          "visible": true,
-          "items": [],
-          "rows": []
-        },
-        {
           "id": "s2",
           "kind": "editorial",
           "title": "Přehledné zobrazení:",
-          "text": "Upravitelné rozhraní dle zákazníka.Na přání zákazníka lze upravit zobrazovaná data dle jeho preferencí.\n\nNapojení na AI – umělá inteligence AI se neustále učí ze sbíraných dat a optimalizuje každých 15 minut budoucí řízení pro co nejvyšší finanční úsporu.\n\nZvyšování efektivity nejen FVESystém je možno rozšířit o řízenídalších spotřebičů (např.: Bojler,tepelné čerpadlo, atd.)",
+          "text": "Upravitelné rozhraní dle zákazníka.\n\nNa přání zákazníka lze upravit zobrazovaná data dle jeho preferencí.\n\nNapojení na AI – umělá inteligence AI se neustále učí ze sbíraných dat a optimalizuje každých 15 minut budoucí řízení pro co nejvyšší finanční úsporu.\n\nZvyšování efektivity nejen FVE\n\nSystém je možno rozšířit o řízení dalších spotřebičů (např.: Bojler, tepelné čerpadlo, atd.)",
           "visible": true,
           "items": [],
           "rows": []
@@ -1726,16 +1721,7 @@
           "id": "s3",
           "kind": "editorial",
           "title": "Historická data na jednom místě:",
-          "text": "",
-          "visible": true,
-          "items": [],
-          "rows": []
-        },
-        {
-          "id": "s4",
-          "kind": "editorial",
-          "title": "Pro porovnávání nebo zpětnou analýzu Vám poslouží historická data.",
-          "text": "",
+          "text": "Pro porovnávání nebo zpětnou analýzu Vám poslouží historická data.",
           "visible": true,
           "items": [],
           "rows": []
@@ -1745,15 +1731,6 @@
           "kind": "editorial",
           "title": "AI řízení:",
           "text": "Umělá inteligence upravuje automaticky téměř 100x za den své výpočty a přizpůsobuje se aktuální situaci na místě instalace. Historii, kterou AI nasbírá, používá pro své výpočty.\n\nTento systém je kompletně samostatný a není možné jej lidskou silou zastoupit, ale i přesto máte možnost do procesu zasáhnou z jakéhokoliv důvodu. (Plánovaný výpadek elektrické sítě)",
-          "visible": true,
-          "items": [],
-          "rows": []
-        },
-        {
-          "id": "s6",
-          "kind": "editorial",
-          "title": "Více informací naleznete zde:",
-          "text": "Podmínky užívání cloudové služby GottSol pro řízení energetických systémů NALEZNETE ZDE.",
           "visible": true,
           "items": [],
           "rows": []
@@ -1804,26 +1781,10 @@
       "description": "Získejte od státu dotaci na zřízení fotovoltaické elektrárny! Díky programu Nová zelená úsporám Light, můžete získat státní investiční dotace na pořízení fotovotaické elektrárny nebo fotovoltaického ohřevu vody. ",
       "sections": [
         {
-          "id": "verification-s0",
-          "kind": "image-right",
-          "title": "",
-          "text": "Získejte od státu dotaci na zřízení fotovoltaické elektrárny! Díky programu Nová zelená úsporám Light, můžete získat státní investiční dotace na pořízení fotovotaické elektrárny nebo fotovoltaického ohřevu vody. Svým klientům jsme pomohli úspěšně vyřídit již desítky žádostí, rádi pomůžeme ušetřit i vám.",
-          "visible": true,
-          "items": [],
-          "rows": [],
-          "image": {
-            "src": "/media/8afa8937f2f261ed-1600.webp",
-            "small": "/media/8afa8937f2f261ed-640.webp",
-            "alt": "Nová zelená úsporám",
-            "x": 50,
-            "y": 50
-          }
-        },
-        {
           "id": "s1",
           "kind": "editorial",
           "title": "Jak získat dotaci?",
-          "text": "Postaráme se o kompletní instalaci fotovoltaiky nebo tepelného čerpadla a zajistíme vše, co se týká dotací na tyto zařízení. Vyřídíme všechny podklady a oběháme za vás úřady.\n\nJsme držiteli Osvědčení o získání profesní kvalifikace – Elektromontér fotovoltaických systémů (26-14-H), které je nutností pro získání této dotace.\n\nProto se na nás neváhejte obrátit.",
+          "text": "Postaráme se o kompletní instalaci fotovoltaiky nebo tepelného čerpadla a zajistíme vše, co se týká dotací na tyto zařízení. Vyřídíme všechny podklady a oběháme za vás úřady.\n\nJsme držiteli Osvědčení o získání profesní kvalifikace – Elektromontér fotovoltaických systémů (26-14-H), které je nutností pro získání této dotace.",
           "visible": true,
           "items": [],
           "rows": []
@@ -1841,7 +1802,7 @@
           "id": "verification-s4",
           "kind": "editorial",
           "title": "Dotační program Nová zelená úsporám",
-          "text": "Program Nová zelená úsporám je jeden z nejefektivnějších programů v České republice, který je zaměřen na úspory energie. Klienty, kteří se rozhodli v domácnosti instalovat fotovoltaiku, stát podpoří příspěvkem až ve výši 140 000 Kč.\n\nČas na zažádání a získání příspěvků ještě máte, ale doporučujeme neotálet a kontaktovat nás!",
+          "text": "Program Nová zelená úsporám je jeden z nejefektivnějších programů v České republice, který je zaměřen na úspory energie. Klienty, kteří se rozhodli v domácnosti instalovat fotovoltaiku, stát podpoří příspěvkem až ve výši 140 000 Kč.",
           "visible": true,
           "items": [],
           "rows": []
@@ -1868,7 +1829,7 @@
           "id": "verification-s8",
           "kind": "editorial",
           "title": "Kdo mi zaručí, že dostanu dotaci?",
-          "text": "Důležité je si uvědomit, že na dotaci má nárok každý, kdo splní pomínky programu Nová zelená úsporám (NZÚ).\n\nPřed realizací díla zažádáme Státní fond životního prostředí (SFŽP) o shválení dotace pro Vaši nemovitost a záruku vyplacení peněz na Váš účet.Záruku vyplacení peněz Vám udělí SFŽP po splnění všech podmínek.\n\nVíce se dočtete na našich stránkách v sekci Dotace.",
+          "text": "Důležité je si uvědomit, že na dotaci má nárok každý, kdo splní pomínky programu Nová zelená úsporám (NZÚ).\n\nPřed realizací díla zažádáme Státní fond životního prostředí (SFŽP) o shválení dotace pro Vaši nemovitost a záruku vyplacení peněz na Váš účet.\n\nZáruku vyplacení peněz Vám udělí SFŽP po splnění všech podmínek.",
           "visible": true,
           "items": [],
           "rows": []
@@ -1877,7 +1838,7 @@
           "id": "verification-s9",
           "kind": "editorial",
           "title": "Kdy dochází k vyplacení dotace?",
-          "text": "Vyplacení dotace probíhá ve chvíli, kdy je elektrárna kompletně připojena k distribuční síti.\n\nDistribuční technik, který provádí připojení a kontrolu vystaví dokument na jehož základě lze požádat o vyplacení peněz.Vyplacení trvá přibližně měsíc od vystavení dokumentu.",
+          "text": "Vyplacení dotace probíhá ve chvíli, kdy je elektrárna kompletně připojena k distribuční síti.\n\nDistribuční technik, který provádí připojení a kontrolu vystaví dokument na jehož základě lze požádat o vyplacení peněz.\n\nVyplacení trvá přibližně měsíc od vystavení dokumentu.",
           "visible": true,
           "items": [],
           "rows": []
@@ -1945,22 +1906,6 @@
       "description": "Cena od 2599 Kč",
       "sections": [
         {
-          "id": "s0",
-          "kind": "image-right",
-          "title": "Revize fotovoltaické elektrárny",
-          "text": "",
-          "visible": true,
-          "items": [],
-          "rows": [],
-          "image": {
-            "src": "/media/b89725b2fd33e649-1600.webp",
-            "small": "/media/b89725b2fd33e649-640.webp",
-            "alt": "Revize FVE",
-            "x": 50,
-            "y": 50
-          }
-        },
-        {
           "id": "s3",
           "kind": "editorial",
           "title": "Revize fotovoltaických elektráren",
@@ -1986,7 +1931,7 @@
           }
         },
         {
-          "id": "verification-servis",
+          "id": "ceny",
           "kind": "editorial",
           "title": "",
           "text": "Ceny jsou uvedeny bez DPH.",
@@ -2805,7 +2750,7 @@
         {
           "id": "realizations",
           "kind": "gallery",
-          "title": "Realizace",
+          "title": "Naše realizace",
           "text": "",
           "visible": true,
           "items": [

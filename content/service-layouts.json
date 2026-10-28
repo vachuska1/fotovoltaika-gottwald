@@ -1,0 +1,488 @@
+{
+  "/fotovoltaicke-elektrarny": {
+    "theme": "solar",
+    "hero": {
+      "section": "solutions",
+      "variant": "wide"
+    },
+    "blocks": [
+      {
+        "kind": "catalog",
+        "ids": [
+          "solutions"
+        ]
+      },
+      {
+        "kind": "info",
+        "ids": [
+          "panely",
+          "konstrukce"
+        ],
+        "open": true
+      }
+    ]
+  },
+  "/fotovoltaika/fotovoltaicke-elektrarny-na-rodinne-domy": {
+    "theme": "solar",
+    "hero": {
+      "section": "wattsonic"
+    },
+    "blocks": [
+      {
+        "kind": "feature",
+        "ids": [
+          "wattsonic",
+          "alpha"
+        ],
+        "image": {
+          "src": "/media/1ab0d5a461e3eeaf-1600.webp",
+          "small": "/media/1ab0d5a461e3eeaf-640.webp",
+          "alt": "Fotovoltaické elektrárny na rodinné domy",
+          "x": 50,
+          "y": 50
+        }
+      },
+      {
+        "kind": "info",
+        "ids": [
+          "dodavka"
+        ],
+        "open": true,
+        "list": true
+      },
+      {
+        "kind": "info",
+        "ids": [
+          "verification-dotace"
+        ]
+      }
+    ]
+  },
+  "/fotovoltaika/fotovoltaicke-elektrarny-pro-firmy": {
+    "theme": "solar",
+    "hero": {
+      "section": "s0"
+    },
+    "blocks": [
+      {
+        "kind": "feature",
+        "ids": [
+          "s9",
+          "s10"
+        ]
+      },
+      {
+        "kind": "info",
+        "ids": [
+          "s16"
+        ],
+        "open": true,
+        "list": true
+      },
+      {
+        "kind": "info",
+        "ids": [
+          "verification-s4",
+          "verification-s5",
+          "verification-s6",
+          "s17",
+          "verification-dotace"
+        ]
+      }
+    ]
+  },
+  "/fotovoltaika/fotovoltaicke-elektrarny-pro-bytove-domy": {
+    "theme": "solar",
+    "hero": {
+      "section": "s0"
+    },
+    "blocks": [
+      {
+        "kind": "feature",
+        "ids": [
+          "s8",
+          "s9",
+          "s10",
+          "s12"
+        ]
+      },
+      {
+        "kind": "info",
+        "ids": [
+          "s16"
+        ],
+        "open": true,
+        "list": true
+      },
+      {
+        "kind": "info",
+        "ids": [
+          "verification-s4",
+          "verification-s5",
+          "verification-s6",
+          "s17",
+          "verification-dotace"
+        ]
+      }
+    ]
+  },
+  "/fotovoltaika/ohrev-vody": {
+    "theme": "solar",
+    "hero": {
+      "section": "s0"
+    },
+    "blocks": [
+      {
+        "kind": "feature",
+        "ids": [
+          "s1"
+        ]
+      },
+      {
+        "kind": "info",
+        "ids": [
+          "s2",
+          "s3"
+        ],
+        "open": true
+      },
+      {
+        "kind": "info",
+        "ids": [
+          "verification-s4"
+        ]
+      }
+    ]
+  },
+  "/fotovoltaika/pozarni-bezpecnost": {
+    "theme": "solar",
+    "hero": {
+      "section": "s0"
+    },
+    "blocks": [
+      {
+        "kind": "feature",
+        "ids": [
+          "s2"
+        ],
+        "image": {
+          "src": "/media/c4b415c088594c81-1600.webp",
+          "small": "/media/c4b415c088594c81-640.webp",
+          "alt": "TIGO TS4-A-0 ",
+          "x": 50,
+          "y": 50
+        }
+      },
+      {
+        "kind": "feature",
+        "ids": [
+          "s3"
+        ],
+        "image": {
+          "src": "/media/50557194f54a60c3-1600.webp",
+          "small": "/media/50557194f54a60c3-640.webp",
+          "alt": "TIGO TS-A-2F",
+          "x": 50,
+          "y": 50
+        }
+      },
+      {
+        "kind": "info",
+        "ids": [
+          "s4",
+          "verification-normy"
+        ],
+        "image": {
+          "src": "/media/e82d335ad00a6133-1600.webp",
+          "small": "/media/e82d335ad00a6133-640.webp",
+          "alt": "Bezpečnostní tlačítko",
+          "x": 50,
+          "y": 50
+        }
+      }
+    ]
+  },
+  "/dalsi-sluzby/infratopeni": {
+    "theme": "heat",
+    "hero": {
+      "section": "s0",
+      "variant": "portrait"
+    },
+    "blocks": [
+      {
+        "kind": "feature",
+        "ids": [
+          "princip"
+        ]
+      },
+      {
+        "kind": "feature",
+        "ids": [
+          "s8"
+        ]
+      },
+      {
+        "kind": "info",
+        "ids": [
+          "instalace",
+          "s5",
+          "verification-s7"
+        ]
+      }
+    ]
+  },
+  "/dalsi-sluzby": {
+    "theme": "neutral",
+    "hero": {
+      "variant": "compact"
+    },
+    "blocks": [
+      {
+        "kind": "catalog",
+        "ids": [
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6"
+        ]
+      }
+    ]
+  },
+  "/technologie/tepelna-cerpadla": {
+    "theme": "neutral",
+    "hero": {
+      "section": "s0"
+    },
+    "blocks": [
+      {
+        "kind": "feature",
+        "ids": [
+          "s3",
+          "s4",
+          "s5",
+          "s6"
+        ],
+        "image": {
+          "src": "/media/9cf3630735c92908-1600.webp",
+          "small": "/media/9cf3630735c92908-640.webp",
+          "alt": "Princip tepelného čerpadla vzduch/voda v provedení split",
+          "x": 50,
+          "y": 50
+        },
+        "compact": true
+      },
+      {
+        "kind": "feature",
+        "ids": [
+          "s7"
+        ],
+        "compact": true
+      },
+      {
+        "kind": "info",
+        "ids": [
+          "s9",
+          "s10",
+          "s12",
+          "verification-s13"
+        ]
+      }
+    ]
+  },
+  "/dalsi-sluzby/elektroinstalace": {
+    "theme": "neutral",
+    "hero": {
+      "section": "s0"
+    },
+    "blocks": [
+      {
+        "kind": "feature",
+        "ids": [
+          "s4"
+        ],
+        "list": true
+      },
+      {
+        "kind": "feature",
+        "ids": [
+          "s11"
+        ],
+        "list": true
+      },
+      {
+        "kind": "info",
+        "ids": [
+          "s10",
+          "s12"
+        ]
+      }
+    ]
+  },
+  "/dalsi-sluzby/revize-instalace": {
+    "theme": "neutral",
+    "hero": {
+      "section": "s0"
+    },
+    "blocks": [
+      {
+        "kind": "feature",
+        "ids": [
+          "s7"
+        ],
+        "list": false
+      },
+      {
+        "kind": "info",
+        "ids": [
+          "s16",
+          "s17",
+          "s18"
+        ]
+      }
+    ]
+  },
+  "/technologie/chytra-domacnost": {
+    "theme": "neutral",
+    "hero": {
+      "section": "s0"
+    },
+    "blocks": [
+      {
+        "kind": "feature",
+        "ids": [
+          "s2"
+        ]
+      },
+      {
+        "kind": "info",
+        "ids": [
+          "nabizime"
+        ],
+        "open": true,
+        "list": true
+      }
+    ]
+  },
+  "/sdileni-prodej-energie/program-gottsol-inteligentni-rizeni": {
+    "theme": "dark",
+    "hero": {
+      "section": "s0",
+      "image": {
+        "src": "/media/2e3d1e7789d65e8f-1600.webp",
+        "small": "/media/2e3d1e7789d65e8f-640.webp",
+        "alt": "Chytré řízení GottSol",
+        "x": 50,
+        "y": 50
+      },
+      "variant": "wide"
+    },
+    "blocks": [
+      {
+        "kind": "feature",
+        "ids": [
+          "s2"
+        ]
+      },
+      {
+        "kind": "feature",
+        "ids": [
+          "s3"
+        ],
+        "image": {
+          "src": "/media/2b9cb99e21a54c4e-1600.webp",
+          "small": "/media/2b9cb99e21a54c4e-640.webp",
+          "alt": "Historická data GottSol",
+          "x": 50,
+          "y": 50
+        }
+      },
+      {
+        "kind": "info",
+        "ids": [
+          "s5",
+          "links"
+        ]
+      }
+    ]
+  },
+  "/dotace": {
+    "theme": "neutral",
+    "hero": {
+      "section": "s1"
+    },
+    "blocks": [
+      {
+        "kind": "feature",
+        "ids": [
+          "s2"
+        ],
+        "list": true
+      },
+      {
+        "kind": "info",
+        "ids": [
+          "s1",
+          "verification-s4",
+          "verification-s5",
+          "verification-s6",
+          "verification-s8",
+          "verification-s9"
+        ]
+      }
+    ]
+  },
+  "/dalsi-sluzby/financovani": {
+    "theme": "neutral",
+    "hero": {
+      "section": "s0",
+      "variant": "portrait"
+    },
+    "blocks": [
+      {
+        "kind": "info",
+        "ids": [
+          "s0"
+        ],
+        "open": true
+      }
+    ]
+  },
+  "/dalsi-sluzby/servis": {
+    "theme": "neutral",
+    "hero": {
+      "variant": "compact"
+    },
+    "blocks": [
+      {
+        "kind": "feature",
+        "ids": [
+          "s3"
+        ],
+        "image": {
+          "src": "/media/b89725b2fd33e649-1600.webp",
+          "small": "/media/b89725b2fd33e649-640.webp",
+          "alt": "Revize FVE",
+          "x": 50,
+          "y": 50
+        },
+        "list": true
+      },
+      {
+        "kind": "feature",
+        "ids": [
+          "s5"
+        ],
+        "list": true
+      },
+      {
+        "kind": "info",
+        "ids": [
+          "ceny"
+        ],
+        "open": true
+      }
+    ]
+  }
+}

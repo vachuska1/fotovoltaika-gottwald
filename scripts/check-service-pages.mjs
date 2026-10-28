@@ -1,0 +1,12 @@
+import fs from'node:fs';import assert from'node:assert/strict';import{execFileSync}from'node:child_process';
+const site=JSON.parse(fs.readFileSync('content/site.json')),baseline=JSON.parse(execFileSync('git',['show','HEAD:content/site.json'])),plans=JSON.parse(fs.readFileSync('content/service-layouts.json'));
+const oldPages=new Map(baseline.pages.map(p=>[p.path,p])),normalize=s=>s.replace(/\s+/g,'');let documents=0;
+assert.deepEqual(site.navigation,baseline.navigation);assert.deepEqual(site.pages.map(p=>p.path),baseline.pages.map(p=>p.path));
+for(const p of site.pages){const old=oldPages.get(p.path),plan=plans[p.path];assert.equal(p.title,old.title);assert.equal(p.description,old.description);if(!plan){const expected=structuredClone(old);if(p.path==='/realizace')expected.sections.find(s=>s.kind==='gallery').title='Naše realizace';assert.deepEqual(p,expected,p.path+' changed outside scope');continue;}
+const original=normalize(old.sections.map(s=>[s.title,s.text,...s.items.map(i=>i.title+' '+i.text)].join(' ')).join(' '));for(const s of p.sections)for(const paragraph of s.text.split('\n\n').filter(Boolean))assert(original.includes(normalize(paragraph)),p.path+' new wording: '+paragraph);
+const ids=new Set(p.sections.map(s=>s.id));for(const block of plan.blocks)for(const id of block.ids)assert(ids.has(id),p.path+' missing block '+id);if(plan.hero.section)assert(ids.has(plan.hero.section));assert(plan.blocks.length<=4,p.path+' too many main blocks');
+for(const s of p.sections){assert(!['reviews','gallery','contact'].includes(s.kind),p.path+' unrelated collection');for(const image of [s.image,...s.items.map(i=>i.image)].filter(Boolean))assert(fs.existsSync('public'+image.src));}
+for(const image of [plan.hero.image,...plan.blocks.map(b=>b.image)].filter(Boolean))assert(fs.existsSync('public'+image.src));
+const links=p.sections.flatMap(s=>s.items.map(i=>i.href)).filter(Boolean);for(const href of old.sections.flatMap(s=>s.items.map(i=>i.href)).filter(h=>h&&/\.pdf|\/documents\/|podminky-uzivani/.test(h))){assert(links.includes(href),p.path+' lost document '+href);documents++;}}
+assert(!site.pages.find(p=>p.path==='/fotovoltaika/fotovoltaicke-elektrarny-pro-firmy').sections.some(s=>/bytového domu|domácího rozvaděče/.test(s.text)));
+console.log({servicePages:Object.keys(plans).length,originalWording:true,metadataUnchanged:true,otherPagesUnchanged:true,documentsPreserved:documents});
