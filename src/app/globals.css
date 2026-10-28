@@ -392,3 +392,9 @@
  .home-contact-columns{grid-template-columns:1fr;gap:40px}.home-contact>h2{margin-bottom:30px}.contact-data-grid{grid-template-columns:1fr 1fr}.contact-address-map iframe{height:250px}
 }
 @media(max-width:420px){.contact-data-grid{grid-template-columns:1fr}.contact-person{gap:14px}.contact-person img{width:72px;height:88px}}
+
+.home .hero h1>span{-webkit-text-stroke:.65px #41473f;paint-order:stroke fill}
+.region-cities{pointer-events:none;fill:#24352a}
+.region-cities circle{stroke:#f4f3ed;stroke-width:1}
+.region-cities text{font:500 14px Arial,Helvetica,sans-serif;stroke:#f4f3ed;stroke-width:2.5px;paint-order:stroke fill;stroke-linejoin:round}
+@media(max-width:600px){.region-cities text{font-size:18px;stroke-width:3px}}
