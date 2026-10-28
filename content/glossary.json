@@ -1,0 +1,182 @@
+{
+  "sourcePages": [
+    "https://www.fotovoltaika-gottwald.cz/slovnik-pojmu",
+    "https://www.fotovoltaika-gottwald.cz/slovnik-pojmu?page=1"
+  ],
+  "letters": [
+    "B",
+    "E",
+    "F",
+    "I",
+    "M",
+    "N",
+    "O",
+    "P",
+    "S",
+    "Ú"
+  ],
+  "terms": [
+    {
+      "path": "/slovnik/balkonova-fotovoltaika",
+      "title": "Balkónová fotovoltaika",
+      "id": "balkonova-fotovoltaika",
+      "letter": "B",
+      "source": "https://www.fotovoltaika-gottwald.cz/slovnik/balkonova-fotovoltaika",
+      "html": "<div></div><div><p>Jedná se o speciální druh <a href=\"/\">fotovoltaiky</a>, která je určena na balkony panelových domů. Často nemají z důvodu úspory místa vlastní transformátor a pro jejich funkci je potřeba je zapojit do zásuvky. Vzhledem k rozdílným neovlivnitelných podmínkách na balkonech (sklon, orientace na jih, okolní domy a stromy) se nemusí vždy jednat o výhodnou investici.</p></div> ",
+      "sha256": "f273bc1868802090245ff77da447ec1a80970863312ee9b77a17e1f04613414c"
+    },
+    {
+      "path": "/slovnik/bifacialni-oboustranny-solarni-panel",
+      "title": "Bifaciální (oboustranný) solární panel",
+      "id": "bifacialni-oboustranny-solarni-panel",
+      "letter": "B",
+      "source": "https://www.fotovoltaika-gottwald.cz/slovnik/bifacialni-oboustranny-solarni-panel",
+      "html": "<div></div><div><p>Bifaciální solární panel je speciální druh <a href=\"/fotovoltaicke-elektrarny#panely\">fotovoltaického panelu</a>, který má schopnost produkovat elektřinu z obou stran. Kromě světla dopadající na horní stranu využívají i světlo odrážející se od ostatních povrchů, a proto se často umisťují poblížbudov. Bifaciální solární panely bývají vyrobeny k křemíkových vrstev ve skleněných ochranných vrstvách, nebo vrstvách z průhledného umělého plastu. Tím umožňují průchod světla. Narozdíl od ležatých panelů mají lepší sklon světla pro výrobu energie ráno a odpoledne a mohou tak využívat slunečního záření v dobách, kdy je po energii největší poptávka. Často se používají v zemědělství, kde mohou kromě výroby elektřiny také poskytnout stín květinám, které nemají rády přímé sluneční světlo.</p></div> ",
+      "sha256": "86fd8e659f8b0127007a1818126f2d83477c0f790d5a49c7c5d4a4165924dc5b"
+    },
+    {
+      "path": "/slovnik/energeticka-sobestacnost",
+      "title": "Energetická soběstačnost",
+      "id": "energeticka-sobestacnost",
+      "letter": "E",
+      "source": "https://www.fotovoltaika-gottwald.cz/slovnik/energeticka-sobestacnost",
+      "html": "<div></div><div><p>Energetická soběstačnost znamená nezávislost na dodávkách energetiky. Může se týkat jednotlivých domácností, ale i celých obcí. Instalací <a href=\"/blog/jak-funguje-domaci-fotovoltaicka-elektrarna-vyplati-se-tato-investice\">domácí solární elektrárny</a> na Vaši střechu můžete svou energetickou nezávislost značně vylepšit, pro úplnou nezávislost na dodávkách je ovšem mnohdy i změnit způsoby, jakým je dům vytápěn, jak je v něm <a href=\"/#fotovoltaika\">ohřívána voda</a> nebo jak je dům zateplen.</p></div> ",
+      "sha256": "a684abb2fdae2da96f56062a31f9d52b382a1341691452983e07583e283ebd24"
+    },
+    {
+      "path": "/slovnik/energeticky-mix",
+      "title": "Energetický mix",
+      "id": "energeticky-mix",
+      "letter": "E",
+      "source": "https://www.fotovoltaika-gottwald.cz/slovnik/energeticky-mix",
+      "html": "<div></div><div><p>Energetický mix je pojem, který označuje poměr, v jakém se na výrobě elektřiny podílí různé zdroje. Tyto zdroje dělíme na primární a sekundární. Primární zdroje jsou ty, které si lidstvo neumí vyrobit, tedy obnovitelné i neobnovitelné zdroje elektřiny. Mezi sekundární zdroje se poté počítají zdroje, které vznikají lidskou činností jako komunální odpad, odpadní oleje a zbytkové teplo. Obnovitelné a sekundární zdroje zatím zaujímají v tomto mixu velmi malé procento, očekává se ovšem nárůst jejich podílů, například i díky rostoucímu zájmu o <a href=\"/blog/vyhodnost-fotovoltaiky-na-strechu-potrebne-parametry-pro-jeji-instalaci\">fotovoltaiku na střechu</a> pro rodinné domy.</p></div> ",
+      "sha256": "90e06c2c6b4c005373b24ce32825fd136256a0913d4af49936b2411185c196c6"
+    },
+    {
+      "path": "/slovnik/fototermicke-panely",
+      "title": "Fototermické panely",
+      "id": "fototermicke-panely",
+      "letter": "F",
+      "source": "https://www.fotovoltaika-gottwald.cz/slovnik/fototermicke-panely",
+      "html": "<div></div><div><p>Fototermické panely jsou speciální druh solárních panelů, které stejně jako <a href=\"/fotovoltaicke-elektrarny#panely\">fotovoltaické panely</a> využívají sluneční energii. Narozdíl od fotovoltaických panelů ovšem fungují na principu zachycení tepla, pomocí kterého umožňují ohřev vody nebo vytápění domu, ovšem nevyrábí elektřinu. Sluneční paprsky dopadající na plochu fototermického panelu ho ohřívají, a ten toto teplo předá dál do potrubního systému nainstalovaného pod ním.</p></div> ",
+      "sha256": "e241f6d1ad6028c6d43fd6620fdbcbba8cafb3f8786c631ff2e966584b5f20b8"
+    },
+    {
+      "path": "/slovnik/fotovoltaika-do-zasuvky",
+      "title": "Fotovoltaika do zásuvky",
+      "id": "fotovoltaika-do-zasuvky",
+      "letter": "F",
+      "source": "https://www.fotovoltaika-gottwald.cz/slovnik/fotovoltaika-do-zasuvky",
+      "html": "<div></div><div><p>Fotovoltaika do zásuvky je jedna z mikroelektráren do zásuvky. Jedná se o malou instalaci <a href=\"/\">fotovoltaiky</a>, kterou si můžete pořídit například v panelovém domě, abyste snížili svou závislost na dodávkách ze sítě. Kvůli špatným podmínkám to nemusí být vždy výhodné, a proto je dobré si před jejím pořízením pořádně zjistit optimální podmínky.</p></div> ",
+      "sha256": "986dbe6bdadc92c2ed6e53f7301e9ab8b36aeeb62c59e139a9ee86c3f632e122"
+    },
+    {
+      "path": "/slovnik/intenzita-slunecniho-svitu",
+      "title": "Intenzita slunečního svitu",
+      "id": "intenzita-slunecniho-svitu",
+      "letter": "I",
+      "source": "https://www.fotovoltaika-gottwald.cz/slovnik/intenzita-slunecniho-svitu",
+      "html": "<div></div><div><p>Intenzita slunečního svitu je množství světla ze Slunce, které dopadá na určitou plochu v daném okamžiku. Intenzita slunečního svitu se měří v luxech (lx), jeden lux odpovídá jednomu lumenového toku na metr čtvereční. Intenzita slunečního svitu je ve fotovoltaice důležitá pro výpočet výkonu <a href=\"/fotovoltaicke-elektrarny#panely\">solárního panelu</a>.</p><p>V praxi se intenzita liší v závislosti na mnoha faktorech, jako je pohyb Slunce po obloze, čistota ovzduší, průzračnost, oblačnost a dalších faktorech. Intenzita slunečního svitu se měří pomocí pyranometru.</p></div> ",
+      "sha256": "139b5bb109d027cc2dfd54533723b70916906a343021e92ef5c0b478b6083f9f"
+    },
+    {
+      "path": "/slovnik/mikroelektrarna-do-zasuvky",
+      "title": "Mikroelektrárna do zásuvky",
+      "id": "mikroelektrarna-do-zasuvky",
+      "letter": "M",
+      "source": "https://www.fotovoltaika-gottwald.cz/slovnik/mikroelektrarna-do-zasuvky",
+      "html": "<div></div><div><p>Mikroelektrárna do zásuvky je speciální druh <a href=\"/blog/jak-funguje-domaci-fotovoltaicka-elektrarna-vyplati-se-tato-investice\">domácí elektrárny</a>, který je určen ke snížení spotřeby energie. Tyto elektrárny (většinou solární) nemají svůj vlastní transformátor a proto pro svůj běh potřebují elektrickou energii, ale energii, kterou vyrobí, můžete použít k snížení Vaší spotřeby ze sítě. Ačkoliv jejich jednoduchá instalace může být lákavá, tyto systémy jsou často drahé na pořízení a mají malou návratnost.</p></div> ",
+      "sha256": "4aea447978fd0fd3a0f5ba3d4fa80ff97f8252b936dd25e456bd1d4dc6330b12"
+    },
+    {
+      "path": "/slovnik/mikrostridac",
+      "title": "Mikrostřídač",
+      "id": "mikrostridac",
+      "letter": "M",
+      "source": "https://www.fotovoltaika-gottwald.cz/slovnik/mikrostridac",
+      "html": "<div></div><div><p>Mikrostřídač nebo také mikroinventor je zařízení s malým výkonem, které se instaluje pod <a href=\"/fotovoltaicke-elektrarny#panely\">fotovoltaické panely</a>. Jeho výstupem je klasické střídavé napětí 230 V.</p></div> ",
+      "sha256": "3f8ef791cae44565fd23a6a5b7e0f090e2c82a2edf74a2cfacbfb4c0f59c1512"
+    },
+    {
+      "path": "/slovnik/nejpouzivanejsi-pojmy-ve-fotovoltaice",
+      "title": "Nejpoužívanější pojmy ve fotovoltaice",
+      "id": "nejpouzivanejsi-pojmy-ve-fotovoltaice",
+      "letter": "N",
+      "source": "https://www.fotovoltaika-gottwald.cz/slovnik/nejpouzivanejsi-pojmy-ve-fotovoltaice",
+      "html": "<div></div><div><strong>Slovník základních pojmů</strong><p>Zde nalezete vysvětlení základních pojmů, které se často používají ve spojitosti s&nbsp;fotovoltaickou elektrárnou.&nbsp;</p><p><strong>Fotovoltaická elektrárna (FVE)</strong>, <strong>fotovoltaický systém (FVS)</strong> nebo zkráceně jen <strong>fotovoltaika (FV)</strong> je zařízení určené pro přeměnu solárního záření na elektřinu, které se skládá z&nbsp;fotovoltaických panelů a střídače. Při svém provozu nevyužívá pohyblivé části a ani neprodukuje žádné emise, a to jak oxidu uhličitého, tak ani žádné jiné znečisťující látky. Je to jedna z&nbsp;nejdostupnějších zdrojů obnovitelné energie.&nbsp;</p><p><strong>Fotovoltaický panel</strong> nebo <strong>fotovoltaický</strong> <strong>modul</strong>, je plocha vzájemně propojených fotovoltaických článků, které jsou sériově zapojené a přeměňují sluneční záření na stejnosměrný proud. Napětí jednoho samostatného panelu se může pohybovat v&nbsp;rozmezí od 12 V&nbsp;do 100 V.&nbsp;</p><p><strong>Fotovoltaický článek</strong> je nejmenší stavební prvek fotovoltaiky. Dělí se na dva druhy – krystalické a tenkovrstvé. Proud, který článek generuje, je přímo úměrný jeho ploše, jeho účinnosti, intenzitě slunečního záření a jeho spektru, které se v&nbsp;průběhu dne mění.</p><p><strong>Krystalický panel</strong>, tedy panel složený z&nbsp;krystalických článků, je v&nbsp;současnosti nejpopulárnější. Tyto fotovoltaické články jsou složeny z&nbsp;krystalického křemíku a jejich napětí začíná na 0,5 V. V&nbsp;celém krystalickém panelu může být zapojeno buď 60 článků nebo 72 článků.</p><p><strong>Tenkovrstvý panel</strong> má články nanesené přímo na nosné sklo, kde tvoří pruhy o šířce 1 cm po celé délce panelu. &nbsp;Bývají lehčí než křemíkové panely, což usnadňuje jejich instalaci.&nbsp;</p><p><strong>Jmenovitý výkon panelu</strong> se měří za standardních testovacích podmínek (STC), tedy při intenzitě 1&nbsp;000&nbsp;W/m<sup>2</sup>, spektru AM1,5 Global a teplotě panelu 25&nbsp;°C. Udává se v&nbsp;jednotkách <strong>Wp – wattpeak</strong>, neboli <strong>watt špičkového výkonu</strong>. Jedná se tedy výkon za optimálních podmínek. Skutečný výkon, který lze z&nbsp;panelu odebrat závisí na okolních podmínkách, především na úrovni slunečního záření,&nbsp; úhlu dopadu paprsků a rovněž přizpůsobení zátěže.</p><p>Maximální výkon je panel schopen dodat při dosažení <strong>Maximálního bodu výkonu (Maximum Power Point – MPP)</strong>, což představuje bod, kdy jsou zajištěny optimální podmínky. Pro dosažení tohoto bodu a další optimalizaci výnosu energie se používá <strong>sledovač bodu maximálního výkonu (Maximum Power Point Tracker – MPPT).&nbsp;</strong>To je v&nbsp;podstatě zařízení s&nbsp;příslušným softwarem, které zajišťuje, aby fotovoltaický panel pracoval neustále v&nbsp;blízkosti bodu maximálního výkonu. Může se nacházet samostatně nebo jako součást střídače nebo jiných zařízení.</p><h2><strong>Složení fotovoltaického článku</strong></h2><p>Fotovoltaický článek má pět hlavních částí.</p><p><strong>Polovodič typu N&nbsp;</strong>je polovodičová materiál, kde převažuje elektron. N v&nbsp;názvu znamená negativní. <strong>Polovodič typu P</strong> je naopak polovodičový materiál s&nbsp;převahou děr s&nbsp;pozitivním nábojem. Mezi nimi je umístěn <strong>PN přechod</strong>, který představuje rozhraní mezi polovodiči typu N a P.&nbsp;</p><p>Pro odvedení nosičů náboje z&nbsp;fotovoltaického článku slouží <strong>přední kontakt.&nbsp;</strong>Ten je tvořen sběrnicí nanesenou sítotiskem u krystalických panelů, u tenkovrstvých panelů se používá vodivý transparentní oxid (TCO). <strong>Zadní kontakt</strong> pak odvádí nosiče nábojů z&nbsp;fotovoltaického článku.</p><p><strong>Z&nbsp;čeho se skládá fotovoltaický panel?&nbsp;</strong></p><p>Fotovoltaický panel se skládá nejen ze samotných výše zmíněných fotovoltaických článků, ale i z&nbsp;jiných komponentů. Sériové propojení fotovoltaických článků nebo i fotovoltaických panelů se nazývá <strong>string</strong>. Díky sériového propojení článků se dosáhne potřebného napětí.&nbsp;</p><p>Články jsou pokryty <strong>laminační folií</strong>. U tenkovrstvých článků se používá jedna vrstva, neboť články bývají rovnou naneseny na nosnou vrstvu. Naopak krystalické články jsou vloženy mezi dvě vrstvy laminační fólie. Dále působením tepla dojde k&nbsp;zatavení fólie a připojení k&nbsp;přední a zadní krycí vrstvě.&nbsp;</p><p><strong>Přední krycí vrstvu</strong> obvykle tvoří sklo s&nbsp;nízkým obsahem železa nebo plast. Hlavním kritériem je schopnost propouštět část slunečního spektra. V&nbsp;mnoha případech může být tato vrstva použita i jako nosný podklad.&nbsp;</p><p><strong>Zadní krycí vrstva</strong> je obvykle z&nbsp;plastu nebo méně častěji ze skla. Sklo ale bývá považováno za trvanlivější a lépe zabraňuje degradaci článků.&nbsp;</p><p>Vše je uzavřeno v&nbsp;<strong>rámu panelu.&nbsp;</strong>Rám, obvykle z&nbsp;hliníku, panel chrání před mechanickým poškozením, zvyšuje jeho tuhost a odolnost. Není však pro panel nutnost. Panely bez rámu se obvykle používají pro fasádní systémy nebo fotovoltaické střechy (BIPV). V&nbsp;těchto případech je funkce rámu přenesena na nosnou konstrukci.</p><p>Na zadní straně rámu se umisťuje <strong>připojovací box (junction box)</strong>, který slouží k&nbsp;vyvedení elektrické energie z&nbsp;panelu a zapojení do obvodu. V&nbsp;určitých případech je možné jej nahradit výkonovým optimizérem nebo mikrostřídače.</p><p>Další součástí panelu je tzn. <strong>Bypassová dioda</strong>. Na panel se obvykle umisťují tři tyto diody, kdy každá z&nbsp;nich přemosťuje třetinu článků v&nbsp;panelu tak, aby došlo k&nbsp;ochraně výkonu při částečném zastínění, tedy omezuje ztrátu výkonu. Diody se obvykle umisťují do připojovacího boxu.</p><h2><strong>Charakteristické údaje fotovoltaických panelů</strong></h2><p><strong>Účinnost fotovoltaického panelu</strong> vyjadřuje, kolik elektřiny dokáže panel vygenerovat ze sluneční energie, která na něj dopadá. Průměrná účinnost se v&nbsp;současnosti pohybuje nad 20 % a jak se technologie vyvíjí, i účinnost panelů se postupně zvyšuje. V&nbsp;zásadě platí, čím účinnější fotovoltaický panel je, tím je jeho výkon vyšší.</p><p><strong>Teplotní koeficient výkonu</strong> nám vysvětluje, jak změna teploty ovlivní výkonost panelu. Teplotní koeficient je udáván v procentech na stupeň Celsia (%/°C), obvykle je vyjadřován jako negativní číslo. Solární panely jsou obvykle nejefektivnější, když se teplota panelu pohybuje kolem 25 °C, pokud teplota stoupne nad tuto hodnotu, výkon panelu začne mírně klesat. Teplotní koeficient se u panelů liší v závislosti na jejich typu a značky.</p><p><strong>Intenzita slunečního záření</strong> se udává ve wattech na metr čtvereční (W/m2), nejvyšší intenzita slunečního záření se v České republice za ideálních povětrnostních podmínek při kolmém dopadu slunečních paprsků pohybuje kolem 1100 W/m2.</p><h2><strong>Struktura fotovoltaické elektrárny&nbsp;</strong></h2><p>Na střechu se panely upevní do konstrukce, tzv. <strong>profilů pro ukotvení fotovoltaických panelů</strong>. Ty nejčastěji bývají z&nbsp;hliníku. Dále se tato konstrukce s&nbsp;pomocí upínacích háků upevní do střešní konstrukce.</p><p>Napětí vznikající z&nbsp;panelů a případně proudící do akumulátoru je obvykle stejnosměrné, je tedy potřeba zapojit <strong>střídač</strong> (měnič), který jej přemění na střídavé napětí o hodnotách 230 V. Ve fotovoltaice se může nacházet i tzv. <strong>mikrostřídač</strong>, tedy střídač malého výkonu, který je napojený přímo k&nbsp;jednomu nebo několika panelům. V&nbsp;takovýchto případech nahrazuje připojovací box.&nbsp;</p><p>Ke každému panelu v&nbsp;řetězci se dále může připojit <strong>výkonový optimizér</strong>, neboli DC/DC měnič s&nbsp;MPPT. Ten umožňuje do stringu zapojit více panelů s&nbsp;různými výkony, s&nbsp;různým sklonem a s&nbsp;i různou orientací, případně může docházet i k&nbsp;různému zastínění s&nbsp;tím, že každý panel bude díky tomuto zařízení pracovat v&nbsp;optimálním pracovním bodě.</p><p>Ve stejnosměrných systémech s&nbsp;akumulátory se dále ještě používá <strong>regulátor nabíjení.</strong>&nbsp;</p><p><strong>Nejčastěji uváděné údaje na fotovoltaických panelech</strong></p><p><strong>PMPP</strong>&nbsp;– jmenovitý výkon panelu, uvádí se hodnota změřená v bodě maximálního výkonu&nbsp;<br><strong>PMPP</strong>&nbsp;= UMPP × IMPP&nbsp;<br><strong>UMPP</strong>&nbsp;– napětí při jmenovitém výkonu&nbsp;<br><strong>IMPP</strong>&nbsp;– proud při jmenovitém výkonu&nbsp;<br><strong>UOC</strong>&nbsp;– napětí naprázdno – napětí na fotovoltaickém panelu bez připojené zátěže&nbsp;<br><strong>ISC</strong>&nbsp;– proud nakrátko – největší proud, který je panel schopen dodat&nbsp;<br><strong>Max</strong>.&nbsp;<strong>System</strong>&nbsp;<strong>Voltage</strong>&nbsp;– nejvyšší systémové napětí, omezuje počet panelů, které lze zapojit v sérii, obvyklá hodnota je 1000 V.</p><p>Zdroj:</p><p><a href=\"https://oze.tzb-info.cz/fotovoltaika/11772-nejpouzivanejsi-pojmy-ve-fotovoltaice\" target=\"_blank\" rel=\"noopener noreferrer\">https://oze.tzb-info.cz/fotovoltaika/11772-nejpouzivanejsi-pojmy-ve-fotovoltaice</a></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div> ",
+      "sha256": "4dfbef9ec4dfb09cfb4c255e2496b6d85e71257ad65dfe995dcef68498c3da24"
+    },
+    {
+      "path": "/slovnik/obnovitelny-zdroj-energie",
+      "title": "Obnovitelný zdroj energie",
+      "id": "obnovitelny-zdroj-energie",
+      "letter": "O",
+      "source": "https://www.fotovoltaika-gottwald.cz/slovnik/obnovitelny-zdroj-energie",
+      "html": "<div></div><div><p>Obnovitelný zdroj energie je zdroj energie, který pochází z obnovitelných zdrojů, jako třeba vítr, voda, sluneční záření a biomasa. Jsou protikladem fosilních zdrojů energie, jejichž obnova trvá stovky či přímo tisíce let a nejsou tak dlouhodobě udržitelným zdrojem. Díky zvýšenému důrazu na ekologii jejich podíl na tvorbě elektrické energie stoupá a solární elektrárna se stává oblíbeným způsobem jak zajistit energii <a href=\"/blog/fotovoltaicke-elektrarny-na-rodinny-dum-na-dosah\">pro rodinné domy</a>.</p></div> ",
+      "sha256": "fa59a8e6ce7b02501c7e28c35d1a1cec55ca496e65932806c68caebc89a3f505"
+    },
+    {
+      "path": "/slovnik/grid",
+      "title": "OFF-GRID",
+      "id": "grid",
+      "letter": "O",
+      "source": "https://www.fotovoltaika-gottwald.cz/slovnik/grid",
+      "html": "<div></div><div><p>Systém zapojení solární elektrárny OFF-GRID je způsob zapojení, při kterém není elektrárna připojena k energetické síti. Je tak plně soběstačná a izolovaná a své přebytky ukládá to baterií pro pozdější spotřebu. Jedná se o ostrovní solární elektrárnu. Tento typ zapojení je oblíbený především u rekreačních objektů, které nevyužíváte pravidelně, nebo jsou od civilizace příliš vzdálené, a jejich připojení k rozvodné síti by se nevyplatilo a <a href=\"/blog/trend-doby-solarni-energie-pro-domacnosti\">solární energie</a> je tak pro ně nejlepším řešením.</p></div> ",
+      "sha256": "0f9539e8f437833d49ad601ffd4aa6b274a641ea891625eb72c21c124bbe4a73"
+    },
+    {
+      "path": "/slovnik/grid-0",
+      "title": "ON-GRID",
+      "id": "grid-0",
+      "letter": "O",
+      "source": "https://www.fotovoltaika-gottwald.cz/slovnik/grid-0",
+      "html": "<div></div><div><p>Systém zapojení <a href=\"/blog/slunecni-elektrarna-v-rodinnem-dome-snizuje-zavislost-na-distribucni-firme\">sluneční elektrárny</a> ON-GRID je druh zapojení, který je přítomen k elektrické síti a svou vyrobenou elektřinu dodává do sítě. Můžete tak pomocí něj jednoduše prodat přebytky. Jedná se o alternativní pojem pro síťovou solární elektrárnu, ale i hybridní elektrárna může být připojena k elektrické síti pro případy, kdyby baterie nestačily.</p></div> ",
+      "sha256": "182b9c4ecea92cb222c8d85b717dcd6a819ab6bed737fe4f779447d315617f03"
+    },
+    {
+      "path": "/slovnik/optimizer",
+      "title": "Optimizér",
+      "id": "optimizer",
+      "letter": "O",
+      "source": "https://www.fotovoltaika-gottwald.cz/slovnik/optimizer",
+      "html": "<div></div><div><p>Optimizér je speciální střídač, který se snaží je připojen k <a href=\"/fotovoltaicke-elektrarny#panely\">fotovoltaickému panelu</a> a stará se o jeho maximální výkon. Díky tomu se dá zvýšit celkový výkon fotovoltaické sestavy, jelikož nejsou lepší panely ve svém výkonu omezovány kvůli pomalejším nebo slabším panelům.</p></div> ",
+      "sha256": "1dd83b917079e4b9ff1e06afe93a50d168e963ce662ada95b9326afcfc2342ee"
+    },
+    {
+      "path": "/slovnik/pyranometr",
+      "title": "Pyranometr",
+      "id": "pyranometr",
+      "letter": "P",
+      "source": "https://www.fotovoltaika-gottwald.cz/slovnik/pyranometr",
+      "html": "<div></div><div><p>Pyranometr, také známý pod pojmem solarimetr, je přístroj, který se používá k měření dopadajícího slunečního záření všech délek na určitou plochu v určitém čase. Pyranometr měří celé spektrum slunečního záření, včetně infračerveného a ultrafialového záření.</p><p>Pyranometry se v solární energetice používají pro měření světla dopadajícího na <a href=\"/fotovoltaicke-elektrarny#panely\">fotovoltaický panel</a> a tím i výkon celého fotovoltaického systému.</p></div> ",
+      "sha256": "c7367a0e1325cededaec187947da242c5c39658026809d122b4fabdef6e17d75"
+    },
+    {
+      "path": "/slovnik/slunecni-konstanta",
+      "title": "Sluneční konstanta",
+      "id": "slunecni-konstanta",
+      "letter": "S",
+      "source": "https://www.fotovoltaika-gottwald.cz/slovnik/slunecni-konstanta",
+      "html": "<div></div><div><p>Sluneční konstanta je množství <a href=\"/blog/trend-doby-solarni-energie-pro-domacnosti\">energie slunečního záření</a>, které dopadá na jednotku plochy na hranici atmosféry Země. Toto množství energie se měří ve vakuu a při průměrné vzdálenosti Země od Slunce. Hodnota sluneční konstanty průměrně dosahuje 1361 W/m<sup>2</sup>, tato hodnota ovšem může být ovlivněna mnoha faktory jako sluneční skvrny, sklon Země a aktuální vzdálenost Země od Slunce.</p></div> ",
+      "sha256": "71ea604f14e42f9e608838bb9a1794e06d09268c335bc79074b3d534112b999b"
+    },
+    {
+      "path": "/slovnik/standardni-testovaci-podminky-stc",
+      "title": "Standardní testovací podmínky (STC)",
+      "id": "standardni-testovaci-podminky-stc",
+      "letter": "S",
+      "source": "https://www.fotovoltaika-gottwald.cz/slovnik/standardni-testovaci-podminky-stc",
+      "html": "<div></div><div><p>Standardní testovací podmínky, také známé pod anglických Standard Test Conditions (STC) jsou podmínky uznávané mezinárodními organizacemi zaměřených na <a href=\"/\">fotovoltaiku</a>. Při těchto podmínkách se tak testují všechny solární panely, aby se mohl porovnat jejich výkon. Tyto podmínky jsou intenzita světa 1000 W/m<sup>2</sup> , průzračnost 1,5 AM Global a teplota článků 25 °C.</p></div> ",
+      "sha256": "5a4d3caf9a65c4cff2ab9c1863425c40094c401a792b846c89e2893bf73e6078"
+    },
+    {
+      "path": "/slovnik/uhel-slunecniho-svitu",
+      "title": "Úhel slunečního svitu",
+      "id": "uhel-slunecniho-svitu",
+      "letter": "Ú",
+      "source": "https://www.fotovoltaika-gottwald.cz/slovnik/uhel-slunecniho-svitu",
+      "html": "<div></div><div><p>Úhel slunečního svitu je úhel, pod kterým dopadají sluneční paprsky na plochu. Pro <a href=\"/\">fotovoltaiku</a> je optimální úhel 90 °, což ale v praxi může být problém dosáhnout, jelikož slunce během dne putuje po obloze. Pro nejlepší využití tohoto úhlu se solární panely instalují k jihu nebo jihozápadu a pod úhlem 30 až 40 °.</p></div> ",
+      "sha256": "99a22218c6d0ac840820f7a6c1b32767a4123b19b966a5a8cfe2dff742dfc68b"
+    }
+  ]
+}

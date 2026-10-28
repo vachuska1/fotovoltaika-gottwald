@@ -1,0 +1,4 @@
+'use client';
+import {useEffect} from 'react';
+// Native details and CSS filtering work independently; this only resolves incoming anchors.
+export default function GlossaryNavigation(){useEffect(()=>{function followHash(){let id:string;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}if(!id)return;const target=document.getElementById(id);if(target instanceof HTMLDetailsElement&&target.hasAttribute('data-letter')){const all=document.getElementById('glossary-all') as HTMLInputElement|null;if(all)all.checked=true;target.open=true;requestAnimationFrame(()=>target.scrollIntoView({block:'start'}));}else if(target instanceof HTMLInputElement&&target.name==='glossary-letter'){target.checked=true;}}followHash();window.addEventListener('hashchange',followHash);return()=>window.removeEventListener('hashchange',followHash);},[]);return null;}

@@ -208,5 +208,145 @@
     "source": "/zajimavosti/vyhodnost-fotovoltaiky-na-strechu-a-potrebne-parametry-pro-jeji-instalaci",
     "destination": "/blog/vyhodnost-fotovoltaiky-na-strechu-potrebne-parametry-pro-jeji-instalaci",
     "statusCode": 301
+  },
+  {
+    "source": "/slovnik/balkonova-fotovoltaika",
+    "destination": "/slovnik-pojmu#balkonova-fotovoltaika",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik/bifacialni-oboustranny-solarni-panel",
+    "destination": "/slovnik-pojmu#bifacialni-oboustranny-solarni-panel",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik/energeticka-sobestacnost",
+    "destination": "/slovnik-pojmu#energeticka-sobestacnost",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik/energeticky-mix",
+    "destination": "/slovnik-pojmu#energeticky-mix",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik/fototermicke-panely",
+    "destination": "/slovnik-pojmu#fototermicke-panely",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik/fotovoltaika-do-zasuvky",
+    "destination": "/slovnik-pojmu#fotovoltaika-do-zasuvky",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik/intenzita-slunecniho-svitu",
+    "destination": "/slovnik-pojmu#intenzita-slunecniho-svitu",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik/mikroelektrarna-do-zasuvky",
+    "destination": "/slovnik-pojmu#mikroelektrarna-do-zasuvky",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik/mikrostridac",
+    "destination": "/slovnik-pojmu#mikrostridac",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik/nejpouzivanejsi-pojmy-ve-fotovoltaice",
+    "destination": "/slovnik-pojmu#nejpouzivanejsi-pojmy-ve-fotovoltaice",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik/obnovitelny-zdroj-energie",
+    "destination": "/slovnik-pojmu#obnovitelny-zdroj-energie",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik/grid",
+    "destination": "/slovnik-pojmu#grid",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik/grid-0",
+    "destination": "/slovnik-pojmu#grid-0",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik/optimizer",
+    "destination": "/slovnik-pojmu#optimizer",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik/pyranometr",
+    "destination": "/slovnik-pojmu#pyranometr",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik/slunecni-konstanta",
+    "destination": "/slovnik-pojmu#slunecni-konstanta",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik/standardni-testovaci-podminky-stc",
+    "destination": "/slovnik-pojmu#standardni-testovaci-podminky-stc",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik/uhel-slunecniho-svitu",
+    "destination": "/slovnik-pojmu#uhel-slunecniho-svitu",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik-pojmu/b",
+    "destination": "/slovnik-pojmu#slovnik-filtr-b",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik-pojmu/f",
+    "destination": "/slovnik-pojmu#slovnik-filtr-f",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik-pojmu/m",
+    "destination": "/slovnik-pojmu#slovnik-filtr-m",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik-pojmu/e",
+    "destination": "/slovnik-pojmu#slovnik-filtr-e",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik-pojmu/i",
+    "destination": "/slovnik-pojmu#slovnik-filtr-i",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik-pojmu/%C3%BA",
+    "destination": "/slovnik-pojmu#slovnik-filtr-u",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik-pojmu/p",
+    "destination": "/slovnik-pojmu#slovnik-filtr-p",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik-pojmu/o",
+    "destination": "/slovnik-pojmu#slovnik-filtr-o",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik-pojmu/s",
+    "destination": "/slovnik-pojmu#slovnik-filtr-s",
+    "statusCode": 301
+  },
+  {
+    "source": "/slovnik-pojmu/n",
+    "destination": "/slovnik-pojmu#slovnik-filtr-n",
+    "statusCode": 301
   }
 ]

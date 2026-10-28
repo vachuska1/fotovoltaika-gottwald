@@ -1,0 +1,16 @@
+.page{padding-bottom:60px}.content{max-width:1120px;margin:36px auto 0;padding:0 4%}
+.filters{display:flex;flex-wrap:wrap;gap:10px;border:0;padding:0 0 28px;margin:0;border-bottom:1px solid #c6cec5}
+.screenReader,.filter input{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.filter{cursor:pointer}.filter span{display:flex;justify-content:center;align-items:center;min-width:44px;min-height:44px;padding:10px 14px;border:1px solid #b4c2a7;font-size:14px;line-height:1.4;transition:color .2s ease,background-color .2s ease,border-color .2s ease}
+.filter:has(input:checked) span{background:#20382b;border-color:#20382b;color:#f4f3ed}.filter:hover span{border-color:#347a49}.filter:has(input:focus-visible) span{outline:3px solid #c46d2a;outline-offset:3px}
+.definitions{padding-top:10px}.entry{border-bottom:1px solid #c6cec5;scroll-margin-top:30px}
+.entry summary{position:relative;list-style:none;cursor:pointer;padding:25px 42px 25px 0;transition:color .2s ease}
+.entry summary::-webkit-details-marker{display:none}.entry summary::after{content:'+';position:absolute;right:8px;top:22px;font-size:27px;font-weight:400;color:#347a49}.entry[open]>summary::after{content:'−'}
+.entry summary h2{display:inline;font-family:var(--font-manrope),sans-serif;font-size:clamp(19px,2vw,25px);font-weight:700;letter-spacing:-.025em;line-height:1.5}
+.entry summary:hover,.entry:target>summary{color:#347a49}
+.definition{padding:0 0 26px;max-width:78ch;font-size:16px;line-height:1.85;overflow-wrap:anywhere}
+.definition p{margin:0 0 18px;white-space:normal}.definition h2,.definition h3,.definition h4{font-family:var(--font-manrope),sans-serif;line-height:1.4;font-weight:700;margin:25px 0 14px}.definition h2{font-size:24px}.definition h3{font-size:21px}
+.definition ul,.definition ol{margin:15px 0 24px;padding-left:23px}.definition li{margin:7px 0}.definition li::marker{color:#347a49}.definition a{color:#347a49;text-decoration:underline;text-underline-offset:4px}.definition img{max-width:100%;height:auto;object-fit:contain}.definition table{display:block;max-width:100%;overflow:auto}
+.page:has(input[value="B"]:checked) .entry:not([data-letter="B"]),.page:has(input[value="E"]:checked) .entry:not([data-letter="E"]),.page:has(input[value="F"]:checked) .entry:not([data-letter="F"]),.page:has(input[value="I"]:checked) .entry:not([data-letter="I"]),.page:has(input[value="M"]:checked) .entry:not([data-letter="M"]),.page:has(input[value="N"]:checked) .entry:not([data-letter="N"]),.page:has(input[value="O"]:checked) .entry:not([data-letter="O"]),.page:has(input[value="P"]:checked) .entry:not([data-letter="P"]),.page:has(input[value="S"]:checked) .entry:not([data-letter="S"]),.page:has(input[value="Ú"]:checked) .entry:not([data-letter="Ú"]){display:none}
+@media(max-width:760px){.content{margin-top:26px;padding:0 6%}.filters{gap:8px;padding-bottom:23px}.filter span{padding:10px;min-width:42px}.entry summary{padding:21px 36px 21px 0}.entry summary::after{top:18px}.definition{font-size:16px;line-height:1.8}}
+@media(prefers-reduced-motion:reduce){.filter span,.entry summary{transition:none}}
