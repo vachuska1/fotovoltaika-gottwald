@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-28",
+  "map": {
+    "allRegions": 14,
+    "activeRegions": 10,
+    "source": "ČÚZK / RÚIAN, CC BY 4.0",
+    "usedOnPages": 4
+  },
+  "checks": [
+    "Exact H1 and seven-item navigation",
+    "Three hero anchors and all inquiry links",
+    "Original review page and company paragraphs preserved",
+    "Ten region destinations return HTTP 200",
+    "Region keyboard focus, mobile selection and reduced motion",
+    "Contact options, confirmed WhatsApp, Escape and outside click",
+    "Contact button hides while form is visible",
+    "Service image fills container on hover and at rest",
+    "No horizontal overflow at 390, 900, 1440 px"
+  ],
+  "errors": []
+}

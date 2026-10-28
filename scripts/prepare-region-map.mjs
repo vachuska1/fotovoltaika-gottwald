@@ -1,0 +1,13 @@
+import fs from 'node:fs/promises';
+const source=JSON.parse(await fs.readFile('content/geography/cz-regions.geojson','utf8'));
+const site=JSON.parse(await fs.readFile('content/site.json','utf8'));
+const inventory=JSON.parse(await fs.readFile('content/source-inventory.json','utf8'));
+const links=inventory.pages.find(p=>p.path==='/').links.filter(l=>/^\/(?:hlavni-mesto-praha|[a-z-]*kraj|kraj-vysocina)$/.test(l.href)).map(l=>({title:l.text,href:l.href}));
+const project=([lon,lat])=>[lon*Math.cos(50*Math.PI/180),-lat];
+const points=source.features.flatMap(f=>f.geometry.coordinates.flat().map(project));
+const xs=points.map(p=>p[0]),ys=points.map(p=>p[1]);const minX=Math.min(...xs),minY=Math.min(...ys);const scale=820/(Math.max(...xs)-minX);const h=(Math.max(...ys)-minY)*scale+80;
+const regions=source.features.map(f=>({id:String(f.properties.Kod),name:f.properties.Nazev,href:links.find(l=>l.title===f.properties.Nazev)?.href||null,d:f.geometry.coordinates.map(ring=>ring.map((p,i)=>{const [x,y]=project(p);return `${i?'L':'M'}${((x-minX)*scale+40).toFixed(2)},${((y-minY)*scale+40).toFixed(2)}`;}).join('')+'Z').join('')}));
+if(regions.length!==14||regions.filter(r=>r.href).length!==10)throw Error('Expected 14 regions and 10 service areas');
+await fs.writeFile('src/data/cz-regions.json',JSON.stringify({viewBox:`0 0 900 ${h.toFixed(2)}`,regions})+'\n');
+await fs.writeFile('content/geography/source.json',JSON.stringify({provider:'ČÚZK / RÚIAN, zveřejněno službou Národního památkového ústavu',source:'https://geoportal.npu.cz/arcgis/rest/services/Polohopisy/RUIAN/MapServer/0',query:'https://geoportal.npu.cz/arcgis/rest/services/Polohopisy/RUIAN/MapServer/0/query?where=1%3D1&outFields=Kod%2CNazev&returnGeometry=true&outSR=4326&maxAllowableOffset=0.003&geometryPrecision=5&f=geojson',license:'CC BY 4.0',licenseSource:'https://www.cuzk.gov.cz/Predpisy/Podminky-poskytovani-prostor-dat-a-sitovych-sluzeb/Podminky-poskytovani-prostorovych-dat-CUZK.aspx',capturedAt:'2026-10-28',modification:'Kartografické zobecnění hranic serverem (0,003 stupně), lokální projekce se zohledněním zeměpisné šířky 50°, převod na SVG a zaokrouhlení souřadnic. Hranice nejsou kreslené ručně.'},null,2)+'\n');
+console.log('Generated local SVG paths:',regions.length,'active:',regions.filter(r=>r.href).length);

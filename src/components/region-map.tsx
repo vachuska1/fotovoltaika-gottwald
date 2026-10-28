@@ -1,0 +1,12 @@
+'use client';
+import {useId,useState} from 'react';
+import map from '@/data/cz-regions.json';
+export default function RegionMap(){
+ const [selected,setSelected]=useState<string|null>(null);const id=useId();const current=map.regions.find(r=>r.id===selected);
+ return <figure className="region-map"><div className="region-map-canvas" onMouseLeave={()=>setSelected(null)}>
+ <svg viewBox={map.viewBox} role="group" aria-labelledby={id+'-title'}><title id={id+'-title'}>Mapa krajů České republiky a oblast působnosti</title>{map.regions.map(region=>region.href?<a href={region.href} key={region.id} className="region-link" aria-label={region.name} onMouseEnter={()=>setSelected(region.id)} onFocus={()=>setSelected(region.id)} onBlur={()=>setSelected(null)}><path d={region.d} className="region-shape is-active" fillRule="evenodd"><title>{region.name}</title></path></a>:<path key={region.id} d={region.d} className="region-shape is-inactive" fillRule="evenodd" tabIndex={0} role="img" aria-label={region.name+' — mimo oblast působnosti'} onMouseEnter={()=>setSelected(region.id)} onFocus={()=>setSelected(region.id)} onBlur={()=>setSelected(null)}><title>{region.name+' — mimo oblast působnosti'}</title></path>)}{current&&<path key={current.id} d={current.d} fillRule="evenodd" className={`region-highlight ${current.href?'is-active':'is-inactive'}`} aria-hidden="true"/>}</svg>
+ <output className="region-tooltip" aria-live="polite">{current?.name||'Vyberte kraj'}</output></div>
+ <div className="region-map-bottom"><div className="region-legend"><span><i/>Oblast působnosti</span><span><i/>Ostatní kraje</span></div><div className="map-mobile-selection"><label htmlFor={id+'-select'}>Vyberte kraj</label><select id={id+'-select'} value={selected||''} onChange={e=>setSelected(e.target.value||null)}><option value="">Vyberte kraj</option>{map.regions.map(r=><option key={r.id} value={r.id} disabled={!r.href}>{r.name}</option>)}</select>{current?.href&&<a href={current.href}>{current.name}</a>}</div></div>
+ <figcaption>Mapový podklad: <a href="https://geoportal.npu.cz/arcgis/rest/services/Polohopisy/RUIAN/MapServer/0" target="_blank" rel="noopener noreferrer">ČÚZK / RÚIAN</a>, <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a> · kartograficky zjednodušeno.</figcaption>
+ </figure>;
+}

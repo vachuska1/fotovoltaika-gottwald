@@ -1,0 +1,9 @@
+{
+  "provider": "ČÚZK / RÚIAN, zveřejněno službou Národního památkového ústavu",
+  "source": "https://geoportal.npu.cz/arcgis/rest/services/Polohopisy/RUIAN/MapServer/0",
+  "query": "https://geoportal.npu.cz/arcgis/rest/services/Polohopisy/RUIAN/MapServer/0/query?where=1%3D1&outFields=Kod%2CNazev&returnGeometry=true&outSR=4326&maxAllowableOffset=0.003&geometryPrecision=5&f=geojson",
+  "license": "CC BY 4.0",
+  "licenseSource": "https://www.cuzk.gov.cz/Predpisy/Podminky-poskytovani-prostor-dat-a-sitovych-sluzeb/Podminky-poskytovani-prostorovych-dat-CUZK.aspx",
+  "capturedAt": "2026-10-28",
+  "modification": "Kartografické zobecnění hranic serverem (0,003 stupně), lokální projekce se zohledněním zeměpisné šířky 50°, převod na SVG a zaokrouhlení souřadnic. Hranice nejsou kreslené ručně."
+}

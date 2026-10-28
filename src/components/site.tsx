@@ -1,6 +1,8 @@
 import Motion from './motion';
 import HeroGallery from './hero-gallery';
 import ContactForm from './contact-form';
+import RegionMap from './region-map';
+import FloatingContact from './floating-contact';
 import type {Site,Page,Section,Photo} from '@/lib/schema';
 export function Picture({image,priority=false,preview=false}:{image:Photo;priority?:boolean;preview?:boolean}){
  const path=(src:string)=>preview?`/api/admin?media=${encodeURIComponent(src.split('/').pop()!)}`:src;
@@ -25,15 +27,15 @@ function Reviews({section}:{section:Section}){
 function Items({section,preview}:{section:Section;preview:boolean}){if(section.kind==='reviews')return <Reviews section={section}/>;if(section.kind==='services')return <Services section={section} preview={preview}/>;return <div className={`items ${section.kind}-items`}>{section.items.filter(i=>!i.hidden).map((item,i)=><article key={i} className="item">{item.image&&<div className="item-image"><Picture image={item.image} preview={preview}/></div>}<div className="item-body">{section.kind==='services'&&<span className="index">{String(i+1).padStart(2,'0')}</span>}{item.title&&<h3>{item.href&&section.kind!=='reviews'?<a href={item.href}>{item.title}</a>:item.title}</h3>}<Copy text={item.text}/>{item.href&&section.kind==='reviews'&&<a className="text-link" href={item.href} target="_blank" rel="noopener noreferrer">{item.linkLabel||item.title}</a>}</div></article>)}</div>;}
 export function SectionView({section:s,preview=false,collectionHref}:{section:Section;preview?:boolean;collectionHref?:string}){
  if(!s.visible)return null;
- if(s.kind==='hero')return <section className="hero" id={s.id}><div className="hero-heading"><span className="eyebrow">GottSol</span><h1>{s.title}</h1><div className="hero-bottom"><Copy text={s.text}/>{s.items[0]?.href&&<a className="action" href={s.items[0].href}>{s.items[0].title}</a>}{s.items.some((item,i)=>i>0&&!item.image&&!item.hidden&&item.href)&&<nav className="hero-section-links" aria-label="Odkazy na sekce">{s.items.filter((item,i)=>i>0&&!item.image&&!item.hidden&&item.href).map(item=><a key={item.href} href={item.href}>{item.title}</a>)}</nav>}</div></div>{s.image&&<HeroGallery primary={s.image} preview={preview} photos={s.items.filter(item=>!item.hidden&&item.image).map(item=>({title:item.title,image:item.image!}))}/>}</section>;
+ if(s.kind==='hero')return <section className="hero" id={s.id}><div className="hero-heading"><span className="eyebrow">GottSol</span><div className="hero-title-group"><h1>{s.title}</h1><nav className="hero-section-links" aria-label="Odkazy na sekce">{s.items.filter((item,i)=>i>0&&!item.image&&!item.hidden&&item.href).map(item=><a key={item.href} href={item.href}>{item.title}</a>)}</nav></div><div className="hero-bottom"><Copy text={s.text}/>{s.items[0]?.href&&<a className="action" href={s.items[0].href}>{s.items[0].title}</a>}</div></div>{s.image&&<HeroGallery primary={s.image} preview={preview} photos={s.items.filter(item=>!item.hidden&&item.image).map(item=>({title:item.title,image:item.image!}))}/>}</section>;
  return <section id={s.id} className={`section section-${s.kind}`}>
  {['image-left','image-right','cover'].includes(s.kind)&&s.image&&<div className="section-image"><Picture image={s.image} preview={preview}/></div>}
  <div className="section-copy">{s.title&&<h2>{s.title}</h2>}<Copy text={s.text}/></div>
  {s.kind==='table'&&s.rows.length>0&&<div className="table-scroll"><table><tbody>{s.rows.map((row,i)=><tr key={i}>{row.map((cell,j)=>i===0?<th scope="col" key={j}>{cell}</th>:<td key={j}>{cell}</td>)}</tr>)}</tbody></table></div>}
- {s.items.length>0&&<Items section={s} preview={preview}/>}
+ {s.title==='Kde působíme?'?<RegionMap/>:s.items.length>0&&<Items section={s} preview={preview}/>}
  {s.kind==='editorial'&&s.image&&<div className="editorial-image"><Picture image={s.image} preview={preview}/></div>}
  {s.kind==='contact'&&<ContactForm id={s.id}/>}
  {collectionHref&&<a className="collection-link" href={collectionHref}>{s.kind==='reviews'?'Recenze':'Realizace'}</a>}
  </section>;
 }
-export function PageView({page,site,preview=false}:{page:Page;site:Site;preview?:boolean}){return <><Motion/><SiteHeader site={site}/><main id="main-content" className={page.path==='/'?'home':page.path==='/kontakty'?'inner-page contact-page':'inner-page'}>{page.sections[0]?.kind!=='hero'&&<div className="page-heading"><a className="eyebrow" href="/">GottSol</a><h1>{page.title}</h1></div>}{page.sections.map(s=><SectionView key={s.id} section={s} preview={preview} collectionHref={page.path==='/'?(s.kind==='reviews'?'/recenze':s.kind==='gallery'?'/realizace':undefined):undefined}/>)}</main><SiteFooter site={site}/></>;}
+export function PageView({page,site,preview=false}:{page:Page;site:Site;preview?:boolean}){return <><Motion/><SiteHeader site={site}/><main id="main-content" className={page.path==='/'?'home':page.path==='/kontakty'?'inner-page contact-page':'inner-page'}>{page.sections[0]?.kind!=='hero'&&<div className="page-heading"><a className="eyebrow" href="/">GottSol</a><h1>{page.title}</h1></div>}{page.sections.map(s=><SectionView key={s.id} section={s} preview={preview} collectionHref={page.path==='/'?(s.kind==='reviews'?'/recenze':s.kind==='gallery'?'/realizace':undefined):undefined}/>)}</main><SiteFooter site={site}/><FloatingContact phone={site.phone} email={site.email} whatsapp="https://wa.me/420731406014"/></>;}

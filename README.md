@@ -91,3 +91,13 @@ Na výslovné přání vlastníka lze použít `ADMIN_AUTH_MODE=password` a `ADM
 ## Poptávkový formulář — zatím bez odesílání
 
 Kontaktní bloky „Ozvěte se nám“ obsahují jméno, příjmení, e-mail, telefon, službu včetně „Jiné“ a povinný souhlas s odkazem na zásady ochrany osobních údajů. Formulář používá nativní kontrolu vstupů, nikam neodesílá a neukládá osobní údaje. Po potvrzení jasně sdělí, že údaje nebyly odeslány. Před aktivací je potřeba skutečný příjemce, odesílací služba a ověření serverové validace, ochrany proti spamu a znění zásad.
+
+## Úvod, mapa působnosti a kontaktní nabídka (28. 10. 2026)
+
+Úvod má přesný nadpis „Fotovoltaika a infratopení Gottwald“, zachovává schválené logo GottSol a sedmipoložkovou navigaci. Obsah je řazený: úvod → fotovoltaika → infratopení → GottSol → menší přehled ostatních služeb → realizace → recenze → mapa → poptávka. Dlouhé představení a technické odstavce zůstávají na podstránkách. Výběr kratších původních vět snížil text úvodu z 3 942 na 1 460 znaků (63 %). Recenze a jejich zdroje nebyly změněné.
+
+Stabilní kotvy jsou `/#fotovoltaika`, `/#infratopeni`, `/#gottsol` a `/#poptavka`. Každý odkaz „Nezávazně poptat“ směřuje k hlavnímu formuláři. Formulář stále výslovně uvádí, že odesílání není aktivní. Telefon a e-mail fungují jako přímé odkazy.
+
+Mapu tvoří skutečné hranice všech 14 krajů z RÚIAN, veřejně poskytnuté službou NPÚ. ČÚZK poskytuje otevřená prostorová data za CC BY 4.0; zdroj, licence a provedené kartografické úpravy jsou popsané v `content/geography/source.json` a uvedené u mapy. Původní GeoJSON zůstává v `content/geography/cz-regions.geojson`, lokální SVG cesty v `src/data/cz-regions.json`. Přegenerování: `node scripts/prepare-region-map.mjs`. Web za běhu nestahuje geografická data a nepoužívá mapovou knihovnu. Všechny 4 původní přehledy působnosti nahrazuje stejná mapa; 10 aktivních krajů odkazuje na zachované regionální stránky, zbývající 4 nemají aktivní odkaz. Klávesnice, dotykový výběr a omezení pohybu jsou podporované.
+
+Plovoucí kontaktní nabídka se zavírá kliknutím mimo a Escape. Pokud je formulář ve viditelné části obrazovky, kontaktní tlačítko se skryje, aby nebránilo ovládání. WhatsApp byl potvrzen dvěma odkazy na stejné číslo v inventáři původního webu, proto je dostupný přes `https://wa.me/420731406014`. Žádné měření návštěv, polling ani nový veřejný endpoint nepřibyly. Administrativní kód a autentizace zůstaly beze změny.

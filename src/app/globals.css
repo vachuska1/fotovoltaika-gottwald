@@ -170,3 +170,86 @@
  .mobile-menu nav{position:absolute;top:88px;left:0;right:0;background:#f4f3ed;padding:20px 6%;z-index:5;border-bottom:1px solid #bcc7b4}
  .mobile-menu nav a{display:block;padding:15px;border-bottom:1px solid #d8dece}
 }
+
+/* Two primary services, a distinct GottSol feature, then a compact service index. */
+.home .hero-heading{grid-template-columns:1.5fr 1fr;gap:6%}
+.home .hero h1{font-size:clamp(46px,5.8vw,88px);max-width:900px}
+.hero-title-group .hero-section-links{margin-top:30px;gap:12px 24px;font-size:15px}
+.home #fotovoltaika,.home #infratopeni{padding-top:75px;padding-bottom:75px;column-gap:7%;row-gap:24px}
+.home #fotovoltaika{background:#f4f3ed}.home #infratopeni{background:#e5e9d9}
+.home #fotovoltaika .section-image,.home #infratopeni .section-image{height:460px;grid-row:1 / span 2}
+.home #fotovoltaika .section-copy{grid-column:2;grid-row:1;align-self:end}
+.home #fotovoltaika>.items{grid-column:2;grid-row:2;align-self:start}
+.home #infratopeni .section-copy{grid-column:1;grid-row:1;align-self:end}
+.home #infratopeni>.items{grid-column:1;grid-row:2;align-self:start}
+.home #fotovoltaika>.items h3,.home #infratopeni>.items h3{line-height:1.5}
+.home #fotovoltaika>.items .item:last-child a,.home #infratopeni>.items .item:last-child a{display:inline-block;background:#476d36;color:#fff;padding:14px 20px;text-decoration:none}
+.home #gottsol{background:#20382b;color:#f4f3ed;gap:32px 6%;padding-top:75px;padding-bottom:75px}
+.home #gottsol .section-image{height:auto;min-height:0;aspect-ratio:1.8;grid-row:1 / span 2;background:#eef1e6}
+.home #gottsol .section-image img{object-fit:contain}
+.home #gottsol .section-copy{align-self:end}.home #gottsol>.items{align-self:start}
+.home #gottsol .copy{color:#d5dfcb;font-size:16px}
+.home #services{padding-top:65px;padding-bottom:65px}
+.home #services>.section-copy{display:block;margin-bottom:35px}
+.home #services .service-showcase{display:grid;grid-template-columns:1.05fr 1fr;gap:28px 40px}
+.home #services .service-feature{display:grid;grid-template-columns:170px 1fr;align-items:start;gap:24px;padding-bottom:24px}
+.home #services .service-feature:first-child{grid-row:span 2;display:flex;flex-direction:column;gap:24px}
+.home #services .service-photo{width:100%;height:190px;grid-column:auto;grid-row:auto}
+.home #services .service-feature:first-child .service-photo{height:300px}
+.home #services .service-description{padding:0;grid-column:auto;grid-row:auto}
+.home #services .service-number{display:none}
+.home #services .service-description h3{font-size:27px;letter-spacing:-.7px;margin-bottom:16px}
+.home #services .service-description .copy{font-size:14px;line-height:1.7}
+.home #services .service-link{margin-top:16px;padding-top:0}
+.service-photo>a,.service-photo picture,.service-photo img{display:block;width:100%;height:100%;min-height:0}
+.service-photo img{object-fit:cover}
+.home .section-gallery{padding-top:65px;padding-bottom:65px}
+.home .gallery-items{gap:30px}.home .gallery-items .item:nth-child(even){padding-top:50px}
+.home .gallery-items .item-image,.home .gallery-items .item:first-child .item-image{height:310px}
+.home .section-reviews{padding-top:65px;padding-bottom:65px}
+.home .review-card{min-height:330px;padding-top:30px;padding-bottom:28px}
+.home .review-quote .copy{font-size:24px}
+@media(max-width:1000px){.home #services .service-showcase{grid-template-columns:1fr}.home #services .service-feature:first-child{grid-row:auto;display:grid;grid-template-columns:220px 1fr}.home #services .service-feature{grid-template-columns:220px 1fr}.home #services .service-feature:first-child .service-photo{height:190px}}
+@media(max-width:760px){
+ .home .hero-heading{display:block}.home .hero h1{font-size:clamp(42px,10.5vw,70px)}.hero-title-group .hero-section-links{margin-top:22px;font-size:13px;gap:15px}
+ .home #fotovoltaika,.home #infratopeni,.home #gottsol{display:flex;flex-direction:column;gap:28px;padding:48px 6%}
+ .home #fotovoltaika .section-image,.home #infratopeni .section-image{height:310px;width:100%}.home #gottsol .section-image{width:100%;order:2}.home #gottsol .section-copy{order:1}.home #gottsol>.items{order:3}
+ .home #fotovoltaika .section-copy,.home #infratopeni .section-copy,.home #gottsol .section-copy{align-self:stretch}
+ .home #services{padding:48px 6%}.home #services .service-feature,.home #services .service-feature:first-child{display:flex;flex-direction:column;gap:20px}
+ .home #services .service-photo,.home #services .service-feature:first-child .service-photo{height:250px}.home #services .service-description h3{min-height:0;padding:0}
+ .home .gallery-items .item:nth-child(even){padding-top:0}.home .gallery-items .item-image,.home .gallery-items .item:first-child .item-image{height:265px}
+}
+
+/* Local SVG geography: all 14 real RÚIAN regions, no external map requests. */
+.region-map{margin:35px 0 0;max-width:1050px;width:100%}
+.region-map-canvas{position:relative;background:#edf0e5;padding:12px;border:1px solid #c8d1bd}
+.region-map svg{display:block;width:100%;height:auto;overflow:visible}
+.region-shape,.region-highlight{stroke:#f4f3ed;stroke-width:2;vector-effect:non-scaling-stroke;stroke-linejoin:round}
+.region-shape.is-active,.region-highlight.is-active{fill:#648448}
+.region-shape.is-inactive,.region-highlight.is-inactive{fill:#cdd3c6}
+.region-link{cursor:pointer}.region-link:focus{outline:none}.region-link:focus-visible .region-shape{stroke:#20382b;stroke-width:3}
+.region-highlight{pointer-events:none;transform-box:fill-box;transform-origin:center;animation:region-lift .18s ease both;filter:drop-shadow(0 4px 3px #1c392a44);stroke:#f4f3ed;stroke-width:2.5}
+.region-highlight.is-active{fill:#365e2e}
+@keyframes region-lift{from{transform:scale(1)}to{transform:scale(1.055)}}
+.region-tooltip{position:absolute;top:18px;left:20px;padding:10px 14px;background:#20382b;color:#f4f3ed;pointer-events:none;max-width:calc(100% - 40px);font-size:13px;line-height:1.5}
+.region-map-bottom{display:flex;justify-content:space-between;gap:24px;margin-top:18px;align-items:start}
+.region-legend{display:flex;gap:24px;flex-wrap:wrap;font-size:12px;color:#4f6045}
+.region-legend span{display:flex;align-items:center;gap:8px}.region-legend i{width:12px;height:12px;background:#648448}.region-legend span+span i{background:#cdd3c6}
+.region-map figcaption{margin-top:18px;font-size:10px;line-height:1.7;color:#5e6b53}.region-map figcaption a{text-decoration:underline;text-underline-offset:3px}
+.map-mobile-selection{display:none}
+.home #regions{padding:65px 8%;background:#e5e9d9}.home #regions .region-map{margin-left:auto;margin-right:auto}
+@media(max-width:600px){.region-map-canvas{padding:28px 0 0}.region-tooltip{top:8px;left:8px;padding:6px 10px;font-size:11px}.region-map-bottom{display:block}.map-mobile-selection{display:flex;flex-direction:column;gap:10px;margin-top:20px;font-size:13px}.map-mobile-selection select{padding:13px;background:#f4f3ed;color:#20382b;border:1px solid #9cad87;font:inherit;width:100%;min-width:0}.map-mobile-selection a{padding:10px 0;text-decoration:underline;text-underline-offset:4px}.home #regions{padding:48px 6%}}
+@media(prefers-reduced-motion:reduce){.region-highlight{animation:none;transform:scale(1.025)}}
+
+/* Contact options disappear while a form is on screen, leaving its controls clear. */
+.floating-contact{position:fixed;right:24px;bottom:max(24px,env(safe-area-inset-bottom));z-index:25}
+.floating-contact[hidden]{display:none}
+.floating-contact>button{width:60px;height:60px;border-radius:50%;border:1px solid #829b65;background:#20382b;color:#f4f3ed;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 4px 16px #18262122}
+.floating-contact>button:hover{background:#365a2d}.floating-contact>button[aria-expanded=false]{animation:contact-welcome 3s ease 1}
+@keyframes contact-welcome{0%,100%{box-shadow:0 4px 16px #18262122}50%{box-shadow:0 0 0 8px #64844820}}
+.floating-contact-options{position:absolute;right:0;bottom:76px;width:310px;max-width:calc(100vw - 36px);background:#f4f3ed;color:#20382b;border:1px solid #9aae85;padding:8px 20px;box-shadow:0 10px 30px #18262122}
+.floating-contact-options a{display:flex;flex-direction:column;gap:6px;padding:17px 0;font-size:15px;border-bottom:1px solid #cbd5bf}.floating-contact-options a:last-child{border:0}.floating-contact-options span{font-size:12px;color:#5b6d4f;overflow-wrap:anywhere}
+.floating-contact-options a:hover{text-decoration:underline;text-underline-offset:4px}
+.inquiry-fields input,.inquiry-fields textarea,.inquiry-fields select{scroll-margin-block:110px}
+@media(max-width:760px){.floating-contact{right:16px;bottom:max(16px,env(safe-area-inset-bottom))}.floating-contact>button{width:54px;height:54px}.floating-contact-options{bottom:68px}}
+@media(prefers-reduced-motion:reduce){.floating-contact>button{animation:none!important}}

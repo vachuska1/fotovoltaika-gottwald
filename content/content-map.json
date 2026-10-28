@@ -2,7 +2,7 @@
   {
     "path": "/",
     "source": "https://www.fotovoltaika-gottwald.cz/",
-    "sections": 8
+    "sections": 9
   },
   {
     "path": "/fotovoltaicke-elektrarny",
@@ -97,12 +97,12 @@
   {
     "path": "/kontakty",
     "source": "https://www.fotovoltaika-gottwald.cz/kontakty",
-    "sections": 6
+    "sections": 7
   },
   {
     "path": "/o-nas",
     "source": "https://www.fotovoltaika-gottwald.cz/o-nas",
-    "sections": 3
+    "sections": 2
   },
   {
     "path": "/clanky",
@@ -127,7 +127,7 @@
   {
     "path": "/kontaktujte-nas",
     "source": "https://www.fotovoltaika-gottwald.cz/node/330",
-    "sections": 2
+    "sections": 3
   },
   {
     "path": "/jihocesky-kraj",

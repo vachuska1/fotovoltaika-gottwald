@@ -43,20 +43,32 @@
         {
           "id": "intro",
           "kind": "hero",
-          "title": "Fotovoltaika na klíč",
+          "title": "Fotovoltaika a infratopení Gottwald",
           "text": "Navrhneme Vám fotovoltaickou elektrárnu na klíč dle Vašich preferencí s ohledem na maximální využití.",
           "visible": true,
           "items": [
             {
               "title": "Nezávazně poptat",
               "text": "",
-              "href": "/kontakty",
+              "href": "/#poptavka",
+              "hidden": false
+            },
+            {
+              "title": "Fotovoltaika",
+              "text": "",
+              "href": "/#fotovoltaika",
+              "hidden": false
+            },
+            {
+              "title": "Infratopení",
+              "text": "",
+              "href": "/#infratopeni",
               "hidden": false
             },
             {
               "title": "Chytré řízení GottSol",
               "text": "",
-              "href": "/#technology",
+              "href": "/#gottsol",
               "hidden": false
             },
             {
@@ -122,41 +134,96 @@
           }
         },
         {
-          "id": "services",
-          "kind": "services",
-          "title": "Další služby",
+          "id": "fotovoltaika",
+          "kind": "image-left",
+          "title": "Fotovoltaika",
           "text": "Navrhneme Vám fotovoltaickou elektrárnu na klíč dle Vašich preferencí s ohledem na maximální využití.",
+          "visible": true,
+          "image": {
+            "src": "/media/d0245412f9f16815-1600.webp",
+            "small": "/media/d0245412f9f16815-640.webp",
+            "alt": "Fotovoltaika na klíč",
+            "x": 50,
+            "y": 50
+          },
+          "items": [
+            {
+              "title": "Zobrazit více",
+              "text": "",
+              "href": "/fotovoltaicke-elektrarny",
+              "hidden": false
+            },
+            {
+              "title": "Nezávazně poptat",
+              "text": "",
+              "href": "/#poptavka",
+              "hidden": false
+            }
+          ],
+          "rows": []
+        },
+        {
+          "id": "infratopeni",
+          "kind": "image-right",
+          "title": "Infratopení",
+          "text": "Infratopení zahřívá přímo stěny, podlahy a předměty ve vašem domově, nikoliv vzduch, což znamená rovnoměrné a dlouhotrvající teplo.",
+          "visible": true,
+          "image": {
+            "src": "/media/076d7546b6cc92e3-1600.webp",
+            "small": "/media/076d7546b6cc92e3-640.webp",
+            "alt": "Infrapanel 1",
+            "x": 50,
+            "y": 50
+          },
+          "items": [
+            {
+              "title": "Zobrazit více",
+              "text": "",
+              "href": "/dalsi-sluzby/infratopeni",
+              "hidden": false
+            },
+            {
+              "title": "Nezávazně poptat",
+              "text": "",
+              "href": "/#poptavka",
+              "hidden": false
+            }
+          ],
+          "rows": []
+        },
+        {
+          "id": "gottsol",
+          "kind": "image-right",
+          "title": "Chytré řízení GottSol",
+          "text": "GOTTSOL je cloudová platforma pro inteligentní řízení solárních elektráren, tepelných čerpadel, komunitní energetiky a dalších energetických systémů.\n\nPredikuje výrobu a spotřebu a řídí spotřebiče tak, abyste za energie platili co nejméně.",
           "visible": true,
           "items": [
             {
-              "title": "Fotovoltaika",
-              "text": "Na trhu v oblasti elektroniky a elektriky působíme již od roku 2005. Nabízíme spolehlivé komplexní řešení fotovoltaiky na klíč.\n\nNavrhneme Vám fotovoltaickou elektrárnu na klíč dle Vašich preferencí s ohledem na maximální využití.\n\nPotřebujete financovat Vaši elektrárnu? Vše potřebné za Vás vyřídíme.",
-              "href": "/fotovoltaicke-elektrarny",
-              "hidden": false,
-              "image": {
-                "src": "/media/d0245412f9f16815-1600.webp",
-                "small": "/media/d0245412f9f16815-640.webp",
-                "alt": "Fotovoltaika na klíč",
-                "x": 50,
-                "y": 50
-              }
-            },
-            {
-              "title": "Infratopení",
-              "text": "Infratopení zahřívá přímo stěny, podlahy a předměty ve vašem domově, nikoliv vzduch, což znamená rovnoměrné a dlouhotrvající teplo. A protože neproudí horký vzduch, neuniká žádné teplo zbytečně. Výsledek? Výrazně nižší účty za elektřinu!\n\nNaše společnost se specializuje na dodávku kvalitních infrapanelů s důrazem na design, efektivitu a spokojenost zákazníků. Nabízíme profesionální přístup, individuální řešení a prvotřídní zákaznický servis. S námi máte jistotu, že váš projekt bude úspěšný.",
-              "href": "/dalsi-sluzby/infratopeni",
-              "hidden": false,
-              "image": {
-                "src": "/media/076d7546b6cc92e3-1600.webp",
-                "small": "/media/076d7546b6cc92e3-640.webp",
-                "alt": "Infrapanel 1",
-                "x": 50,
-                "y": 50
-              }
-            },
+              "title": "Zobrazit více",
+              "text": "",
+              "href": "/sdileni-prodej-energie/program-gottsol-inteligentni-rizeni",
+              "hidden": false
+            }
+          ],
+          "rows": [],
+          "image": {
+            "src": "/media/2e3d1e7789d65e8f-1600.webp",
+            "small": "/media/2e3d1e7789d65e8f-640.webp",
+            "alt": "Chytré řízení GottSol",
+            "x": 50,
+            "y": 50
+          }
+        },
+        {
+          "id": "services",
+          "kind": "services",
+          "title": "Další služby",
+          "text": "",
+          "visible": true,
+          "items": [
             {
               "title": "Elektroinstalace",
-              "text": "Elektroinstalace je jednou z nejdůležitějších součástí každé stavby. Bez správné elektroinstalace nefunguje nic – od osvětlení až po zásuvky, spotřebiče nebo moderní technologie a chytré domácnosti. A právě proto si nemůžete dovolit žádné kompromisy.\n\nKompletní výstavbu elektroinstalace v novostavbách – vše od návrhu, přes realizaci až po dodání potřebné dokumentace.",
+              "text": "Elektroinstalace je jednou z nejdůležitějších součástí každé stavby.",
               "href": "/dalsi-sluzby/elektroinstalace",
               "hidden": false,
               "image": {
@@ -165,11 +232,12 @@
                 "alt": "zasuvka zapojeni",
                 "x": 50,
                 "y": 50
-              }
+              },
+              "linkLabel": "Zobrazit více"
             },
             {
               "title": "Revize elektroinstalace",
-              "text": "Revize elektrické instalace není jen formalita – je to závazek k vašemu bezpečí, efektivitě a klidu. A naše služba je tu právě proto, abychom vás ochránili od všech rizik.\n\nProvádíme revize domovních instalací, hromosvodů, fotovoltaických elektráren i průmyslových zařízení – pravidelné, mimořádné i výchozí revize.",
+              "text": "Revize elektrické instalace není jen formalita – je to závazek k vašemu bezpečí, efektivitě a klidu.",
               "href": "/dalsi-sluzby/revize-instalace",
               "hidden": false,
               "image": {
@@ -178,11 +246,12 @@
                 "alt": "revize merak",
                 "x": 50,
                 "y": 50
-              }
+              },
+              "linkLabel": "Zobrazit více"
             },
             {
               "title": "Tepelná čerpadla",
-              "text": "Moderní tepelné čerpadlo v provedení split, což znamená, že venkovní jednotka je oddělena od vnitřní jednotky čerpadla. Obě tyto hlavní části jsou samozřejmě propojeny okruhem chladiva a komunikačním kabelem.\n\nVyspělá elektronická výbava umožňuje regulaci nejen okruhu TUV, ale i řízení přímých a směšovaných zón topného okruhu. Samozřejmostí je režim chlazení v letních měsících.",
+              "text": "Moderní tepelné čerpadlo v provedení split, což znamená, že venkovní jednotka je oddělena od vnitřní jednotky čerpadla.",
               "href": "/technologie/tepelna-cerpadla",
               "hidden": false,
               "image": {
@@ -191,33 +260,11 @@
                 "alt": "",
                 "x": 50,
                 "y": 50
-              }
+              },
+              "linkLabel": "Zobrazit více"
             }
           ],
           "rows": []
-        },
-        {
-          "id": "about",
-          "kind": "image-left",
-          "title": "Jsme čestná firma, která řeší fotovoltaiku na klíč s vlastním týmem a zázemím",
-          "text": "Jmenuji se Jiří Gottwald a již 25 let se na českém trhu věnuji elektronice a elektrice. V roce 2010 jsem začal rozšiřovat své portfolio o fotovoltaické elektrárny.\n\nOd první instalované elektrárny jsme společně ušli veliký kus cesty a naučili se mnohé. Náš cíl byl vždy jediný – poskytnout zákazníkům vždy jen to nejkvalitnější a nejpoctivější. Proto jsme po pečlivém a dlouhodobém testování vybrali spolehlivou fotovoltaickou elektrárnu od výrobce ALPHA ESS a Wattsonic. Jedná se o zcela inovativní systém pro ukládání a odběr energie z fotovoltaiky.",
-          "visible": true,
-          "items": [
-            {
-              "title": "Více informací",
-              "text": "",
-              "href": "/o-nas",
-              "hidden": false
-            }
-          ],
-          "rows": [],
-          "image": {
-            "src": "/media/edc9e4511e1ff975-1600.webp",
-            "small": "/media/edc9e4511e1ff975-640.webp",
-            "alt": "Jih 180°",
-            "x": 50,
-            "y": 50
-          }
         },
         {
           "id": "gallery",
@@ -306,122 +353,16 @@
           "rows": []
         },
         {
-          "id": "technology",
-          "kind": "editorial",
-          "title": "Inteligentní řízení Program GottSol",
-          "text": "GOTTSOL je cloudová platforma pro inteligentní řízení solárních elektráren, tepelných čerpadel, komunitní energetiky a dalších energetických systémů.\n\nPredikuje výrobu a spotřebu a řídí spotřebiče tak, abyste za energie platili co nejméně.",
-          "visible": true,
-          "items": [
-            {
-              "title": "Inteligentní řízení Program GottSol",
-              "text": "",
-              "href": "/sdileni-prodej-energie/program-gottsol-inteligentni-rizeni",
-              "hidden": false
-            }
-          ],
-          "rows": []
-        },
-        {
-          "id": "solutions",
-          "kind": "image-right",
-          "title": "Tepelná čerpadla",
-          "text": "K rodinné firmě jsem přizval syna, kterému postupně předávám své dlouholeté Know-how. Nepřestáváme se zlepšovat a hledat pro Vás nová řešení v oblasti domácí energetiky. Dokážeme Vám zapojit tepelná čerpadla, které díky unikátním propojení s fotovoltaikou dokážeme řídit s chytrými zařízeními pro maximální využití vygenerované energie. Tepelné čerpadlo tak společně s fotovoltaikou a naší chytrou domácností vytváří unikátní ekosystém, který Vás posune k vyšší soběstačnosti a efektivitě.",
-          "visible": true,
-          "items": [
-            {
-              "title": "Tepelná čerpadla",
-              "text": "",
-              "href": "/technologie/tepelna-cerpadla",
-              "hidden": false
-            },
-            {
-              "title": "Chytrá domácnost",
-              "text": "",
-              "href": "/technologie/chytra-domacnost",
-              "hidden": false
-            }
-          ],
-          "rows": [],
-          "image": {
-            "src": "/media/5cf1cc7ae4c2d5c4-1600.webp",
-            "small": "/media/5cf1cc7ae4c2d5c4-640.webp",
-            "alt": "",
-            "x": 50,
-            "y": 50
-          }
-        },
-        {
           "id": "regions",
           "kind": "editorial",
           "title": "Kde působíme?",
           "text": "Abychom vám byli nablízku a mohli zajistit kvalitní servis působíme pouze v těchto krajích:",
           "visible": true,
-          "items": [
-            {
-              "title": "Hlavní město Praha",
-              "text": "",
-              "href": "/hlavni-mesto-praha",
-              "hidden": false
-            },
-            {
-              "title": "Středočeský kraj",
-              "text": "",
-              "href": "/stredocesky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Jihočeský kraj",
-              "text": "",
-              "href": "/jihocesky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Plzeňský kraj",
-              "text": "",
-              "href": "/plzensky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Karlovarský kraj",
-              "text": "",
-              "href": "/karlovarsky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Ústecký kraj",
-              "text": "",
-              "href": "/ustecky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Liberecký kraj",
-              "text": "",
-              "href": "/liberecky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Královéhradecký kraj",
-              "text": "",
-              "href": "/kralovehradecky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Pardubický kraj",
-              "text": "",
-              "href": "/pardubicky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Kraj Vysočina",
-              "text": "",
-              "href": "/kraj-vysocina",
-              "hidden": false
-            }
-          ],
+          "items": [],
           "rows": []
         },
         {
-          "id": "contact",
+          "id": "poptavka",
           "kind": "contact",
           "title": "Ozvěte se nám",
           "text": "",
@@ -948,7 +889,7 @@
           "id": "s22",
           "kind": "editorial",
           "title": "Kde působíme?",
-          "text": "Abychom vám byli nablízku a mohli zajistit kvalitní servis působíme pouze v těchto krajích:\n\nHlavní město Praha\n\nStředočeský kraj\n\nJihočeský kraj\n\nPlzeňský kraj\n\nKarlovarský kraj\n\nÚstecký kraj\n\nLiberecký kraj\n\nKrálovéhradecký kraj\n\nPardubický kraj\n\nKraj Vysočina",
+          "text": "Abychom vám byli nablízku a mohli zajistit kvalitní servis působíme pouze v těchto krajích:",
           "visible": true,
           "items": [],
           "rows": []
@@ -1054,66 +995,6 @@
               "title": "Chytrá domácnost",
               "text": "",
               "href": "/technologie/chytra-domacnost",
-              "hidden": false
-            },
-            {
-              "title": "Hlavní město Praha",
-              "text": "",
-              "href": "/hlavni-mesto-praha",
-              "hidden": false
-            },
-            {
-              "title": "Středočeský kraj",
-              "text": "",
-              "href": "/stredocesky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Jihočeský kraj",
-              "text": "",
-              "href": "/jihocesky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Plzeňský kraj",
-              "text": "",
-              "href": "/plzensky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Karlovarský kraj",
-              "text": "",
-              "href": "/karlovarsky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Ústecký kraj",
-              "text": "",
-              "href": "/ustecky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Liberecký kraj",
-              "text": "",
-              "href": "/liberecky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Královéhradecký kraj",
-              "text": "",
-              "href": "/kralovehradecky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Pardubický kraj",
-              "text": "",
-              "href": "/pardubicky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Kraj Vysočina",
-              "text": "",
-              "href": "/kraj-vysocina",
               "hidden": false
             },
             {
@@ -1491,7 +1372,7 @@
           "id": "s22",
           "kind": "editorial",
           "title": "Kde působíme?",
-          "text": "Abychom vám byli nablízku a mohli zajistit kvalitní servis působíme pouze v těchto krajích:\n\nHlavní město Praha\n\nStředočeský kraj\n\nJihočeský kraj\n\nPlzeňský kraj\n\nKarlovarský kraj\n\nÚstecký kraj\n\nLiberecký kraj\n\nKrálovéhradecký kraj\n\nPardubický kraj\n\nKraj Vysočina",
+          "text": "Abychom vám byli nablízku a mohli zajistit kvalitní servis působíme pouze v těchto krajích:",
           "visible": true,
           "items": [],
           "rows": []
@@ -1606,66 +1487,6 @@
               "title": "Chytrá domácnost",
               "text": "",
               "href": "/technologie/chytra-domacnost",
-              "hidden": false
-            },
-            {
-              "title": "Hlavní město Praha",
-              "text": "",
-              "href": "/hlavni-mesto-praha",
-              "hidden": false
-            },
-            {
-              "title": "Středočeský kraj",
-              "text": "",
-              "href": "/stredocesky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Jihočeský kraj",
-              "text": "",
-              "href": "/jihocesky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Plzeňský kraj",
-              "text": "",
-              "href": "/plzensky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Karlovarský kraj",
-              "text": "",
-              "href": "/karlovarsky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Ústecký kraj",
-              "text": "",
-              "href": "/ustecky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Liberecký kraj",
-              "text": "",
-              "href": "/liberecky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Královéhradecký kraj",
-              "text": "",
-              "href": "/kralovehradecky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Pardubický kraj",
-              "text": "",
-              "href": "/pardubicky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Kraj Vysočina",
-              "text": "",
-              "href": "/kraj-vysocina",
               "hidden": false
             },
             {
@@ -2223,7 +2044,7 @@
             {
               "title": "Nezávazně poptat",
               "text": "",
-              "href": "/kontaktujte-nas",
+              "href": "/#poptavka",
               "hidden": false
             },
             {
@@ -2866,7 +2687,7 @@
             {
               "title": "Nezávazně poptat",
               "text": "",
-              "href": "/kontaktujte-nas",
+              "href": "/#poptavka",
               "hidden": false
             },
             {
@@ -3100,7 +2921,7 @@
             {
               "title": "Nezávazně poptat",
               "text": "",
-              "href": "/kontaktujte-nas",
+              "href": "/#poptavka",
               "hidden": false
             },
             {
@@ -3803,79 +3624,9 @@
           "id": "s1",
           "kind": "editorial",
           "title": "Kde působíme?",
-          "text": "Abychom vám byli nablízku a mohli zajistit kvalitní servis působíme pouze v těchto krajích:\n\nHlavní město Praha\n\nStředočeský kraj\n\nJihočeský kraj\n\nPlzeňský kraj\n\nKarlovarský kraj\n\nÚstecký kraj\n\nLiberecký kraj\n\nKrálovéhradecký kraj\n\nPardubický kraj\n\nKraj Vysočina",
+          "text": "Abychom vám byli nablízku a mohli zajistit kvalitní servis působíme pouze v těchto krajích:",
           "visible": true,
           "items": [],
-          "rows": []
-        },
-        {
-          "id": "links",
-          "kind": "editorial",
-          "title": "",
-          "text": "",
-          "visible": true,
-          "items": [
-            {
-              "title": "Hlavní město Praha",
-              "text": "",
-              "href": "/hlavni-mesto-praha",
-              "hidden": false
-            },
-            {
-              "title": "Středočeský kraj",
-              "text": "",
-              "href": "/stredocesky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Jihočeský kraj",
-              "text": "",
-              "href": "/jihocesky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Plzeňský kraj",
-              "text": "",
-              "href": "/plzensky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Karlovarský kraj",
-              "text": "",
-              "href": "/karlovarsky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Ústecký kraj",
-              "text": "",
-              "href": "/ustecky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Liberecký kraj",
-              "text": "",
-              "href": "/liberecky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Královéhradecký kraj",
-              "text": "",
-              "href": "/kralovehradecky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Pardubický kraj",
-              "text": "",
-              "href": "/pardubicky-kraj",
-              "hidden": false
-            },
-            {
-              "title": "Kraj Vysočina",
-              "text": "",
-              "href": "/kraj-vysocina",
-              "hidden": false
-            }
-          ],
           "rows": []
         }
       ]
