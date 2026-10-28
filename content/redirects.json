@@ -6,7 +6,7 @@
   },
   {
     "source": "/node/330",
-    "destination": "/kontaktujte-nas",
+    "destination": "/#poptavka",
     "statusCode": 301
   },
   {
@@ -37,6 +37,176 @@
   {
     "source": "/recenze-realizace",
     "destination": "/recenze",
+    "statusCode": 301
+  },
+  {
+    "source": "/sdileni-prodej-energie",
+    "destination": "/sdileni-prodej-energie/program-gottsol-inteligentni-rizeni",
+    "statusCode": 301
+  },
+  {
+    "source": "/kontaktujte-nas",
+    "destination": "/#poptavka",
+    "statusCode": 301
+  },
+  {
+    "source": "/fotovoltaika/technologie",
+    "destination": "/fotovoltaicke-elektrarny",
+    "statusCode": 301
+  },
+  {
+    "source": "/technologie/system-od-alphaess",
+    "destination": "/fotovoltaika/fotovoltaicke-elektrarny-na-rodinne-domy#alpha",
+    "statusCode": 301
+  },
+  {
+    "source": "/technologie/system-od-wattsonic",
+    "destination": "/fotovoltaika/fotovoltaicke-elektrarny-na-rodinne-domy#wattsonic",
+    "statusCode": 301
+  },
+  {
+    "source": "/fve-pro-rd/wattsonic-fotovoltaicke-elektrarny-na-rodinne-domy",
+    "destination": "/fotovoltaika/fotovoltaicke-elektrarny-na-rodinne-domy#wattsonic",
+    "statusCode": 301
+  },
+  {
+    "source": "/fve-pro-rd/alpha-fotovoltaicke-elektrarny-na-rodinne-domy",
+    "destination": "/fotovoltaika/fotovoltaicke-elektrarny-na-rodinne-domy#alpha",
+    "statusCode": 301
+  },
+  {
+    "source": "/node/160",
+    "destination": "/#poptavka",
+    "statusCode": 301
+  },
+  {
+    "source": "/nabidka",
+    "destination": "/#poptavka",
+    "statusCode": 301
+  },
+  {
+    "source": "/fotovoltaika",
+    "destination": "/#fotovoltaika",
+    "statusCode": 301
+  },
+  {
+    "source": "/node/1",
+    "destination": "/",
+    "statusCode": 301
+  },
+  {
+    "source": "/node/108",
+    "destination": "/realizace",
+    "statusCode": 301
+  },
+  {
+    "source": "/node/106",
+    "destination": "/clanky",
+    "statusCode": 301
+  },
+  {
+    "source": "/node/67",
+    "destination": "/realizace",
+    "statusCode": 301
+  },
+  {
+    "source": "/node/68",
+    "destination": "/recenze",
+    "statusCode": 301
+  },
+  {
+    "source": "/node/69",
+    "destination": "/kontakty",
+    "statusCode": 301
+  },
+  {
+    "source": "/zajimavosti/ziskejte-dotaci-na-porizeni-fotovoltaicke-elektrarny",
+    "destination": "/blog/ziskejte-dotaci-na-porizeni-fotovoltaicke-elektrarny",
+    "statusCode": 301
+  },
+  {
+    "source": "/zajimavosti/vyhodnost-fotovoltaiky-na-strechu-potrebne-parametry-pro-jeji-instalaci",
+    "destination": "/blog/vyhodnost-fotovoltaiky-na-strechu-potrebne-parametry-pro-jeji-instalaci",
+    "statusCode": 301
+  },
+  {
+    "source": "/zajimavosti/zajistete-si-energetickou-sobestacnost-i-na-zimu-kombinaci-fotovoltaiky-tepelneho-cerpadla",
+    "destination": "/blog/zajistete-si-energetickou-sobestacnost-i-na-zimu-kombinaci-fotovoltaiky-tepelneho-cerpadla",
+    "statusCode": 301
+  },
+  {
+    "source": "/zajimavosti/slunecni-elektrarna-v-rodinnem-dome-snizuje-zavislost-na-distribucni-firme",
+    "destination": "/blog/slunecni-elektrarna-v-rodinnem-dome-snizuje-zavislost-na-distribucni-firme",
+    "statusCode": 301
+  },
+  {
+    "source": "/zajimavosti/fotovoltaicke-elektrarny-na-rodinny-dum-na-dosah",
+    "destination": "/blog/fotovoltaicke-elektrarny-na-rodinny-dum-na-dosah",
+    "statusCode": 301
+  },
+  {
+    "source": "/zajimavosti/trend-doby-solarni-energie-pro-domacnosti",
+    "destination": "/blog/trend-doby-solarni-energie-pro-domacnosti",
+    "statusCode": 301
+  },
+  {
+    "source": "/zajimavosti/co-vam-prinese-fotovoltaika-na-klic",
+    "destination": "/blog/co-vam-prinese-fotovoltaika-na-klic",
+    "statusCode": 301
+  },
+  {
+    "source": "/zajimavosti/fotovoltaika-spotove-ceny-obchodovani-na-burze-jak-diky-nim-muzete-usetrit-co-je-flexibilita",
+    "destination": "/blog/fotovoltaika-spotove-ceny-obchodovani-na-burze-jak-diky-nim-muzete-usetrit-co-je-flexibilita",
+    "statusCode": 301
+  },
+  {
+    "source": "/zajimavosti/dotace-na-fotovoltaiku-pro-podnikatele-firmy-bezurokovy-uver",
+    "destination": "/blog/dotace-na-fotovoltaiku-pro-podnikatele-firmy-bezurokovy-uver",
+    "statusCode": 301
+  },
+  {
+    "source": "/zajimavosti/fotovoltaika-na-klic-na-rodinny-dum-usetrete-i-vasi-penezenku",
+    "destination": "/blog/fotovoltaika-na-klic-na-rodinny-dum-usetrete-i-vasi-penezenku",
+    "statusCode": 301
+  },
+  {
+    "source": "/zajimavosti/spravne-dimenzovana-fotovoltaika",
+    "destination": "/blog/spravne-dimenzovana-fotovoltaika",
+    "statusCode": 301
+  },
+  {
+    "source": "/technologie/technologie-pro-strechy",
+    "destination": "/fotovoltaicke-elektrarny#solutions",
+    "statusCode": 301
+  },
+  {
+    "source": "/stresni-soucasti/solarni-panely",
+    "destination": "/fotovoltaicke-elektrarny#panely",
+    "statusCode": 301
+  },
+  {
+    "source": "/produkty/fotovoltaicke-panely",
+    "destination": "/fotovoltaicke-elektrarny#panely",
+    "statusCode": 301
+  },
+  {
+    "source": "/stresni-soucasti/stresni-konstrukce",
+    "destination": "/fotovoltaicke-elektrarny#konstrukce",
+    "statusCode": 301
+  },
+  {
+    "source": "/system-od-wattsonic/komercni-reseni-wattsonic",
+    "destination": "/fotovoltaika/fotovoltaicke-elektrarny-pro-firmy",
+    "statusCode": 301
+  },
+  {
+    "source": "/zajimavosti/jak-funguje-domaci-solarni-elektrarna-a-vyplati-se-tato-investice",
+    "destination": "/blog/co-vam-prinese-fotovoltaika-na-klic",
+    "statusCode": 301
+  },
+  {
+    "source": "/zajimavosti/vyhodnost-fotovoltaiky-na-strechu-a-potrebne-parametry-pro-jeji-instalaci",
+    "destination": "/blog/vyhodnost-fotovoltaiky-na-strechu-potrebne-parametry-pro-jeji-instalaci",
     "statusCode": 301
   }
 ]

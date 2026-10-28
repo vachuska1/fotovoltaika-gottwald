@@ -1,0 +1,468 @@
+{
+  "date": "2026-10-28",
+  "changes": [
+    {
+      "path": "/",
+      "before": 6772,
+      "after": 8997
+    },
+    {
+      "path": "/fotovoltaicke-elektrarny",
+      "before": 3123,
+      "after": 2992
+    },
+    {
+      "path": "/fotovoltaika/fotovoltaicke-elektrarny-na-rodinne-domy",
+      "before": 1068,
+      "after": 1915
+    },
+    {
+      "path": "/fotovoltaika/ohrev-vody",
+      "before": 4357,
+      "after": 2675
+    },
+    {
+      "path": "/fotovoltaika/fotovoltaicke-elektrarny-pro-firmy",
+      "before": 8346,
+      "after": 2728
+    },
+    {
+      "path": "/fotovoltaika/fotovoltaicke-elektrarny-pro-bytove-domy",
+      "before": 24249,
+      "after": 3333
+    },
+    {
+      "path": "/dalsi-sluzby/infratopeni",
+      "before": 6282,
+      "after": 2160
+    },
+    {
+      "path": "/fotovoltaika/pozarni-bezpecnost",
+      "before": 2022,
+      "after": 1803
+    },
+    {
+      "path": "/dalsi-sluzby",
+      "before": 3300,
+      "after": 3466
+    },
+    {
+      "path": "/technologie/tepelna-cerpadla",
+      "before": 8665,
+      "after": 7359
+    },
+    {
+      "path": "/dalsi-sluzby/elektroinstalace",
+      "before": 6987,
+      "after": 2338
+    },
+    {
+      "path": "/dalsi-sluzby/revize-instalace",
+      "before": 7171,
+      "after": 1802
+    },
+    {
+      "path": "/technologie/chytra-domacnost",
+      "before": 1763,
+      "after": 1064
+    },
+    {
+      "path": "/sdileni-prodej-energie/program-gottsol-inteligentni-rizeni",
+      "before": 2482,
+      "after": 2450
+    },
+    {
+      "path": "/dotace",
+      "before": 4020,
+      "after": 3542
+    },
+    {
+      "path": "/dalsi-sluzby/financovani",
+      "before": 795,
+      "after": 576
+    },
+    {
+      "path": "/dalsi-sluzby/servis",
+      "before": 2064,
+      "after": 1263
+    },
+    {
+      "path": "/kontakty",
+      "before": 1747,
+      "after": 1741
+    },
+    {
+      "path": "/porovnejte-nasi-cenovou-nabidku-fotovoltaiky-s-konkurenci-wattsonic",
+      "before": 436,
+      "after": 534
+    },
+    {
+      "path": "/jihocesky-kraj",
+      "before": 21055,
+      "after": 3929
+    },
+    {
+      "path": "/hlavni-mesto-praha",
+      "before": 20955,
+      "after": 3829
+    },
+    {
+      "path": "/stredocesky-kraj",
+      "before": 21294,
+      "after": 4168
+    },
+    {
+      "path": "/plzensky-kraj",
+      "before": 21220,
+      "after": 4094
+    },
+    {
+      "path": "/karlovarsky-kraj",
+      "before": 21272,
+      "after": 4146
+    },
+    {
+      "path": "/kralovehradecky-kraj",
+      "before": 21033,
+      "after": 3907
+    },
+    {
+      "path": "/pardubicky-kraj",
+      "before": 21056,
+      "after": 3930
+    },
+    {
+      "path": "/ustecky-kraj",
+      "before": 21067,
+      "after": 3941
+    },
+    {
+      "path": "/kraj-vysocina",
+      "before": 21034,
+      "after": 21001
+    },
+    {
+      "path": "/liberecky-kraj",
+      "before": 21099,
+      "after": 3973
+    },
+    {
+      "path": "/realizace/kovarov",
+      "before": 1784,
+      "after": 1540
+    },
+    {
+      "path": "/blog/ziskejte-dotaci-na-porizeni-fotovoltaicke-elektrarny",
+      "before": 7169,
+      "after": 7163
+    },
+    {
+      "path": "/realizace/svetice",
+      "before": 2219,
+      "after": 1975
+    },
+    {
+      "path": "/realizace/oboriste",
+      "before": 2179,
+      "after": 1935
+    },
+    {
+      "path": "/realizace/sadska",
+      "before": 1990,
+      "after": 1746
+    },
+    {
+      "path": "/blog/vyhodnost-fotovoltaiky-na-strechu-potrebne-parametry-pro-jeji-instalaci",
+      "before": 4023,
+      "after": 3989
+    },
+    {
+      "path": "/blog/zajistete-si-energetickou-sobestacnost-i-na-zimu-kombinaci-fotovoltaiky-tepelneho-cerpadla",
+      "before": 3537,
+      "after": 3503
+    },
+    {
+      "path": "/blog/slunecni-elektrarna-v-rodinnem-dome-snizuje-zavislost-na-distribucni-firme",
+      "before": 4454,
+      "after": 4449
+    },
+    {
+      "path": "/blog/fotovoltaicke-elektrarny-na-rodinny-dum-na-dosah",
+      "before": 3272,
+      "after": 3238
+    },
+    {
+      "path": "/blog/co-vam-prinese-fotovoltaika-na-klic",
+      "before": 4302,
+      "after": 4331
+    },
+    {
+      "path": "/podminky-uzivani-cloudove-sluzby-gottsol-pro-rizeni-energetickych-systemu",
+      "before": 7309,
+      "after": 7475
+    },
+    {
+      "path": "/ochrana-osobnich-udaju",
+      "before": 5982,
+      "after": 6148
+    },
+    {
+      "path": "/desatero-pro-vyber-fotovoltaiky",
+      "before": 9468,
+      "after": 9634
+    },
+    {
+      "path": "/technologie/technologie-pro-strechy",
+      "before": 690,
+      "after": 759
+    },
+    {
+      "path": "/realizace/racice",
+      "before": 2399,
+      "after": 2155
+    },
+    {
+      "path": "/realizace/jirkov",
+      "before": 2205,
+      "after": 1961
+    },
+    {
+      "path": "/realizace/zvole-0",
+      "before": 2405,
+      "after": 2161
+    },
+    {
+      "path": "/realizace/kolin-0",
+      "before": 2394,
+      "after": 2150
+    },
+    {
+      "path": "/blog/fotovoltaika-spotove-ceny-obchodovani-na-burze-jak-diky-nim-muzete-usetrit-co-je-flexibilita",
+      "before": 6048,
+      "after": 5980
+    },
+    {
+      "path": "/blog/dotace-na-fotovoltaiku-pro-podnikatele-firmy-bezurokovy-uver",
+      "before": 7243,
+      "after": 7207
+    },
+    {
+      "path": "/realizace/vletice",
+      "before": 2810,
+      "after": 2566
+    },
+    {
+      "path": "/realizace/studenec",
+      "before": 2402,
+      "after": 2158
+    },
+    {
+      "path": "/blog/spravne-dimenzovana-fotovoltaika",
+      "before": 4577,
+      "after": 4572
+    },
+    {
+      "path": "/caste-dotazy",
+      "before": 5073,
+      "after": 5239
+    },
+    {
+      "path": "/slovnik/fotovoltaika-do-zasuvky",
+      "before": 719,
+      "after": 683
+    },
+    {
+      "path": "/slovnik/standardni-testovaci-podminky-stc",
+      "before": 752,
+      "after": 716
+    },
+    {
+      "path": "/slovnik/uhel-slunecniho-svitu",
+      "before": 694,
+      "after": 658
+    },
+    {
+      "path": "/slovnik/balkonova-fotovoltaika",
+      "before": 729,
+      "after": 693
+    }
+  ],
+  "merged": {
+    "/sdileni-prodej-energie": "/sdileni-prodej-energie/program-gottsol-inteligentni-rizeni",
+    "/kontaktujte-nas": "/#poptavka",
+    "/fotovoltaika/technologie": "/fotovoltaicke-elektrarny",
+    "/technologie/system-od-alphaess": "/fotovoltaika/fotovoltaicke-elektrarny-na-rodinne-domy#alpha",
+    "/technologie/system-od-wattsonic": "/fotovoltaika/fotovoltaicke-elektrarny-na-rodinne-domy#wattsonic",
+    "/technologie/technologie-pro-strechy": "/fotovoltaicke-elektrarny#solutions"
+  },
+  "verification": [
+    {
+      "path": "/fotovoltaika/fotovoltaicke-elektrarny-na-rodinne-domy",
+      "section": "WATTSONIC fotovoltaické elektrárny na rodinné domy",
+      "reason": "Převzato z původní stránky; ověřit současný model, dostupnost a technické listy."
+    },
+    {
+      "path": "/fotovoltaika/fotovoltaicke-elektrarny-na-rodinne-domy",
+      "section": "ALPHA fotovoltaické elektrárny na rodinné domy",
+      "reason": "Převzato z původní stránky; ověřit současný model, dostupnost a technické listy."
+    },
+    {
+      "path": "/fotovoltaika/ohrev-vody",
+      "section": "Dotační program Zelená úsporám",
+      "reason": "Historická dotace 35 000 Kč – ověřit aktuálnost.",
+      "original": "Pro podporu fotovotaického ohřevu vody je připraven program Nová zelená úsporám, který nabízí příspěvek v hodnotě 35 000 korun. Žádost o tento příspěvek za vás vyřídíme my v rámci našich služeb. Ušetříte tak čas, papírování a běhání po úřadech."
+    },
+    {
+      "path": "/fotovoltaika/fotovoltaicke-elektrarny-pro-firmy",
+      "section": "Solární panely",
+      "reason": "Chybí přesný model a dokumentace výrobce pro parametry a záruky.",
+      "original": "Celočerné panely se zárukou na výkon 83% po dobu 25 let"
+    },
+    {
+      "path": "/fotovoltaika/fotovoltaicke-elektrarny-pro-firmy",
+      "section": "Měnič 25 - 500kW",
+      "reason": "Chybí přesný model a dokumentace výrobce pro parametry a záruky.",
+      "original": "Asymetrický, 3-fázový měnič s výkonem až 500kW"
+    },
+    {
+      "path": "/fotovoltaika/fotovoltaicke-elektrarny-pro-firmy",
+      "section": "Baterie",
+      "reason": "Chybí přesný model a dokumentace výrobce pro parametry a záruky.",
+      "original": "Baterie o kapacitě 3,84kWh s možností rozšířit na maximální kapacitu 326,4kWh"
+    },
+    {
+      "path": "/fotovoltaika/fotovoltaicke-elektrarny-pro-bytove-domy",
+      "section": "Solární panely",
+      "reason": "Chybí přesný model a dokumentace výrobce pro parametry a záruky.",
+      "original": "Celočerné panely se zárukou na výkon 83% po dobu 25 let"
+    },
+    {
+      "path": "/fotovoltaika/fotovoltaicke-elektrarny-pro-bytove-domy",
+      "section": "Měnič 25 - 500kW",
+      "reason": "Chybí přesný model a dokumentace výrobce pro parametry a záruky.",
+      "original": "Asymetrický, 3-fázový měnič s výkonem až 500kW"
+    },
+    {
+      "path": "/fotovoltaika/fotovoltaicke-elektrarny-pro-bytove-domy",
+      "section": "Baterie",
+      "reason": "Chybí přesný model a dokumentace výrobce pro parametry a záruky.",
+      "original": "Baterie o kapacitě 3,84kWh s možností rozšířit na maximální kapacitu 326,4kWh"
+    },
+    {
+      "path": "/dalsi-sluzby/infratopeni",
+      "section": "Jaká je záruka a životnost infratopení?",
+      "reason": "Záruky a životnost je nutné doložit pro konkrétní model.",
+      "original": "Naše infrapanely poskytujeme s dlouhou zárukou až 5 let. Díky kvalitnímu zpracování a absenci pohyblivých částí je jejich životnost až 30 let, což z nich činí dlouhodobou a spolehlivou investici."
+    },
+    {
+      "path": "/dotace",
+      "section": "",
+      "reason": "Historické dotační částky, podmínky a lhůty – ověřit aktuálnost.",
+      "original": "Získejte od státu dotaci na zřízení fotovoltaické elektrárny! Díky programu Nová zelená úsporám Light, můžete získat státní investiční dotace na pořízení fotovotaické elektrárny nebo fotovoltaického ohřevu vody. Svým klientům jsme pomohli úspěšně vyřídit již desítky žádostí, rádi pomůžeme ušetřit i vám."
+    },
+    {
+      "path": "/dotace",
+      "section": "Dotační program Nová zelená úsporám",
+      "reason": "Historické dotační částky, podmínky a lhůty – ověřit aktuálnost.",
+      "original": "Program Nová zelená úsporám je jeden z nejefektivnějších programů v České republice, který je zaměřen na úspory energie. Klienty, kteří se rozhodli v domácnosti instalovat fotovoltaiku, stát podpoří příspěvkem až ve výši 140 000 Kč.\n\nČas na zažádání a získání příspěvků ještě máte, ale doporučujeme neotálet a kontaktovat nás!"
+    },
+    {
+      "path": "/dotace",
+      "section": "Kdo může žádat",
+      "reason": "Historické dotační částky, podmínky a lhůty – ověřit aktuálnost.",
+      "original": "Vlastníci stávajících domů využívaných k trvalému bydlení\n\nVlastníci řadově uspořádaných vymezených bytových jednotek (tzv. řadové domky)\n\nPříspěvkové organizace zřízené územními samosprávnými celky"
+    },
+    {
+      "path": "/dotace",
+      "section": "Výše dotace pro fotovoltaickou elektrárnu",
+      "reason": "Historické dotační částky, podmínky a lhůty – ověřit aktuálnost.",
+      "original": "Za každý 1 kWp instalovaného výkonu – 10 000 Kč\n\nZa 1 kWh el. akumulačního systému – 10 000 Kč\n\nMaximální výše dotace na výkon a akumulaci - 100 000 Kč\n\nBonus za inteligentní řízení a sdílení - 40 000 Kč"
+    },
+    {
+      "path": "/dotace",
+      "section": "Kdo mi zaručí, že dostanu dotaci?",
+      "reason": "Historické dotační částky, podmínky a lhůty – ověřit aktuálnost.",
+      "original": "Důležité je si uvědomit, že na dotaci má nárok každý, kdo splní pomínky programu Nová zelená úsporám (NZÚ).\n\nPřed realizací díla zažádáme Státní fond životního prostředí (SFŽP) o shválení dotace pro Vaši nemovitost a záruku vyplacení peněz na Váš účet.Záruku vyplacení peněz Vám udělí SFŽP po splnění všech podmínek.\n\nVíce se dočtete na našich stránkách v sekci Dotace."
+    },
+    {
+      "path": "/dotace",
+      "section": "Kdy dochází k vyplacení dotace?",
+      "reason": "Historické dotační částky, podmínky a lhůty – ověřit aktuálnost.",
+      "original": "Vyplacení dotace probíhá ve chvíli, kdy je elektrárna kompletně připojena k distribuční síti.\n\nDistribuční technik, který provádí připojení a kontrolu vystaví dokument na jehož základě lze požádat o vyplacení peněz.Vyplacení trvá přibližně měsíc od vystavení dokumentu."
+    },
+    {
+      "path": "/fotovoltaika/fotovoltaicke-elektrarny-pro-firmy",
+      "section": "Dotace",
+      "reason": "Ověřit vhodnost NZÚ pro firmy či bytové domy."
+    },
+    {
+      "path": "/fotovoltaika/fotovoltaicke-elektrarny-pro-bytove-domy",
+      "section": "Dotace",
+      "reason": "Ověřit vhodnost NZÚ pro firmy či bytové domy."
+    },
+    {
+      "path": "/fotovoltaika/ohrev-vody",
+      "reason": "NECTARSUN / NESTARSUN: rozpor původního názvu výrobku; ověřit přesný model."
+    },
+    {
+      "path": "/dalsi-sluzby/servis",
+      "reason": "Zachované ceny od 2 599 / 2 799 Kč bez DPH: potvrdit aktuální ceník."
+    },
+    {
+      "path": "/fotovoltaika/fotovoltaicke-elektrarny-na-rodinne-domy",
+      "reason": "Původní ALPHA stránka uvádí v záruční části DEYE; proto nepřebíráme tento rozpor jako doloženou ALPHA záruku."
+    },
+    {
+      "path": "/blog/ziskejte-dotaci-na-porizeni-fotovoltaicke-elektrarny",
+      "section": "Mohu si fotovoltaickou elektrárnu dovolit?",
+      "reason": "Historické dotační či úvěrové podmínky v původním článku."
+    },
+    {
+      "path": "/blog/ziskejte-dotaci-na-porizeni-fotovoltaicke-elektrarny",
+      "section": "Ceny solárních panelů",
+      "reason": "Historické dotační či úvěrové podmínky v původním článku."
+    },
+    {
+      "path": "/blog/vyhodnost-fotovoltaiky-na-strechu-potrebne-parametry-pro-jeji-instalaci",
+      "section": "Co dělat když nemám dostatek místa na střeše?",
+      "reason": "Historické dotační či úvěrové podmínky v původním článku."
+    },
+    {
+      "path": "/blog/zajistete-si-energetickou-sobestacnost-i-na-zimu-kombinaci-fotovoltaiky-tepelneho-cerpadla",
+      "section": "Fotovoltaika a tepelné čerpadlo slibují až 75% finanční úsporu",
+      "reason": "Historické dotační či úvěrové podmínky v původním článku."
+    },
+    {
+      "path": "/blog/slunecni-elektrarna-v-rodinnem-dome-snizuje-zavislost-na-distribucni-firme",
+      "section": "Jaké přináší sluneční elektrárna výhody?",
+      "reason": "Historické dotační či úvěrové podmínky v původním článku."
+    },
+    {
+      "path": "/blog/trend-doby-solarni-energie-pro-domacnosti",
+      "section": "Investice do solární energie se vyplatí již za několik let",
+      "reason": "Historické dotační či úvěrové podmínky v původním článku."
+    },
+    {
+      "path": "/blog/dotace-na-fotovoltaiku-pro-podnikatele-firmy-bezurokovy-uver",
+      "section": "Revoluční nová dotace na fotovoltaiku pro firmy a podnikatele – bezúročný úvěr na fotovoltaiku",
+      "reason": "Historické dotační či úvěrové podmínky v původním článku."
+    },
+    {
+      "path": "/blog/dotace-na-fotovoltaiku-pro-podnikatele-firmy-bezurokovy-uver",
+      "section": "Na co se program vztahuje?",
+      "reason": "Historické dotační či úvěrové podmínky v původním článku."
+    },
+    {
+      "path": "/blog/fotovoltaika-na-klic-na-rodinny-dum-usetrete-i-vasi-penezenku",
+      "section": "Dotace na fotovoltaiku pro rodinné domy i byty",
+      "reason": "Historické dotační či úvěrové podmínky v původním článku."
+    }
+  ],
+  "externalOriginalTechnicalPages": [],
+  "sources": [
+    "https://www.fotovoltaika-gottwald.cz/fve-pro-rd/wattsonic-fotovoltaicke-elektrarny-na-rodinne-domy",
+    "https://www.fotovoltaika-gottwald.cz/fve-pro-rd/alpha-fotovoltaicke-elektrarny-na-rodinne-domy",
+    "https://www.fotovoltaika-gottwald.cz/stresni-soucasti/solarni-panely",
+    "https://www.fotovoltaika-gottwald.cz/stresni-soucasti/stresni-konstrukce"
+  ]
+}
