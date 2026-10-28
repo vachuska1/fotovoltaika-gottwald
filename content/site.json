@@ -10,24 +10,28 @@
       "href": "/"
     },
     {
+      "label": "Infratopení",
+      "href": "/dalsi-sluzby/infratopeni"
+    },
+    {
       "label": "Další služby",
       "href": "/dalsi-sluzby"
     },
     {
-      "label": "Realizace",
-      "href": "/realizace"
+      "label": "GottSol",
+      "href": "/sdileni-prodej-energie/program-gottsol-inteligentni-rizeni"
+    },
+    {
+      "label": "Dotace",
+      "href": "/dotace"
     },
     {
       "label": "Recenze",
       "href": "/recenze"
     },
     {
-      "label": "O nás",
-      "href": "/o-nas"
-    },
-    {
-      "label": "Kontakty",
-      "href": "/kontakty"
+      "label": "Realizace",
+      "href": "/realizace"
     }
   ],
   "pages": [
@@ -47,6 +51,12 @@
               "title": "Nezávazně poptat",
               "text": "",
               "href": "/kontakty",
+              "hidden": false
+            },
+            {
+              "title": "Chytré řízení GottSol",
+              "text": "",
+              "href": "/#technology",
               "hidden": false
             },
             {
