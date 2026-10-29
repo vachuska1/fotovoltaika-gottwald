@@ -520,3 +520,5 @@
  .home #fotovoltaika,.home #infratopeni{grid-template-rows:min-content 1fr}
  .home #fotovoltaika>.section-copy,.home #infratopeni>.section-copy{align-self:start;padding-top:clamp(48px,5vw,80px)}
 }
+
+.home .hero h1>.hero-name{color:var(--title-neutral)}
