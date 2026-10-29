@@ -13,8 +13,9 @@
 
 /* The hero is a separate, quiet landscape; its artwork never takes layout space. */
 .background{position:absolute;inset:0;overflow:hidden;pointer-events:none}
-.heroDrawing{position:absolute;inset:0;display:block;width:100%;height:100%;color:var(--solar-color,#347a49);opacity:.28}
-.heroLandscape{opacity:.22}.heroHouse{opacity:.65}.heroRoof{fill:currentColor;fill-opacity:.08}.heroSun{opacity:.9}.heroSunlight{opacity:.28;stroke-dasharray:3 9;animation:rays 12s linear infinite}.heroWindow{fill:#c9a04b;fill-opacity:.14}.heroBattery,.heroHeater{opacity:.8}.heroWires{opacity:.8}.heroWires .track{opacity:.45}.heroWires .flow{stroke-width:2}.heroGraph{opacity:.65}.heroGraphPoint{offset-path:path('M885 146 939 113 981 132 1047 81 1092 95 1158 72');animation:graph-point 14s linear infinite}
-@media(min-width:761px) and (max-width:1000px){.heroDrawing{opacity:.18}}
-@media(max-width:760px){.heroDrawing{width:150%;height:46%;top:auto;left:-50%;bottom:0;opacity:.1}.heroGraph,.heroLandscape,.heroSunlight{display:none}}
-@media(prefers-reduced-motion:reduce){.heroDrawing *{animation:none!important}.heroGraphPoint{offset-distance:55%}}
+.heroDrawing{position:absolute;inset:0;display:block;width:100%;height:100%;color:var(--solar-color,#347a49);opacity:.3}
+.heroLandscape{opacity:.3;stroke:var(--text-secondary,#667260)}.heroHouse{opacity:.65}.heroRoof{fill:currentColor;fill-opacity:.4}.heroSun{opacity:.9}.heroSunlight{opacity:.28;stroke-dasharray:3 9;animation:rays 12s linear infinite}.heroWindow{fill:#c9a04b;fill-opacity:.5}.heroBattery,.heroHeater{opacity:.8}.heroWires{opacity:.8}.heroWires .track{opacity:.45}.heroWires .flow{stroke-width:2}.heroGraph{opacity:.65}.heroGraphPoint{offset-path:path('M885 146 939 113 981 132 1047 81 1092 95 1158 72');animation:graph-point 14s linear infinite}
+@media(min-width:761px) and (max-width:1000px){.heroDrawing{opacity:.25}}
+.heroMobile{display:none}
+@media(max-width:760px){.heroDrawing{display:none}.heroMobile{position:absolute;display:block;left:0;bottom:0;width:100%;height:46%;opacity:.22;color:var(--solar-color,#347a49)}}
+@media(prefers-reduced-motion:reduce){.heroDrawing *,.heroMobile *{animation:none!important}.heroGraphPoint{offset-distance:55%}}
