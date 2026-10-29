@@ -484,3 +484,39 @@
 .page-heading.unified-page-heading{max-width:1480px;margin:0 auto;padding:38px 4%}
 .unified-page-heading>.eyebrow{display:inline-block;font-size:12px;font-weight:400;line-height:normal;text-transform:none;letter-spacing:.08em;margin-bottom:23px;color:var(--solar-color)}
 @media(max-width:760px){.page-heading.unified-page-heading{padding:28px 6% 30px}.unified-page-heading>.eyebrow{margin-bottom:18px}}
+
+/* Synchronized sunlight, production curve and charging; no layout footprint. */
+.hero-energy{position:absolute;right:0;bottom:88px;width:230px;height:112px;pointer-events:none;color:var(--solar-color,#347a49)}
+.hero-energy>svg{display:block;width:100%;height:50%;overflow:visible}
+.hero-energy-heat{color:var(--heating-color,#b84a3c)}
+.hero-energy-sun{color:#bf8d37}
+.hero-energy-rays{transform-box:fill-box;transform-origin:center;animation:hero-sunlight 6s ease-in-out infinite}
+.hero-energy-baseline,.hero-energy-track{opacity:.22}
+.hero-energy-curve{transform-origin:160px 48px;animation:hero-production 6s ease-in-out infinite}
+.hero-energy-charge{transform-origin:126px 109px;animation:hero-charging 6s ease-in-out infinite}
+.hero-energy-track,.hero-energy-flow{stroke:currentColor}
+.hero-energy-flow path{stroke-dasharray:16 84;animation:hero-energy-flow 2s linear infinite,hero-energy-strength 6s ease-in-out infinite}
+.hero-energy-flow path:nth-child(2){animation-delay:-.7s,0s}
+@keyframes hero-sunlight{0%,100%{opacity:.3;transform:scale(.82);stroke-width:1.2}45%,65%{opacity:1;transform:scale(1.15);stroke-width:2.2}}
+@keyframes hero-production{0%,100%{transform:scaleY(.45)}45%,65%{transform:scaleY(1)}}
+@keyframes hero-charging{0%,100%{transform:scaleY(.2)}55%,70%{transform:scaleY(1)}}
+@keyframes hero-energy-strength{0%,100%{opacity:.4}45%,70%{opacity:1}}
+@keyframes hero-energy-flow{to{stroke-dashoffset:-100}}
+@media(min-width:1001px) and (max-width:1100px){.hero-energy{width:200px;height:97px}}
+@media(min-width:761px) and (max-width:1000px){
+ .home .hero-heading{display:grid;grid-template-columns:minmax(0,1fr) 210px;gap:12px 24px}
+ .hero-title-group{display:contents}
+ .home .hero-title-group>h1{grid-column:1/-1;grid-row:1;width:auto}
+ .hero-introduction{grid-column:1;grid-row:2/span 2;margin:0;align-self:center}
+ .hero-title-group .hero-section-links{grid-column:1/-1;grid-row:4;align-self:start;margin-top:8px;padding-right:0;min-height:0}
+ .hero-energy{position:static;grid-column:2;grid-row:2;justify-self:end;width:210px;height:94px}
+ .hero-inquiry{position:static;grid-column:2;grid-row:3;justify-self:end;margin:0}
+}
+@media(max-width:760px){.hero-energy>svg{height:calc(clamp(36px,8.5vw,60px) * 1.06)}.home .hero h1>.hero-name{display:block;color:var(--title-neutral)}.hero-energy{top:calc(clamp(36px,8.5vw,60px) * 1.06);bottom:auto;right:0;width:clamp(110px,35vw,210px);height:auto}}
+@media(max-width:370px){.hero-energy{width:100px}}
+@media(prefers-reduced-motion:reduce){.hero-energy-rays,.hero-energy-curve,.hero-energy-charge,.hero-energy-flow path{animation:none}.hero-energy-flow path{stroke-dasharray:none;opacity:.5}}
+
+@media(min-width:761px){
+ .home #fotovoltaika,.home #infratopeni{grid-template-rows:min-content 1fr}
+ .home #fotovoltaika>.section-copy,.home #infratopeni>.section-copy{align-self:start;padding-top:clamp(48px,5vw,80px)}
+}
