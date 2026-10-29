@@ -485,40 +485,25 @@
 .unified-page-heading>.eyebrow{display:inline-block;font-size:12px;font-weight:400;line-height:normal;text-transform:none;letter-spacing:.08em;margin-bottom:23px;color:var(--solar-color)}
 @media(max-width:760px){.page-heading.unified-page-heading{padding:28px 6% 30px}.unified-page-heading>.eyebrow{margin-bottom:18px}}
 
-/* Synchronized sunlight, production curve and charging; no layout footprint. */
-.hero-energy{position:absolute;right:0;bottom:88px;width:230px;height:112px;pointer-events:none;color:var(--solar-color,#347a49)}
-.hero-energy>svg{display:block;width:100%;height:50%;overflow:visible}
-.hero-energy-heat{color:var(--heating-color,#b84a3c)}
-.hero-energy-sun{color:#bf8d37}
-.hero-energy-rays{transform-box:fill-box;transform-origin:center;animation:hero-sunlight 6s ease-in-out infinite}
-.hero-energy-baseline,.hero-energy-track{opacity:.22}
-.hero-energy-curve{transform-origin:160px 48px;animation:hero-production 6s ease-in-out infinite}
-.hero-energy-charge{transform-origin:126px 109px;animation:hero-charging 6s ease-in-out infinite}
-.hero-energy-track,.hero-energy-flow{stroke:currentColor}
-.hero-energy-flow path{stroke-dasharray:16 84;animation:hero-energy-flow 2s linear infinite,hero-energy-strength 6s ease-in-out infinite}
-.hero-energy-flow path:nth-child(2){animation-delay:-.7s,0s}
-@keyframes hero-sunlight{0%,100%{opacity:.3;transform:scale(.82);stroke-width:1.2}45%,65%{opacity:1;transform:scale(1.15);stroke-width:2.2}}
-@keyframes hero-production{0%,100%{transform:scaleY(.45)}45%,65%{transform:scaleY(1)}}
-@keyframes hero-charging{0%,100%{transform:scaleY(.2)}55%,70%{transform:scaleY(1)}}
-@keyframes hero-energy-strength{0%,100%{opacity:.4}45%,70%{opacity:1}}
-@keyframes hero-energy-flow{to{stroke-dashoffset:-100}}
-@media(min-width:1001px) and (max-width:1100px){.hero-energy{width:200px;height:97px}}
-@media(min-width:761px) and (max-width:1000px){
- .home .hero-heading{display:grid;grid-template-columns:minmax(0,1fr) 210px;gap:12px 24px}
- .hero-title-group{display:contents}
- .home .hero-title-group>h1{grid-column:1/-1;grid-row:1;width:auto}
- .hero-introduction{grid-column:1;grid-row:2/span 2;margin:0;align-self:center}
- .hero-title-group .hero-section-links{grid-column:1/-1;grid-row:4;align-self:start;margin-top:8px;padding-right:0;min-height:0}
- .hero-energy{position:static;grid-column:2;grid-row:2;justify-self:end;width:210px;height:94px}
- .hero-inquiry{position:static;grid-column:2;grid-row:3;justify-self:end;margin:0}
-}
-@media(max-width:760px){.hero-energy>svg{height:calc(clamp(36px,8.5vw,60px) * 1.06)}.home .hero h1>.hero-name{display:block;color:var(--title-neutral)}.hero-energy{top:calc(clamp(36px,8.5vw,60px) * 1.06);bottom:auto;right:0;width:clamp(110px,35vw,210px);height:auto}}
-@media(max-width:370px){.hero-energy{width:100px}}
-@media(prefers-reduced-motion:reduce){.hero-energy-rays,.hero-energy-curve,.hero-energy-charge,.hero-energy-flow path{animation:none}.hero-energy-flow path{stroke-dasharray:none;opacity:.5}}
-
-@media(min-width:761px){
- .home #fotovoltaika,.home #infratopeni{grid-template-rows:min-content 1fr}
- .home #fotovoltaika>.section-copy,.home #infratopeni>.section-copy{align-self:start;padding-top:clamp(48px,5vw,80px)}
-}
-
 .home .hero h1>.hero-name{color:var(--title-neutral)}
+
+/* Homepage illustrations stay decorative; all content and links remain static. */
+.home .hero{position:relative;isolation:isolate}.home .hero-heading{z-index:1}
+.home #fotovoltaika.home-feature,.home #infratopeni.home-feature,.home #gottsol.home-feature{display:flex;flex-direction:column;align-items:stretch;gap:28px;padding-top:56px;padding-bottom:56px}
+.home-feature .feature-introduction{max-width:840px}.home-feature .feature-introduction>.copy{margin-top:22px}.feature-actions{display:flex;align-items:center;flex-wrap:wrap;gap:20px;margin-top:24px}.feature-actions .text-link{font-weight:600;text-decoration:underline;text-underline-offset:6px}.feature-illustration{width:100%;max-width:1100px;margin:0 auto;padding:12px 0}
+.home #fotovoltaika.home-feature h2{color:var(--solar-color)}.home #infratopeni.home-feature h2{color:var(--heating-color)}.home #infratopeni.home-feature .action{background:#b84a3c}.home #infratopeni.home-feature .action:hover{background:#9d3e33}
+.home #gottsol.home-feature{background:#192d23;color:#f4f3ed}.home #gottsol.home-feature .action{background:#fff;color:#347a49}.home #gottsol.home-feature .action:hover{background:#e5e9d9}.home #gottsol.home-feature .feature-illustration{--solar-color:#a9c998;--text-secondary:#acbcb0}
+.home-feature>.hero-gallery{width:100%;max-width:1000px;margin:0 auto}.home #fotovoltaika.home-feature .hero-gallery-stage,.home #infratopeni.home-feature .hero-gallery-stage{height:clamp(260px,38vw,440px)}.feature-supporting-photo{width:100%;max-width:760px;height:280px;margin:0 auto}.feature-supporting-photo img{object-fit:contain}
+@media(max-width:1000px){.home .hero-heading{display:block}.hero-inquiry{position:static;margin-top:24px}}
+@media(max-width:760px){.home .hero h1>.hero-name{display:block}.home #fotovoltaika.home-feature,.home #infratopeni.home-feature,.home #gottsol.home-feature{padding-top:40px;padding-bottom:40px;gap:20px}.feature-introduction .copy{font-size:16px}.feature-illustration{padding:0}.feature-supporting-photo{height:220px}}
+
+/* Keep the established desktop split; illustrations belong to the text column. */
+@media(min-width:761px){
+ .home #fotovoltaika.home-feature,.home #infratopeni.home-feature,.home #gottsol.home-feature{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:6%;align-items:start}
+ .home-feature .feature-introduction{grid-column:1;grid-row:1;max-width:none}
+ .home-feature>.hero-gallery,.home-feature>.feature-supporting-photo{grid-column:2;grid-row:1;width:100%;margin:0}
+ .home #infratopeni.home-feature{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr)}
+ .home #infratopeni.home-feature .feature-introduction{grid-column:2}.home #infratopeni.home-feature>.hero-gallery{grid-column:1}
+ .home-feature .feature-illustration{margin-top:24px;padding:0}
+ .home-feature>.feature-supporting-photo{height:440px;align-self:center}
+}

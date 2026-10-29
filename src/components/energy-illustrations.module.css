@@ -1,0 +1,20 @@
+.illustration{--energy-gold:#b58d43;display:block;width:100%;height:auto;max-height:340px;color:var(--solar-color,#347a49);overflow:visible}
+.track{opacity:.22}.flow{stroke-dasharray:8 92;animation:energy-flow 8s linear infinite}.charge{opacity:.1;animation:charge 8s ease-in-out infinite;transform-box:fill-box;transform-origin:bottom}.rays{transform-box:fill-box;transform-origin:center;animation:sunlight 8s ease-in-out infinite}.rayFlow{stroke:var(--energy-gold);stroke-dasharray:3 8;opacity:.45;animation:rays 8s linear infinite}.graphPoint{offset-path:path('M360 79 410 63 458 71 513 40 562 55 613 23 661 45 709 37 749 49 794 22');animation:graph-point 12s linear infinite}.graph{stroke-width:1.5}.heating{color:var(--heating-color,#b84a3c)}.room{color:var(--text-secondary,#667260);opacity:.55}.warmPanel{fill:currentColor;fill-opacity:.04;animation:warmth 7s ease-in-out infinite}.heatWaves path{opacity:.15;animation:heat 7s ease-in-out infinite}.heatWaves path:nth-child(2){animation-delay:1s}.heatWaves path:nth-child(3){animation-delay:2s}.warmFloor{opacity:.22}.temperature{stroke-width:3;animation:heat 7s ease-in-out infinite}.smart{color:var(--solar-color,#347a49)}.cloud{color:#809a9e;animation:cloud 9s ease-in-out infinite}.appliance{color:var(--text-secondary,#667260)}.dashboard{stroke-dasharray:230;animation:dashboard 9s ease-in-out infinite}
+@keyframes energy-flow{to{stroke-dashoffset:-100}}@keyframes rays{to{stroke-dashoffset:-44}}@keyframes charge{0%,100%{opacity:.08;transform:scaleY(.25)}50%,70%{opacity:.3;transform:scaleY(1)}}@keyframes sunlight{0%,100%{opacity:.4;transform:scale(.92)}50%,70%{opacity:1;transform:scale(1.06)}}@keyframes graph-point{0%{offset-distance:0%;opacity:0}5%,90%{opacity:1}100%{offset-distance:100%;opacity:0}}@keyframes heat{0%,100%{opacity:.12}50%{opacity:.65}}@keyframes warmth{0%,100%{fill-opacity:.03}50%{fill-opacity:.12}}@keyframes cloud{0%,100%{opacity:.55}50%{opacity:1}}@keyframes dashboard{0%,100%{stroke-dashoffset:18;opacity:.55}50%{stroke-dashoffset:0;opacity:1}}
+@media(max-width:760px){.illustration{min-height:180px}.heating{min-height:190px}}
+@media(prefers-reduced-motion:reduce){.illustration *{animation:none!important}.graphPoint{offset-distance:52%}}
+
+.windows{fill:var(--energy-gold);fill-opacity:.04;animation:house-light 8s ease-in-out infinite}
+@keyframes house-light{0%,25%,100%{fill-opacity:.04}55%,80%{fill-opacity:.8}}
+.productionGraph{stroke-width:1.5}.productionPoint{offset-path:path('M46 282 120 267 194 275 268 245 342 261 416 225 490 243 564 231 638 248 712 220 778 235 852 225');animation:graph-point 12s linear infinite}
+@media(prefers-reduced-motion:reduce){.productionPoint{animation:none;offset-distance:48%}}
+
+.solar{max-height:none}
+
+/* The hero is a separate, quiet landscape; its artwork never takes layout space. */
+.background{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.heroDrawing{position:absolute;inset:0;display:block;width:100%;height:100%;color:var(--solar-color,#347a49);opacity:.28}
+.heroLandscape{opacity:.22}.heroHouse{opacity:.65}.heroRoof{fill:currentColor;fill-opacity:.08}.heroSun{opacity:.9}.heroSunlight{opacity:.28;stroke-dasharray:3 9;animation:rays 12s linear infinite}.heroWindow{fill:#c9a04b;fill-opacity:.14}.heroBattery,.heroHeater{opacity:.8}.heroWires{opacity:.8}.heroWires .track{opacity:.45}.heroWires .flow{stroke-width:2}.heroGraph{opacity:.65}.heroGraphPoint{offset-path:path('M885 146 939 113 981 132 1047 81 1092 95 1158 72');animation:graph-point 14s linear infinite}
+@media(min-width:761px) and (max-width:1000px){.heroDrawing{opacity:.18}}
+@media(max-width:760px){.heroDrawing{width:150%;height:46%;top:auto;left:-50%;bottom:0;opacity:.1}.heroGraph,.heroLandscape,.heroSunlight{display:none}}
+@media(prefers-reduced-motion:reduce){.heroDrawing *{animation:none!important}.heroGraphPoint{offset-distance:55%}}
